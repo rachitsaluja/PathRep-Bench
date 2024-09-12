@@ -13,7 +13,7 @@ import time
 
 
 class Config:
-    REPETITIONS = 4
+    REPETITIONS = 2
     ENV_LOC = "../../.env"
     TEST_SET_LOC = "../../data/test.csv"
     API_MODEL = "llama3-8b-8192"
