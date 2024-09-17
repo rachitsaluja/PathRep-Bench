@@ -15,8 +15,8 @@ class Config:
     REPETITIONS = 5
     ENV_LOC = "../../.env"
     TEST_SET_LOC = "../../data/test.csv"
-    API_MODEL = "gpt-4o-mini-2024-07-18"
-    OUTPUT_DIR = "./gpt-4o-mini"
+    API_MODEL = "gpt-4o-2024-08-06"
+    OUTPUT_DIR = "./gpt-4o"
     DISEASE_LIST = ['Adrenocortical carcinoma',
                     'Bladder Urothelial Carcinoma',
                     'Breast invasive carcinoma',

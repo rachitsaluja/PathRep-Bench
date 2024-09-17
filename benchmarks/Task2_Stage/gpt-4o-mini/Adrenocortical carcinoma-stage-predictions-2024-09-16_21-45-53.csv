@@ -1,0 +1,132 @@
+slno,preds
+0,"To determine the AJCC stage of the cancer from the provided pathology report, we need to analyze the key findings and correlate them with the AJCC staging criteria for adrenocortical carcinoma.
+
+1. **Tumor Size and Extent**: The report indicates a tumor size of 14.5 x 11 x 7.9 cm, which is quite large. According to AJCC staging, a tumor greater than 5 cm is classified as T3 or T4 depending on local invasion.
+
+2. **Capsular and Vascular Invasion**: The report states that there is capsular invasion and extensive vascular invasion, which is significant. Vascular invasion is a critical factor that can elevate the stage.
+
+3. **Surgical Margins**: The report mentions that the surgical margins are negative, which is favorable. However, it also notes that there is a positive margin at the superior aspect, indicating that the tumor may have extended beyond the adrenal gland.
+
+4. **Lymph Node Involvement**: The report indicates that 0 out of 1 lymph node examined showed evidence of carcinoma, which suggests no lymphatic spread.
+
+5. **Extra-Adrenal Extension**: The presence of extra-adrenal extension is noted, which is a significant factor in staging.
+
+6. **Overall Stage Determination**: Based on the findings:
+   - The tumor is classified as pT4 due to its size and extra-adrenal extension.
+   - There is no lymph node involvement (NX).
+   - The presence of vascular invasion and the size of the tumor further support a higher stage.
+
+Given these factors, the most appropriate AJCC stage for this adrenocortical carcinoma is Stage IV, as it indicates advanced disease with significant local invasion and potential systemic implications.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage IV""}"
+1,"To determine the AJCC stage of the cancer from the provided pathology report, we need to analyze the key components of the report:
+
+1. **Tumor (T) Classification**: The report indicates ""pT3"", which means the tumor is larger than 5 cm and/or has invaded surrounding tissues. This suggests a more advanced local stage.
+
+2. **Node (N) Classification**: The report states ""pN1"", indicating that there is regional lymph node involvement. This means that at least one lymph node is affected by cancer.
+
+3. **Metastasis (M) Classification**: The report shows ""pM1 (LYM)"", which indicates that there is distant metastasis, specifically to lymph nodes outside the regional area.
+
+4. **Additional Information**: The Weiss score of 4 suggests a higher risk of aggressive behavior, and the presence of positive lymph nodes further supports the advanced nature of the disease.
+
+Based on the AJCC staging system for adrenocortical carcinoma:
+- Stage I: Tumor confined to the adrenal gland (T1 or T2, N0, M0)
+- Stage II: Tumor confined to the adrenal gland but larger (T2, N0, M0)
+- Stage III: Tumor with local invasion or regional lymph node involvement (T3, N1, M0)
+- Stage IV: Distant metastasis (any T, any N, M1)
+
+Given that the patient has pT3, pN1, and pM1, this indicates that the cancer has spread beyond the local area to distant sites (M1), which classifies it as Stage IV.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage IV""}"
+2,"To determine the AJCC stage of the cancer from the provided pathology report, we need to analyze the key findings related to the tumor characteristics and staging criteria.
+
+1. **Tumor Size and Local Invasion**: The report indicates that the tumor measures 8.5 x 5.2 x 4.8 cm and has capsular invasion present. This suggests that the tumor has grown beyond the adrenal gland capsule, which is significant for staging.
+
+2. **Vascular Invasion**: The report states that vascular invasion is absent. This is an important factor as the presence of vascular invasion can indicate a more advanced stage.
+
+3. **Necrosis**: The presence of necrosis is noted, which can also be a factor in determining the aggressiveness of the tumor.
+
+4. **Mitotic Rate**: The mitotic rate is reported as 10 per 50 high-power fields, which is indicative of a low-grade tumor.
+
+5. **Lymph Node Status**: The report indicates ""N.A."" for lymph node status, which typically means that lymph nodes were not assessed or involved.
+
+6. **Extra-Adrenal Extension**: The report mentions that there is extra-adrenal extension present, which is a critical factor in staging.
+
+7. **Staging Information**: The report concludes with a staging of T3NXMX. According to AJCC staging:
+   - T3 indicates a tumor that is larger than 5 cm and has invaded surrounding tissues (in this case, the capsule).
+   - NX indicates that regional lymph nodes cannot be assessed.
+   - MX indicates that distant metastasis cannot be assessed.
+
+Based on the AJCC staging system:
+- **Stage I**: Tumor confined to the adrenal gland without invasion.
+- **Stage II**: Tumor with local invasion but no lymph node involvement.
+- **Stage III**: Tumor with local invasion and/or lymph node involvement.
+- **Stage IV**: Distant metastasis.
+
+Given that the tumor is T3 (indicating local invasion), NX (lymph nodes not assessed), and MX (distant metastasis not assessed), the most appropriate stage for this cancer is Stage III.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage III""}"
+3,"To determine the AJCC stage of the cancer from the provided pathology report, we need to analyze the key findings:
+
+1. **Diagnosis**: The patient has adrenocortical carcinoma, which is a type of cancer that originates in the adrenal cortex.
+
+2. **Tumor Size**: The gross description indicates a tumor size of 14x9x5 cm, which is significant. In the AJCC staging system for adrenocortical carcinoma, tumor size plays a crucial role in determining the stage.
+
+3. **Proliferation Rate**: The KI67 index is reported at 60%, indicating a high proliferation rate. This suggests aggressive tumor behavior, which can influence staging.
+
+4. **Weiss Score**: The Weiss score is 8. The Weiss criteria are used to assess the malignancy of adrenocortical tumors, with scores of 3 or more indicating a malignant tumor.
+
+5. **Hough Score**: The Hough score of 4.89 also indicates a high risk of malignancy.
+
+6. **Van Slooten Score**: A score of 22.7 further supports the aggressive nature of the tumor.
+
+Now, we can correlate these findings with the AJCC staging criteria for adrenocortical carcinoma:
+
+- **Stage I**: Tumor confined to the adrenal gland, ≤5 cm.
+- **Stage II**: Tumor confined to the adrenal gland, >5 cm.
+- **Stage III**: Tumor with local invasion or regional lymph node involvement.
+- **Stage IV**: Distant metastasis.
+
+Given that the tumor is 14 cm in size, it exceeds the 5 cm threshold for Stage II and is confined to the adrenal gland. However, the high proliferation rate and Weiss score suggest a more aggressive tumor, which could indicate local invasion or a higher stage.
+
+Since there is no mention of local invasion or lymph node involvement, we cannot definitively classify it as Stage III or IV based solely on the provided information. However, the size and aggressive characteristics suggest that it is likely beyond Stage II.
+
+Therefore, the most appropriate classification based on the information provided is Stage III, as the tumor is large and exhibits aggressive features, which may imply local invasion.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage III""}"
+4,"To determine the AJCC stage of the adrenal cortical carcinoma from the pathology report, we need to analyze the provided information according to the AJCC staging criteria.
+
+1. **Primary Tumor (pT)**: The report indicates that the tumor is classified as pT1, which means the tumor is 5 cm or less in greatest dimension and has no extra-adrenal invasion. This corresponds to Stage I.
+
+2. **Regional Lymph Nodes (pN)**: The report states pNO, indicating no regional lymph node metastasis. This is consistent with Stage I, as there is no lymph node involvement.
+
+3. **Distant Metastasis (pM)**: The report mentions that distant metastasis is not applicable, which means there is no evidence of distant spread of the cancer.
+
+4. **Additional Findings**: The report notes the presence of tumor necrosis and lymphovascular invasion, which are concerning features but do not change the staging from Stage I based on the size and absence of lymph node or distant metastasis.
+
+Based on the above analysis, the tumor is classified as Stage I according to the AJCC staging system.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage I""}"
+5,"To determine the AJCC stage of the cancer from the provided pathology report, we need to analyze the details given about the tumor characteristics and its extent.
+
+1. **Tumor Size and Location**: The report indicates a mass in the right adrenal gland measuring 8.6 x 7.1 x 6.3 cm, which is significant in size. The tumor is described as high grade adrenal cortical carcinoma.
+
+2. **Tumor Characteristics**: The report mentions that the tumor is characterized by necrosis and a high mitotic rate, which suggests aggressive behavior.
+
+3. **Extent of Disease**: Importantly, the report states that the tumor is confined to the adrenal gland without extraglandular extension. This means that there is no evidence of the cancer spreading to nearby tissues or organs.
+
+4. **AJCC Staging Criteria**: According to the AJCC staging system for adrenal cortical carcinoma:
+   - **Stage I**: Tumor confined to the adrenal gland, ≤ 5 cm.
+   - **Stage II**: Tumor confined to the adrenal gland, > 5 cm.
+   - **Stage III**: Tumor with local invasion or regional lymph node involvement.
+   - **Stage IV**: Distant metastasis.
+
+Given that the tumor is larger than 5 cm but confined to the adrenal gland without any local invasion or metastasis, it fits the criteria for Stage II.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage II""}"

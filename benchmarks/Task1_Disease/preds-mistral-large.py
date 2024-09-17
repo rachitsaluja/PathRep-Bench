@@ -8,34 +8,31 @@ from glob2 import glob
 from natsort import natsorted
 from dotenv import load_dotenv
 from datetime import datetime
-from groq import Groq
-import time
+from mistralai.client import MistralClient
+from mistralai.models.chat_completion import ChatMessage
 
 
 class Config:
     REPETITIONS = 5
     ENV_LOC = "../../.env"
     TEST_SET_LOC = "../../data/test.csv"
-    API_MODEL = "llama3-8b-8192"
-    OUTPUT_DIR = "./llama3-8b"
+    API_MODEL = "mistral-large-2402"
+    OUTPUT_DIR = "./mistral-large"
 
     @staticmethod
     def load_env():
         load_dotenv(Config.ENV_LOC)
-        return os.getenv("GROQ_API_KEY")
+        return os.getenv("MISTRAL_API_KEY")
 
 
 def fetch_answers(client, reports, system_prompt):
     answers = []
     for rep in tqdm(reports):
-        time.sleep(3)  # To cater to Rate Limits
         try:
             user_content = "What is the diagnosis from this text? Please output it as a JSON object, just generate the JSON object without explanations. \n" + rep
-            messages = [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_content}
-            ]
-            chat_response = client.chat.completions.create(
+            messages = [ChatMessage(role="system", content=system_prompt), ChatMessage(
+                role="user", content=user_content)]
+            chat_response = client.chat(
                 model=Config.API_MODEL, messages=messages, max_tokens=50, temperature=0.001)
             answers.append(chat_response.choices[0].message.content)
         except KeyboardInterrupt:
@@ -48,7 +45,7 @@ def fetch_answers(client, reports, system_prompt):
 
 def main():
     api_key = Config.load_env()
-    client = Groq(api_key=api_key)
+    client = MistralClient(api_key=api_key)
     test_df = pd.read_csv(Config.TEST_SET_LOC)
     all_reports = test_df['text']
 

@@ -16,8 +16,8 @@ class Config:
     REPETITIONS = 5
     ENV_LOC = "../../.env"
     TEST_SET_LOC = "../../data/test.csv"
-    API_MODEL = "llama3-8b-8192"
-    OUTPUT_DIR = "./llama3-8b"
+    API_MODEL = "llama3-70b-8192"
+    OUTPUT_DIR = "./llama3-70b"
 
     @staticmethod
     def load_env():
