@@ -8,14 +8,15 @@ from glob2 import glob
 from natsort import natsorted
 from dotenv import load_dotenv
 from datetime import datetime
-from openai import OpenAI
+from mistralai.client import MistralClient
+from mistralai.models.chat_completion import ChatMessage
 
 class Config:
     REPETITIONS = 5
     ENV_LOC = "../../.env"
     TEST_SET_LOC = "../../data/test.csv"
-    API_MODEL = "gpt-4o-2024-08-06"
-    OUTPUT_DIR = "./gpt-4o"
+    API_MODEL = "mistral-medium-2312"
+    OUTPUT_DIR = "./mistral-medium"
     DISEASE_LIST = ['Adrenocortical carcinoma',
                     'Bladder Urothelial Carcinoma',
                     'Breast invasive carcinoma',
@@ -41,9 +42,8 @@ class Config:
     @staticmethod
     def load_env():
         load_dotenv(Config.ENV_LOC)
-        return os.getenv("OPENAI_API_KEY")
-
-
+        return os.getenv("MISTRAL_API_KEY")
+    
 def fetch_answers(client, reports, system_prompt):
     answers = []
     for rep in tqdm(reports):
@@ -53,7 +53,7 @@ def fetch_answers(client, reports, system_prompt):
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_content}
             ]
-            chat_response = client.chat.completions.create(
+            chat_response = client.chat(
                 model=Config.API_MODEL, messages=messages, max_tokens=500, temperature=0.001)
             answers.append(chat_response.choices[0].message.content)
         except KeyboardInterrupt:
@@ -63,14 +63,13 @@ def fetch_answers(client, reports, system_prompt):
             answers.append("NOT COMPLETED")
     return answers
 
-
 def main():
     api_key = Config.load_env()
-    client = OpenAI(api_key=api_key)
+    client = MistralClient(api_key=api_key)
     test_df = pd.read_csv(Config.TEST_SET_LOC)[
         ['text', 'type_name', 'stage_overall']].dropna()
     disease_list = Config.DISEASE_LIST
-
+    
     for d in disease_list:
         disease_type_name = d
         print(f"Processing Disease - {d}")
@@ -105,7 +104,6 @@ Therefore, the answer is -
             pd.DataFrame({"slno": range(len(answers)), "preds": answers}).to_csv(
                 filename, index=False)
             print(f"Completed Run {i+1}")
-
-
+            
 if __name__ == "__main__":
     main()

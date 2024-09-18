@@ -8,14 +8,15 @@ from glob2 import glob
 from natsort import natsorted
 from dotenv import load_dotenv
 from datetime import datetime
-from openai import OpenAI
+from groq import Groq
+import time
 
 class Config:
     REPETITIONS = 5
     ENV_LOC = "../../.env"
     TEST_SET_LOC = "../../data/test.csv"
-    API_MODEL = "gpt-4o-2024-08-06"
-    OUTPUT_DIR = "./gpt-4o"
+    API_MODEL = "llama3-70b-8192"
+    OUTPUT_DIR = "./llama3-70b"
     DISEASE_LIST = ['Adrenocortical carcinoma',
                     'Bladder Urothelial Carcinoma',
                     'Breast invasive carcinoma',
@@ -41,12 +42,13 @@ class Config:
     @staticmethod
     def load_env():
         load_dotenv(Config.ENV_LOC)
-        return os.getenv("OPENAI_API_KEY")
+        return os.getenv("GROQ_API_KEY")
 
 
 def fetch_answers(client, reports, system_prompt):
     answers = []
     for rep in tqdm(reports):
+        time.sleep(3)  # To cater to Rate Limits
         try:
             user_content = "Can you identify the AJCC Stage of the Cancer from the following Pathology Report?\n" + rep + "\n\n Options - \n (A) Stage I \n (B) Stage II \n (C) Stage III \n (D) Stage IV \n"
             messages = [
@@ -66,18 +68,18 @@ def fetch_answers(client, reports, system_prompt):
 
 def main():
     api_key = Config.load_env()
-    client = OpenAI(api_key=api_key)
+    client = Groq(api_key=api_key)
     test_df = pd.read_csv(Config.TEST_SET_LOC)[
         ['text', 'type_name', 'stage_overall']].dropna()
     disease_list = Config.DISEASE_LIST
-
+    
     for d in disease_list:
         disease_type_name = d
         print(f"Processing Disease - {d}")
         disease_df = test_df[test_df['type_name'] ==
                              disease_type_name].reset_index(drop=False)
         all_reports = list(disease_df['text'])
-
+        
         role_content = """
 You are an expert medical pathology AI assistant. You are provided with a question about which stage of cancer does the patient have along with the patient's pathology report with multiple answer choices.
 Your goal is to think through the question carefully and explain your reasoning step by step before selecting the final answer as a JSON.
@@ -105,7 +107,6 @@ Therefore, the answer is -
             pd.DataFrame({"slno": range(len(answers)), "preds": answers}).to_csv(
                 filename, index=False)
             print(f"Completed Run {i+1}")
-
 
 if __name__ == "__main__":
     main()

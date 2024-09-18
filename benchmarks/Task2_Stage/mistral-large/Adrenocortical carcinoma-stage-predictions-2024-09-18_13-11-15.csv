@@ -1,0 +1,115 @@
+slno,preds
+0,"## Answer
+The pathology report provides several key pieces of information that can help determine the stage of the cancer.
+
+1. Tumor Size: The tumor is 14.5 x 11 x 7.9 cm and weighs 560 grams. This is a large tumor, which suggests a more advanced stage.
+
+2. Capsular Invasion: The tumor has invaded the capsule, indicating local spread.
+
+3. Vascular Invasion: The tumor has invaded the blood vessels, which can facilitate spread to other parts of the body.
+
+4. Surgical Margins: The margins were initially reported as positive, suggesting that cancer cells were present at the edge of the removed tissue. However, after discussion with the surgeon, it was determined that the positive margin was not a true margin.
+
+5. Necrosis: Necrosis is present, which is a sign of rapid tumor growth and is associated with more aggressive cancers.
+
+6. Mitotic Rate: The mitotic rate is high (51/50 high power field), indicating rapid cell division and a more aggressive tumor.
+
+7. Lymph Nodes: One lymph node was examined and found to be negative for cancer.
+
+8. Extra-adrenal Extension: The tumor has extended beyond the adrenal gland.
+
+9. Distant Metastasis: There is a mention of a lung nodule and a liver mass, which could potentially be metastases.
+
+The pathology report gives a pT4 NX MX staging. In the TNM staging system, T4 indicates a large tumor that has invaded nearby organs or structures. NX means that the regional lymph nodes cannot be assessed. MX means that distant metastasis cannot be assessed. However, the presence of a lung nodule and a liver mass suggests possible distant metastasis.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IV""}"
+1,"## Answer
+The pathology report provides several key pieces of information that can help determine the AJCC (American Joint Committee on Cancer) stage of the cancer.
+
+1. pT3: This indicates that the primary tumor is larger than 5cm and/or invades into the surrounding fat or organs.
+
+2. pN1: This indicates that the cancer has spread to nearby lymph nodes. In this case, 52 out of 52 lymph nodes were positive for cancer.
+
+3. pM1: This indicates that the cancer has metastasized to distant sites. The (LYM) suggests that the distant metastasis is in the lymph nodes.
+
+4. L1: This indicates that the cancer cells have invaded the lymphatic vessels.
+
+5. V1: This indicates that the cancer cells have invaded the blood vessels.
+
+6. Pn0: This indicates that there is no perineural invasion.
+
+7. R0: This indicates that the resection margins are clear of cancer.
+
+Based on the TNM (Tumor, Node, Metastasis) classification, the cancer is at least at stage IV because of the distant metastasis (pM1).
+
+Therefore, the answer is -
+{""stage"" : ""Stage IV""}"
+2,"The pathology report provides several key pieces of information that can help determine the stage of the adrenocortical carcinoma.
+
+1. Tumor Size: The tumor is 8.5 x 5.2 x 4.8 cm. This is a large tumor, which could indicate a more advanced stage.
+
+2. Capsular Invasion: The report indicates that there is capsular invasion present. This means the cancer has grown through the outer layer of the adrenal gland, which is a sign of a more advanced stage.
+
+3. Vascular Invasion: There is no vascular invasion present, which is a good sign. Vascular invasion would indicate that the cancer has spread into blood vessels, which could allow it to spread to other parts of the body.
+
+4. Surgical Margins: The margins are negative, meaning that the surgeon was able to remove all of the cancer that they could see. However, the report notes that the tumor closely approaches all margins.
+
+5. Necrosis: Necrosis is present in the tumor. This is a sign of rapid tumor growth and can indicate a more advanced stage.
+
+6. Mitotic Rate: The mitotic rate is 10 per 50 high-power fields. This is a relatively high mitotic rate, which can indicate a more aggressive tumor.
+
+7. Grade: The tumor is low-grade. This is a good sign, as low-grade tumors tend to grow and spread more slowly than high-grade tumors.
+
+8. Lymph nodes status: The report does not provide information about the lymph nodes. This is important, as the presence of cancer in the lymph nodes can indicate a more advanced stage.
+
+9. Extra-adrenal extension: The report indicates that there is extra-adrenal extension present. This means the cancer has grown outside of the adrenal gland, which is a sign of a more advanced stage.
+
+Based on this information, the tumor is classified as T3 (large tumor with extra-adrenal extension), NX (lymph nodes cannot be assessed), and MX (metastasis cannot be assessed).
+
+Therefore, the answer is -
+{""stage"" : """
+3,"## Answer
+The pathology report provides several important indicators that help determine the stage of the cancer.
+
+1. The diagnosis is adrenocortical carcinoma, a type of cancer that forms in the outer layer of the adrenal gland.
+
+2. The report mentions an unusually high proliferation rate, with a KI67 of 60%. KI67 is a marker used to measure the growth fraction of cells in a tumor. A high KI67 indicates a more aggressive tumor with a higher growth fraction.
+
+3. The Weiss score is 8. A Weiss score of 3 or more indicates malignancy in adrenal tumors.
+
+4. The Hough score is 4.89. This score is used to predict the malignant potential of adrenal tumors, with a score above 4 indicating malignancy.
+
+5. The Van Slooten score is 22.7. This score is also used to predict malignancy, with a score above 16 indicating malignancy.
+
+However, the provided information does not include details about the extent of the tumor (T), the spread to nearby lymph nodes (N), or the presence of distant metastasis (M), which are typically used in the AJCC (American Joint Committee on Cancer) staging system.
+
+Therefore, while the report indicates a malignant tumor with a high growth fraction, it is not possible to definitively determine the AJCC stage of the cancer based on the provided information.
+
+{""stage"" : ""Cannot be determined from provided information""}"
+4,"## Answer
+The pathology report provides detailed information about the adrenal cortical carcinoma.
+
+Firstly, the tumor size is 5.0 cm in greatest dimension with additional dimensions of 4.4 cm and 4.0 cm. This falls within the criteria for pT1 as per the AJCC/UICC TNM, 7th Edition, which states that the tumor should be 5 cm or less in greatest dimension with no extra-adrenal invasion.
+
+Secondly, the report states that there is no regional lymph node metastasis (pN0). The number of nodes examined is 1 and none are involved.
+
+Thirdly, the report does not provide information on distant metastasis (pM), so it is not applicable.
+
+However, there are additional pathologic findings that need to be considered. The report states that there is lymph-vascular invasion present, which is a poor prognostic factor. This, along with the presence of capsule invasion, even if focal, would upstage the cancer from Stage I to Stage II, according to the AJCC/UICC TNM, 7th Edition.
+
+Therefore, the answer is -
+{""stage"" : ""Stage II""}"
+5,"## Answer
+The pathology report indicates that the patient is a male with a right adrenal cancer. The report describes the right adrenal gland mass as a high grade adrenal cortical carcinoma, characterized by necrosis and a high mitotic rate. Crucially, the report states that the tumor is confined to the adrenal gland without extraglandular extension.
+
+The American Joint Committee on Cancer (AJCC) staging for adrenal cortical carcinoma is as follows:
+- Stage I: The tumor is 5 cm or smaller and has not spread to nearby lymph nodes or distant sites.
+- Stage II: The tumor is larger than 5 cm and has not spread to nearby lymph nodes or distant sites.
+- Stage III: The tumor is any size and has spread to nearby lymph nodes but not to distant sites.
+- Stage IV: The tumor is any size and has spread to distant sites, such as the lungs or liver.
+
+In this case, the tumor is confined to the adrenal gland (no spread to nearby lymph nodes or distant sites), but the size of the tumor is more than 5 cm (8.6 x 7.1 x 6.3 cm). Therefore, according to the AJCC staging system, this would be classified as Stage II.
+
+Therefore, the answer is -
+{""stage"" : ""Stage II""}"
