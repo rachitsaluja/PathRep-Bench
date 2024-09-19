@@ -1,0 +1,520 @@
+slno,preds
+0,"The pathology report indicates that the patient has two separate primary adenocarcinomas in the lung: one in the lingula and the other in the left lower lobe.
+
+The lingular adenocarcinoma is 1 cm in size and the report mentions that it is free of tumor at the staple line margin. No lymph nodes were involved in this tumor.
+
+The left lower lobe adenocarcinoma is 3.5 cm in size and is also free of tumor at the bronchial and vascular margins. Four lymph nodes were examined from this location and all were negative for carcinoma.
+
+The TNM staging for the left lower lobe tumor is pT2a (tumor greater than 3 cm but less than or equal to 5 cm in greatest dimension), pN0 (no regional lymph node metastasis), and pMx (Distant Metastases cannot be assessed from the given information).
+
+Based on the TNM staging, the AJCC stage for the left lower lobe tumor would be Stage IIA.
+
+However, the AJCC stage for the lingular tumor cannot be determined from the given information as the TNM staging is not provided for this tumor.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIA for the left lower lobe tumor, cannot determine for the lingular tumor""}"
+1,"The pathology report provides detailed information about the patient's lung cancer. The report mentions that the tumor is an adenocarcinoma, moderately differentiated, and located in the subpleural right lower lung lobe. The tumor size is 2.0 x 2.0 x 1.6 cm. The report also mentions that there is pleural invasion, but no lymphovascular space invasion. The surgical margin status is clear with the tumor being 2.8 cm away from the bronchial margin and less than 0.5 cm from the pleural surface, focally involving the pleura microscopically.
+
+The lymph node status is negative for tumor in all the stations mentioned (R lymph node, L lymph node, station 11 lymph node, station 12 lymph node, and station 7 lymph node).
+
+The report provides the stage as T2N0. According to the American Joint Committee on Cancer (AJCC) TNM staging system, T2 indicates that the primary tumor is larger than 3 cm but not more than 5 cm, or the tumor has grown into the main bronchus and is more than 2 cm from the carina, or the tumor has invaded the visceral pleura. N0 indicates that there is no regional lymph node metastasis.
+
+Therefore, based on the TNM staging system, the patient's cancer is in Stage II (Stage IIA to be specific, but the options provided do not include sub-stages).
+
+{""stage"" : ""Stage II""}"
+2,"## Answer
+The pathology report provides detailed information about the patient's cancer. The primary tumor (pT) is classified as pT1b, which means the tumor size is greater than 2 cm but less than or equal to 3 cm in its greatest dimension. The regional lymph nodes (pN) are classified as pN1, indicating that there is metastasis in 1 to 3 ipsilateral peribronchial and/or ipsilateral hilar lymph nodes and intrapulmonary nodes, including involvement by direct extension. The report states that 1 out of 17 lymph nodes examined were positive for malignancy. The distant metastasis (pM) is classified as pMX, which means that the presence of distant metastasis cannot be assessed.
+
+According to the American Joint Committee on Cancer (AJCC) TNM staging system for lung cancer, the combination of pT1b, pN1, and pMX corresponds to Stage IIB. However, it's important to note that the final stage may change if additional information becomes available, such as the presence or absence of distant metastasis.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIB""}"
+3,"## Answer
+The pathology report indicates that the patient has a moderately-poorly differentiated adenocarcinoma in the left upper lobe of the lung. The maximum tumor size is 2.5 x 2.0 cm. The extent of invasion is pT1, which means the tumor is confined to the lung and has not invaded the visceral pleura or more proximal bronchus.
+
+However, the report also indicates that there is extensive lymphovascular invasion, with tumor emboli present in subpleural lymphatics. This is a negative prognostic factor.
+
+Moreover, out of the twelve lymph nodes examined, ten are involved by metastatic carcinoma, including the subcarinal lymph node. This is classified as pN2, which indicates involvement of ipsilateral mediastinal or subcarinal lymph node(s).
+
+The AJCC (American Joint Committee on Cancer) staging system for lung cancer takes into account the size of the tumor (T), the involvement of lymph nodes (N), and the presence of distant metastasis (M).
+
+In this case, the tumor is classified as T1 due to its size and localization. The involvement of the lymph nodes classifies it as N2. There is no information about distant metastasis, so it is classified as MX.
+
+Therefore, according to the AJCC 8th edition staging system, this patient would be classified as Stage IIIA (T1, N2, MX) due to the involvement of multiple ipsilateral lymph nodes.
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
+4,"## Answer
+The pathology report provides several key pieces of information that can be used to determine the stage of the cancer.
+
+1. The tumor is an invasive poorly differentiated adenocarcinoma, measuring 2.7 cm in greatest dimension and invades the visceral pleura (pT2). This indicates that the tumor is larger than 2 cm but less than or equal to 3 cm, and it has invaded the visceral pleura, but not the main bronchus.
+
+2. The report also mentions intratumoral large vessel invasion, which is a poor prognostic factor but does not directly affect the staging.
+
+3. The parenchymal margin is negative, meaning the cancer has not spread to the edges of the resected tissue.
+
+4. The pleural biopsy is negative for carcinoma, indicating that the cancer has not spread to the pleura.
+
+5. The level V lymph node resection is negative for metastatic carcinoma. This means that the cancer has not spread to the lymph nodes.
+
+6. The histologic grade is G3: poorly differentiated, which is a high grade, but this does not directly affect the staging.
+
+7. Lymph-vascular invasion is present, which is another poor prognostic factor but does not directly affect the staging.
+
+8. The pathologic staging is given as pT2a, pN0. The pT2a indicates a tumor greater than 3 cm but less than or equal to 5 cm, or a tumor with any of the following features: involves main bronchus regardless of distance from the carina but without involvement of the carina; invades the visceral pleura; or associated with atelectasis or obstructive pneumonitis that extends to the hilar region but does not involve the entire lung. The pN0 indicates no regional lymph node metastasis.
+
+Based on the TNM staging system, this would correspond to Stage IIA or IIB, depending on other factors not provided in the report. However, since the options only include Stage I, II, III, and IV, the most accurate answer would be Stage II.
+
+Therefore,"
+5,"## Answer
+The pathology report provides detailed information about the patient's lung cancer. The primary tumor is an invasive mucinous adenocarcinoma with a greatest dimension of 2.5 cm. The tumor is described as pT1b, which means it is greater than 2 cm but less than or equal to 3 cm in its greatest dimension.
+
+The report also indicates that no regional lymph node metastasis is present (pN0), and no distant metastases are mentioned (pM not applicable).
+
+The TNM staging system for lung cancer is as follows:
+- Stage I: T1-2, N0, M0
+- Stage II: T1-2, N1, M0 or T3, N0, M0
+- Stage III: T1-3, N2, M0 or T4, N0-2, M0
+- Stage IV: Any T, Any N, M1
+
+Based on the information provided in the pathology report, the patient's cancer is classified as T1bN0M0. According to the TNM staging system, this corresponds to Stage I lung cancer.
+
+Therefore, the answer is -
+{""stage"" : ""Stage I""}"
+6,"## Answer
+The pathology report indicates that the patient has a grade 3 (of 4) adenocarcinoma in the right lower lobe of the lung, forming a 5 x 4 x 3 cm centrally located mass. The bronchial margin is negative for tumor, which is a good sign. However, one of the six intrapulmonary peribronchial lymph nodes is positive for metastatic adenocarcinoma. This indicates that the cancer has spread to the lymph nodes within the lung, but not to distant sites.
+
+The TNM staging system is commonly used to stage lung cancer. In this system, T stands for the size of the primary tumor and its extension into surrounding tissues, N stands for spread to nearby (regional) lymph nodes, and M stands for distant metastasis.
+
+Based on the information provided, the T stage would be T2b (tumor size more than 5 cm but less than or equal to 7 cm). The N stage would be N1 (metastasis in ipsilateral peribronchial and/or ipsilateral hilar lymph nodes and intrapulmonary nodes, involving directly or by way of the pulmonary veins). The M stage would be M0 (no distant metastasis).
+
+According to the American Joint Committee on Cancer (AJCC) 8th edition staging system, a T2bN1M0 lung cancer is classified as Stage IIIA.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIIA""}"
+7,"## Answer
+The pathology report provides detailed information about the patient's lung adenocarcinoma. The report states that the tumor is 2.3 cm in greatest diameter, which corresponds to a pT1b classification according to the AJCC staging system. The report also mentions that there is no evidence of metastasis in the lymph nodes examined (pN0). The report does not mention any distant metastasis, which would correspond to a M0 classification.
+
+Therefore, based on the information provided in the pathology report, the AJCC stage of the cancer would be determined as follows:
+
+- Tumor size (T): T1b (tumor is >2 cm but ≤3 cm in greatest dimension)
+- Lymph node involvement (N): N0 (no regional lymph node metastasis)
+- Distant metastasis (M): M0 (no distant metastasis)
+
+Using the TNM staging system, the AJCC stage of the cancer would be Stage IB.
+
+However, it is important to note that the final stage should be performed in conjunction with the clinical history, as mentioned in the report.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IB""}"
+8,"## Answer
+The pathology report indicates that the patient has a moderately differentiated adenocarcinoma in the right upper lobe of the lung. The tumor size is 3.5 cm, and it does not appear to involve the bronchus or pleura. However, it is noted that there is metastatic adenocarcinoma involving 1 (of 5) hilar lymph node. The presence of cancer in the lymph nodes suggests that the cancer has spread beyond the primary site.
+
+The American Joint Committee on Cancer (AJCC) TNM staging system for lung cancer is as follows:
+- T (Tumor) describes the size of the original (primary) tumor and whether it has invaded nearby tissue.
+- N (Node) describes nearby (regional) lymph nodes that are involved.
+- M (Metastasis) describes distant metastasis (spread of cancer from one part of the body to another).
+
+Based on the information provided, the T stage would be T2 (tumor size > 3 cm but ≤ 5 cm), the N stage would be N1 (metastasis in ipsilateral peribronchial and/or ipsilateral hilar lymph nodes and intrapulmonary nodes, involving directly the lung), and the M stage would be M0 (no distant metastasis).
+
+According to the AJCC 8th edition staging system, a T2N1M0 lung cancer corresponds to Stage IIB.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIB""}"
+9,"## Answer
+The pathology report indicates that the patient has a well-differentiated adenocarcinoma with a prominent mucinous bronchiolo-alveolar carcinoma component in the left lower lobe. The tumor measures approximately 50 x 60 x 45 mm and closely abuts the pleural surface, but no definitive pleural invasion is seen, even with special stains.
+
+The report also mentions that no vascular or perineural invasion is seen. Small satellite deposits of tumor are scattered throughout the adjacent parenchyma, but no metastases to hilar lymph nodes are seen. The bronchial resection margin is free of tumor.
+
+The TNM staging in the report is T2N0Mx. This means that the primary tumor (T) is larger than 3 cm but not more than 7 cm in greatest dimension (T2), there is no regional lymph node involvement (N0), and distant metastasis cannot be assessed (Mx).
+
+According to the AJCC Cancer Staging Manual, a T2N0M0 lung cancer is classified as Stage IIA. However, the Mx category in this report indicates that distant metastasis cannot be assessed. If no distant metastasis is found after further evaluation, the cancer would be classified as Stage IIA. If distant metastasis is found, the cancer would be classified as Stage IV.
+
+Therefore, based on the information provided in the pathology report, the cancer is most likely at Stage IIA, but further evaluation is needed to confirm the absence of distant metastasis.
+
+{""stage"" : ""Stage IIA (further evaluation needed to confirm)""}"
+10,"## Answer
+The pathology report provides several key pieces of information that can help determine the AJCC (American Joint Committee on Cancer) stage of the cancer.
+
+1. Tumor size: The tumor is 3 x 3 x 3 cm. In the AJCC staging system, this would classify the tumor as T2 (>3cm but <=5cm).
+
+2. Tumor extent: The tumor has reached the visceral pleura. This also corresponds to a T2 classification.
+
+3. Lymph nodes: 1 out of 1 lymph node is positive for metastasis. This classifies the lymph node involvement as N1.
+
+4. Metastasis: There is no information provided about distant metastasis. However, the presence of lymph node metastasis suggests that the cancer could potentially have spread beyond the lung.
+
+5. Histologic grade: The cancer is poorly differentiated, which suggests a higher grade and potentially more aggressive behavior.
+
+Based on the T2N1 classification and the absence of information about distant metastasis (M0), the cancer would be classified as Stage IIIA.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIIA""}"
+11,"## Answer
+The pathology report provides several key pieces of information that can help determine the AJCC (American Joint Committee on Cancer) stage of the cancer.
+
+1. The size of the tumor (T): The tumor is measured to be 4.0 x 3.5 x 2.0 cm. In the TNM staging system, this would classify the tumor as T2 (>3cm but <=5cm).
+
+2. The spread to nearby lymph nodes (N): The report indicates pNO (0/20), which means that no cancer cells were found in the 20 lymph nodes examined. This classifies the lymph node involvement as N0.
+
+3. The spread to distant sites (metastasis) (M): The report indicates pMx, which means that the presence of distant metastasis cannot be assessed from the information provided.
+
+4. The grade of the tumor (G): The report indicates G2, which means the tumor is moderately differentiated.
+
+5. The report also mentions the infiltration of pleura visceralis, which suggests that the cancer has grown into the outer lining of the lung. This could potentially upgrade the T category to T2b.
+
+However, without information on distant metastasis (M), it's challenging to definitively stage the cancer. But based on the available information, the cancer is at least a Stage II (T2b, N0, M0).
+
+Therefore, the answer is -
+{""stage"" : ""Stage II""}"
+12,"## Answer
+The pathology report indicates that the patient has a moderately differentiated adenocarcinoma in the right upper lobe of the lung, with a tumor size of 2.7 cm. There is no angiolymphatic invasion, pleural involvement, or perineural invasion. The bronchial margin is not involved by the tumor.
+
+The lymph node involvement is as follows:
+- Peribronchial lymph nodes: 1 out of 4 lymph nodes has metastatic adenocarcinoma.
+- R4 lymph node: No metastatic carcinoma identified.
+- Station 11 lymph node: No metastatic carcinoma identified.
+
+According to the AJCC (American Joint Committee on Cancer) TNM staging system for lung cancer, the T stage is determined by the size of the primary tumor and whether it has invaded nearby structures. In this case, the tumor is 2.7 cm in size and does not involve the pleura or bronchial margin, so it would be classified as T2.
+
+The N stage is determined by the extent of lymph node involvement. In this case, there is metastatic adenocarcinoma in 1 out of 4 peribronchial lymph nodes, which would be classified as N1.
+
+The M stage is determined by the presence or absence of distant metastasis. There is no evidence of distant metastasis in this case, so it would be classified as M0.
+
+Therefore, the AJCC stage of the cancer would be determined by the TNM classification: T2N1M0, which corresponds to Stage IIB.
+
+However, since the answer choices only include Stage I, II, III, and IV, the correct answer would be Stage II.
+
+Therefore, the answer is -
+{""stage"" : ""Stage II""}"
+13,"## Answer
+The pathology report provides the TNM staging as pT2, pNO, pMX.
+
+- pT2 indicates that the primary tumor is larger than 3 cm but not more than 7 cm, or it has grown into the main bronchus and is more than 2 cm from the carina, or it has invaded the visceral pleura, or there is a partial or complete collapse or inflammation of the lung. In this case, the tumor size is 1.2 cm and it focally invades into, but not through, the visceral pleura.
+
+- pNO indicates that there is no regional lymph node metastasis. In this case, 0 out of 7 lymph nodes examined were involved.
+
+- pMX indicates that the presence of distant metastasis cannot be assessed.
+
+According to the American Joint Committee on Cancer (AJCC) 8th edition staging system for lung cancer, a tumor with T2, NO, and MX staging corresponds to Stage IIA.
+
+However, it's important to note that the final staging might change if there is evidence of distant metastasis (M1), which cannot be determined from this report.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIA""}"
+14,"## Answer
+The pathology report indicates that the patient has a 4 cm adenocarcinoma in the right lower lobe of the lung that is invading the visceral pleura. The bronchial and vascular margins are negative for tumor, and the inked parietal pleura margin is also negative for tumor. There is metastatic adenocarcinoma in two of four lymph nodes in the right lower lobe, and in one of five lymph nodes at level 7. No tumor was found in the lymph nodes at levels 4, 10, and 3.
+
+The TNM staging system is used to stage lung cancer. The T category describes the size and extent of the primary tumor, the N category describes the involvement of regional lymph nodes, and the M category describes distant metastasis.
+
+In this case, the T category is pT2 because the tumor is greater than 3 cm but less than or equal to 5 cm in size. The N category is pN2 because there is metastasis in ipsilateral mediastinal or subcarinal lymph node(s). The M category is Mx because there is insufficient information to assess distant metastasis.
+
+According to the AJCC Cancer Staging Manual, 8th Edition, the TNM stage corresponds to Stage IIIA.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIIA""}"
+15,"## Answer
+The pathology report indicates that the cancer is an invasive moderately differentiated adenocarcinoma in the right lung, specifically in the upper lobe, and it has invaded into the chest wall. The tumor size is 9.2 cm in greatest dimension.
+
+The report also indicates that the bronchial margin is negative for carcinoma, meaning the cancer has not spread to the edges of the bronchial tissue that was removed. The soft tissue and bone resection margins are also negative for carcinoma, indicating that the cancer has not spread to the edges of the soft tissue or bone that was removed.
+
+The report shows that nineteen peribronchial lymph nodes were examined and all were negative for carcinoma (0/19). This suggests that the cancer has not spread to the lymph nodes in the lung.
+
+The pathological staging (pTNM) is given as pT 3. Mx. According to the AJCC Cancer Staging Manual, 7th Edition, a pT3 tumor in the lung is defined as a tumor that invades the chest wall, diaphragm, mediastinal pleura, or parietal pericardium; or a tumor in the main bronchus less than 2 cm distal to the carina, but without involvement of the carina. The Mx indicates that distant metastasis cannot be assessed.
+
+Given the size of the tumor, its invasion into the chest wall, and the absence of lymph node involvement or distant metastasis, the cancer would be classified as Stage IIIA.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIIA""}"
+16,"## Answer
+The pathology report indicates that the patient has a moderately differentiated adenocarcinoma in the left lower lobe of the lung. The tumor measures 6.9 x 4.7 x 4.1 cm and extends to the visceral pleural surface. Lymphangitic invasion is identified. The bronchial and vascular resection margins are negative for carcinoma.
+
+The report also indicates that there is metastatic adenocarcinoma in one of the left level 9 lymph nodes (1/1), two of the left level 11 lymph nodes (2/5), and four of the eight peribronchial lymph nodes (4/8). However, two left 7 lymph nodes and three left 5 lymph nodes are negative for adenocarcinoma.
+
+According to the TNM staging system, the tumor is classified as pT2b due to its size (greater than 5 cm but less than or equal to 7 cm in greatest dimension). The regional lymph nodes are classified as pN2 because there is metastasis in ipsilateral mediastinal and/or subcarinal lymph node(s). The total number of nodes examined is 19, and the number of nodes involved is 7.
+
+Based on this information, the cancer is at Stage III.
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
+17,"The pathology report provided does not contain specific information about the size of the tumor, whether it has spread to nearby lymph nodes, or if it has metastasized to distant parts of the body. These are key factors in determining the AJCC (American Joint Committee on Cancer) stage of a cancer.
+
+The report mentions ICD-0-3 histology and site codes, which are used for classifying the type of cancer and its location, but not its stage.
+
+Therefore, without the necessary information, it is impossible to accurately determine the stage of the cancer from this report.
+
+{""stage"" : ""Cannot be determined from the provided report""}"
+18,"## Answer
+The pathology report provides the tumor classification as M-8140/3, G1, pT 2 2, pN 0, pMX, stage I B.
+
+Let's break down the TNM classification:
+- pT 2 2 refers to the size of the primary tumor and its extension into nearby tissue. In this case, the tumor is larger than 3 cm but not more than 7 cm, and it has extended to the visceral pleura but not the parietal pleura or the chest wall.
+- pN 0 indicates that there is no regional lymph node metastasis.
+- pMX means that the presence of distant metastasis cannot be assessed from the pathology report.
+
+The TNM classification corresponds to the AJCC (American Joint Committee on Cancer) staging system. Based on the given TNM classification (pT 2 2, pN 0, pMX), the pathology report specifies the stage as I B.
+
+Therefore, the answer is -
+{""stage"" : ""Stage I B""}"
+19,"## Answer
+The pathology report provides detailed information about the patient's cancer. The report indicates that the patient has a unifocal, poorly differentiated adenocarcinoma in the left upper lobe of the lung. The tumor size is 4.5 cm, and it is confined to the lung, but there is visceral pleural invasion and lymphovascular space invasion present.
+
+The report also indicates that out of the six lymph nodes received, one contains metastatic carcinoma. There is also extracapsular extension present, with invasion of the adjacent artery wall.
+
+The pTNM stage provided in the report is pT2aN1MX. In this stage:
+- pT2a refers to the size of the primary tumor and its extension into nearby tissues. The tumor is larger than 3 cm but not larger than 5 cm, and it has not grown into any nearby structures.
+- N1 refers to the spread of cancer to the lymph nodes. Cancer has spread to the ipsilateral peribronchial and/or ipsilateral hilar lymph nodes and intrapulmonary nodes, involving direct extension of the primary tumor or by way of metastasis.
+- MX means that the presence of distant metastasis cannot be assessed based on the information available.
+
+Based on the pTNM stage provided (pT2aN1MX), the cancer is at Stage IIB according to the AJCC Cancer Staging Manual (8th Edition). However, it's important to note that the final staging might require additional clinical information and radiological findings.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIB""}"
+20,"## Answer
+The pathology report provides some key details about the patient's lung cancer, including the tumor size, histologic type, and histologic grade. However, it does not provide information on several critical factors that are necessary to determine the AJCC (American Joint Committee on Cancer) stage of the cancer.
+
+The AJCC stage is determined by the TNM system, which stands for Tumor, Node, and Metastasis. The 'T' category describes the size of the original (primary) tumor and whether it has invaded nearby tissue. The 'N' category describes nearby (regional) lymph nodes that are involved. The 'M' category describes distant metastasis (spread of cancer from one part of the body to another).
+
+In this case, while we have information about the tumor size (2.5 X 1.5 X 3 cm), we do not have information about the involvement of lymph nodes or evidence of distant metastasis. Additionally, the report does not specify the tumor extent or the presence of other tumor nodules, which are also important factors in determining the T category.
+
+Therefore, without this information, it is not possible to accurately determine the AJCC stage of the cancer from the provided pathology report.
+
+{""stage"" : ""Cannot be determined from the provided information""}"
+21,"## Answer
+The pathology report provides several key pieces of information that can help determine the stage of cancer.
+
+1. Histologic type: Adenocarcinoma. This is a type of cancer that begins in the glandular cells, which are found in the lining of many organs, including the lungs.
+
+2. Histologic grade: Moderately-differentiated. This means the cancer cells look somewhat like normal cells and tend to grow and spread at a moderate rate.
+
+3. Primary tumor (pT): pT1b (2.5 cm in greatest dimension). This indicates the size of the primary tumor. In this case, the tumor is greater than 2 cm but less than or equal to 3 cm in its greatest dimension.
+
+4. Margins of resection: Negative. This means that the surgeon removed all of the cancer that could be seen and no cancer cells were found at the edges of the tissue removed during surgery.
+
+5. Lymphatic (small vessel) invasion: Not identified. This means that cancer cells were not found in the lymphatic vessels.
+
+6. Regional lymph nodes: Five negative lymph nodes (0/5). This means that no cancer cells were found in the lymph nodes near the primary tumor.
+
+Based on the TNM staging system for lung cancer, the tumor size (T1b), absence of lymph node involvement (N0), and absence of distant metastasis (M0, not mentioned but assumed from the report) correspond to Stage I cancer.
+
+Therefore, the answer is -
+{""stage"" : ""Stage I""}"
+22,"## Answer
+The pathology report provides several key pieces of information that can help determine the stage of cancer.
+
+1. Tumor size: The tumor measures 1.7 x 1.5 x 1.5 cm. This is relatively small and would typically correspond to a T1 classification.
+
+2. Lymph node involvement: The report indicates metastatic carcinoma in multiple lymph nodes (Level 7, Level 12, and R4). This would typically correspond to an N2 classification.
+
+3. Metastasis: There is no mention of distant metastasis in the report, which would correspond to an M0 classification.
+
+4. However, there is a mention of a metastatic poorly differentiated carcinoma in the anterior mediastinum. This could potentially be a distant metastasis, which would correspond to an M1 classification.
+
+The AJCC stage is determined by combining the T, N, and M classifications. If we consider the potential distant metastasis, the stage would be T1N2M1, which corresponds to Stage IV.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IV""}"
+23,"## Answer
+The pathology report indicates that the patient has a moderately differentiated adenocarcinoma in the right upper lobe of the lung. The tumor measures 2.0 cm in its maximal dimension and does not involve the pleura. The surgical resection margin is free of tumor.
+
+Multiple lymph nodes from different levels (II, IV-R, VII, VIII, IX, XI) were examined and all were negative for malignancy. This suggests that there is no lymph node involvement (pN0).
+
+The primary tumor (pT) is classified as pT1a because it is 2 cm or less in greatest dimension and is surrounded by lung or visceral pleura, without bronchoscopic evidence of invasion more proximal than the lobar bronchus.
+
+The AJCC (American Joint Committee on Cancer) staging system for lung cancer is based on the TNM system, where T stands for the size of the primary tumor and any invasion into nearby tissue, N stands for the spread to nearby lymph nodes, and M stands for metastasis to other parts of the body.
+
+In this case, the TNM classification would be T1aN0M0. According to the AJCC 8th edition staging system, this corresponds to Stage IA1.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IA1""}"
+24,"## Answer
+The pathology report provides several pieces of information that are crucial to determining the stage of cancer.
+
+1. pT2b: This indicates the size of the primary tumor and its extent into nearby tissue. In this case, the tumor is larger than 5 cm but less than or equal to 7 cm in its greatest dimension, or it has grown into the main bronchus and is more than 2 cm from the carina.
+
+2. pN1: This indicates that the cancer has spread to ipsilateral (same side) peribronchial and/or ipsilateral hilar lymph nodes and intrapulmonary nodes, involving directly or by discontinuous spread.
+
+3. pMx: This means that the presence of distant metastasis cannot be assessed.
+
+4. G3: This refers to the grade of the tumor, with G3 indicating a high grade or poorly differentiated tumor.
+
+Based on the TNM (Tumor, Node, Metastasis) classification system, the patient's cancer would be classified as Stage IIIA. This is because the tumor is larger than 5 cm (pT2b), there is involvement of lymph nodes on the same side of the chest (pN1), and there is no evidence of distant metastasis (pMx).
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
+25,"## Answer
+The pathology report provides detailed information about the patient's cancer. The primary tumor is in the left upper lobe of the lung, measuring 5.0 X 4.1 X 2.4 cm, which classifies it as T2. The cancer has invaded into but not through the pleura, and there is lymphovascular invasion present.
+
+The report also indicates that there is metastasis to multiple lymph nodes. In the left lung #6 anterior and anterior left, 8 out of 12 lymph nodes are positive for metastatic adenocarcinoma. In the left lung #10 tracheobronchial, all 4 lymph nodes are positive. In the left lung AP window, both lymph nodes are positive. This extensive lymph node involvement classifies the cancer as N2.
+
+There is no mention of distant metastasis in the report, so the M category is MX, meaning that distant metastasis cannot be assessed from the information provided.
+
+The AJCC Cancer Stage is given as T2, N2, MX for the larger tumor in the upper lobe, and T1, N2, MX for the smaller tumor in the lower lobe. According to the AJCC 8th edition staging system, T2N2M0 is classified as Stage IIIA, and T1N2M0 is also classified as Stage IIIA. However, since there are multiple tumors and extensive lymph node involvement, the stage could be higher, but without information on distant metastasis (M category), it's difficult to definitively say.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIIA""}"
+26,"## Answer
+The pathology report indicates that the patient has a unifocal invasive carcinoma in the left upper lobe of the lung. The histologic type is adenocarcinoma with a histologic grade of 2/4. The tumor size is 3.5 cm. There is no visceral pleura invasion, no lymphatic (small vessel) invasion, and no large vessel invasion. However, 2 of 2 peribronchial nodes are positive for metastatic tumor. The TNM stage is pT2a, pN1, pMX.
+
+The TNM staging system is used to stage lung cancer:
+- T (tumor) describes the size of the original (primary) tumor and whether it has invaded nearby tissue. pT2a indicates the tumor is larger than 3 cm but less than or equal to 5 cm.
+- N (node) describes nearby (regional) lymph nodes that are involved. pN1 indicates that the cancer has spread to ipsilateral peribronchial and/or ipsilateral hilar lymph nodes and intrapulmonary nodes, involving directly the lung.
+- M (metastasis) describes distant metastasis. pMX means that the presence of distant metastasis cannot be assessed.
+
+Based on the TNM stage provided (pT2a, pN1, pMX), the cancer is at Stage IIIA according to the AJCC 8th edition staging system for lung cancer.
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
+27,"## Answer
+The pathology report provides a detailed description of the patient's left lung, upper lobe lobectomy, with a tumor size of 3.5 X 2.8 X 2.5 cm. The tumor has invaded into the visceral pleura, and metastatic adenocarcinoma is present in peribronchial lymph nodes and 11L lymph nodes. However, lymph nodes 10L and 12L are negative for neoplasm. The report also mentions that the bronchial margin is negative for tumor cells, but tumor cells are present within lymphatic spaces in the permanent section of the bronchial margin.
+
+The Pathologic Stage (AJCC) provided in the report is p stage IIIA (pT2a N2 MX). This stage is determined based on the TNM system:
+
+- T (tumor size and invasion): T2a indicates a tumor size greater than 3 cm but less than or equal to 5 cm, with invasion into the visceral pleura.
+- N (lymph node involvement): N2 indicates metastasis in ipsilateral mediastinal and/or subcarinal lymph node(s).
+- M (distant metastasis): MX means that distant metastasis cannot be assessed.
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
+28,"## Answer
+The pathology report indicates that the patient has a cavitated poorly differentiated adenocarcinoma in the right upper lobe of the lung. The tumor measures 58 mm in maximal dimension and has invaded through the visceral pleura to involve the chest wall fibrous connective tissue. However, it does not appear to have infiltrated the chest wall completely as there is a thickened greyish-white soft fibrous-like capsule between the tumor and the chest wall.
+
+The report also mentions blood vessel invasion but no lymphatic or perineural invasion is seen. The lesion is well clear of the bronchial resection margin. No lymph node metastases are seen in the hilar and peri-oesophageal lymph nodes.
+
+The TNM staging based on the report is T3N0MX. T3 indicates a large tumor that has grown into the chest wall. N0 indicates no regional lymph node metastasis. MX means that distant metastasis cannot be assessed.
+
+According to the AJCC Cancer Staging Manual, a T3N0MX lung cancer corresponds to Stage IIIA.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIIA""}"
+29,"## Answer
+The pathology report provides several key pieces of information that can be used to determine the stage of cancer. The TNM system is commonly used to stage cancers, where T refers to the size of the primary tumor and whether it has invaded nearby tissue, N refers to the spread to nearby lymph nodes, and M refers to distant metastasis.
+
+In this report, the T category is listed as T2, which typically indicates a larger tumor or one that has grown into nearby tissue. The N category is listed as N1, indicating that cancer has spread to at least one lymph node on the same side of the body as the primary tumor. The M category is listed as M0, indicating no distant metastasis.
+
+The size of the tumor is given as 6.00 cm, which is also consistent with a T2 category for many types of cancer. The differentiation is not provided, but it's usually not a determining factor for staging.
+
+Based on this information, the cancer would be classified as Stage III, as it has grown into nearby tissue and spread to nearby lymph nodes, but has not yet spread to distant parts of the body.
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
+30,"## Answer
+The pathology report indicates that the patient has a lung adenocarcinoma with a tumor size of 3.5 cm in its greatest dimension. The tumor is poorly differentiated (G-3) and there is no evidence of venous invasion. The report also mentions that 0 out of 7 hilar lymph nodes examined demonstrated metastasis. The margins are uninvolved, meaning the cancer has not spread to the edges of the surgical resection.
+
+According to the American Joint Committee on Cancer (AJCC) TNM staging system for lung cancer, the T stage (tumor size) is T2a due to the tumor size being greater than 3 cm but less than or equal to 5 cm. The N stage (lymph node involvement) is N0 as there is no lymph node metastasis. The M stage (distant metastasis) is not specified in the report but since there is no mention of distant metastasis, we can assume it to be M0.
+
+Therefore, the AJCC stage would be Stage IIA (T2aN0M0). However, since the options given do not include Stage IIA, the closest option would be Stage II.
+
+{""stage"" : ""Stage II""}"
+31,"## Answer
+The pathology report provides a detailed analysis of the patient's condition. Here's how we can interpret it:
+
+1. The report indicates that the patient has adenocarcinoma, a type of cancer, in the right upper lobe of the lung.
+2. The tumor has two separate nodules in the same lobe, with the largest one measuring 3.7 cm in greatest dimension and the smaller one measuring 1.2 cm x 0.8 cm x 0.7 cm.
+3. The tumor does not invade the visceral pleura, and the margins (bronchial, vascular, and parenchymal) are uninvolved by invasive carcinoma.
+4. Lymph-vascular invasion is not identified.
+5. The report states that 11 lymph nodes were examined, and none of them were involved (0/11), indicating no regional lymph node metastasis.
+6. The pathologic staging provided in the report is Stage IIB, with pT3 (due to the size and presence of multiple tumor nodules in the same lobe) and pN0 (no regional lymph node metastasis).
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIB""}"
+32,"The pathology report indicates that the patient has a non-small cell carcinoma in the right lower lobe of the lung. The tumor size is 3.5 cm in greatest dimension, which classifies it as T2. The report also indicates that there is metastasis in the ipsilateral peribronchial and ipsilateral hilar lymph nodes, which classifies it as N1. The report does not provide information on distant metastasis, so it is classified as MX.
+
+The TNM classification for this patient is T2N1MX. According to the AJCC Cancer Staging Manual, 8th edition, this corresponds to Stage IIIA.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIIA""}"
+33,"## Answer
+The pathology report indicates that the patient has a poorly differentiated adenocarcinoma in the right lower lobe of the lung, measuring 2.5 cm in greatest dimension. The surgical margins are uninvolved, but there is a suggestion of visceral pleural invasion.
+
+The report also indicates that there is no evidence of metastasis in the right lower lobe lobectomy specimen (2 lymph nodes), level 7 lymph nodes (7 lymph nodes), and level 11 lymph nodes (3 lymph nodes). However, there is evidence of metastasis in the level 12 lymph nodes (4 lymph nodes).
+
+The TNM staging for this case would be:
+- T (tumor size and invasion): T2 due to the tumor size being greater than 2 cm but less than or equal to 3 cm, and there is a suggestion of visceral pleural invasion.
+- N (lymph node involvement): N2 due to the involvement of ipsilateral mediastinal lymph nodes (level 12).
+- M (distant metastasis): M0 as there is no evidence of distant metastasis.
+
+Therefore, according to the AJCC Cancer Staging Manual, the patient would be classified as Stage IIIA due to the T2N2M0 staging.
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
+34,"## Answer
+The pathology report provides several key pieces of information that can help determine the stage of the cancer.
+
+1. Histologic type: The cancer is an adenocarcinoma, which is a type of cancer that can occur in several parts of the body, including the lungs.
+
+2. Histologic grade: The cancer is poorly differentiated, which means the cancer cells look less like normal cells and tend to grow and spread more quickly.
+
+3. Primary tumor (pT): The tumor measures 3.5 cm in maximum dimension and is limited to the lung parenchyma in the wedge specimen, but it does invade into the pleura, which classifies it as pT2.
+
+4. Margins of resection: The margins of resection are negative, meaning no cancer cells were found at the edges of the tissue that was removed.
+
+5. Vascular invasion: Vascular invasion is present, which means cancer cells have been found in the blood vessels.
+
+6. Regional lymph nodes (pN): The report states pNX, which means the regional lymph nodes could not be assessed.
+
+7. Distant metastasis (pM): The report states pMX, which means distant metastasis could not be assessed.
+
+The AJCC (American Joint Committee on Cancer) staging system for lung cancer takes into account the size of the tumor, whether it has invaded nearby structures, whether it has spread to the lymph nodes, and whether it has metastasized to distant sites.
+
+Given the information provided, the cancer is at least Stage II (pT2, pNX, pMX), as the tumor is larger than 3 cm and invades the pleura. However, without information on the lymph nodes and distant metastasis, it's not possible to definitively rule out Stage III or Stage IV.
+
+Therefore, the answer is -
+{""stage"" : ""Stage II""}"
+35,"## Answer
+The pathology report provides the pathologic stage as T2N0MX.
+
+- T2 indicates that the primary tumor is larger than 3 cm but not more than 5 cm in its greatest dimension or the tumor has grown into the main bronchus and is more than 2 cm from the carina, or the tumor has invaded the visceral pleura.
+- N0 indicates that there is no regional lymph node metastasis.
+- MX means that the presence of distant metastasis cannot be assessed.
+
+According to the American Joint Committee on Cancer (AJCC) TNM staging system, a tumor classified as T2N0MX corresponds to Stage IIA or IIB depending on other factors such as the specific type of lung cancer and the patient's overall health. However, since the provided information does not include these additional details, the most accurate answer would be Stage II.
+
+Therefore, the answer is -
+{""stage"" : ""Stage II""}"
+36,"## Answer
+The pathology report provides several key pieces of information that can help determine the stage of the cancer.
+
+1. The tumor is a non-small cell carcinoma, poorly differentiated (G3), and unifocal.
+2. The maximum tumor size is 5.5 x 5.0 cm.
+3. The tumor extends into the fissure but does not invade the visceral pleura.
+4. The bronchial margin is negative for tumor.
+5. Vascular, parenchymal, and parietal pleural margins are all negative for carcinoma.
+6. Lymphovascular invasion is indeterminate but favors present.
+7. Twelve lymph nodes were examined and all were negative for carcinoma.
+
+The TNM staging system is used to stage lung cancer, where T stands for the size of the primary tumor and any invasion into surrounding tissue, N stands for spread to nearby lymph nodes, and M stands for distant metastasis.
+
+Based on the information provided:
+- T would be T2b because the tumor is greater than 5 cm but does not invade the visceral pleura.
+- N would be N0 because no lymph nodes are involved.
+- M would be M0 because there is no mention of distant metastasis.
+
+Therefore, the AJCC stage would be Stage IIB (T2bN0M0). However, it's important to note that the final stage might change pending the results of the immunoevaluation.
+
+{""stage"" : ""Stage IIB""}"
+37,"## Answer
+The pathology report indicates that the patient has a poorly differentiated adenocarcinoma with clear cell changes in the right lung. The tumor size is 7 cm, which is considered large. However, there is no invasion of the visceral pleura, and the bronchial and vascular margins are negative, meaning the cancer has not spread to these areas.
+
+The report also mentions that no tumor was found in the portion of the 6th rib, mediastinal lymph node level 9, right level 4 lymph nodes, level 7 lymph nodes, and peribronchial lymph nodes. This suggests that the cancer has not spread to the lymph nodes or other parts of the body.
+
+Based on the American Joint Committee on Cancer (AJCC) TNM staging system, the T stage would be T2 due to the size of the tumor (greater than 5 cm but less than or equal to 7 cm). The N stage would be N0 as there is no lymph node involvement, and the M stage would be M0 as there is no evidence of distant metastasis.
+
+Therefore, the AJCC stage of the cancer would be Stage II (T2N0M0).
+
+{""stage"" : ""Stage II""}"
+38,"## Answer
+The pathology report provides several key pieces of information that can be used to determine the AJCC (American Joint Committee on Cancer) stage of the cancer.
+
+1. The primary tumor (T) is described as pT2a, meaning it is more than 3 cm but less than or equal to 5 cm in its greatest dimension.
+
+2. The regional lymph nodes (N) are described as pN1, indicating that there is metastasis in the ipsilateral peribronchial lymph nodes. The report specifies that there is metastatic carcinoma in 3 of 18 lymph nodes.
+
+3. There is no mention of distant metastasis (M) in the report, which would suggest M0.
+
+Using the TNM (Tumor, Node, Metastasis) classification, the cancer would be classified as T2aN1M0. According to the AJCC Cancer Staging Manual (8th Edition), this corresponds to Stage IIB for lung cancer.
+
+However, the presence of KRAS mutation, which is positive in this case, is not typically used in the TNM staging system but can indicate a more aggressive cancer. This might not change the stage but could impact the prognosis and treatment options.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIB""}"

@@ -1,0 +1,56 @@
+slno,preds
+0,"The pathology report indicates that the tumor is an adenocarcinoma, specifically an intrahepatic cholangiocarcinoma. The tumor size is 6.2 cm in the largest dimension, which is larger than 5 cm, making it a T2b tumor according to the AJCC staging manual, 7th edition. However, the report also mentions that there is vascular invasion into portal vein branches and into the vena cava, which upgrades the tumor to a T3 classification. The tumor is unifocal and located in the right hepatic lobe. The parenchymal resection margins are positive for carcinoma, indicating that the tumor has invaded into the surrounding liver tissue. The vascular resection margins are negative for carcinoma, and there is no evidence of metastasis in the one pericystic lymph node that was examined. Therefore, the tumor is classified as pT3 pN0. Based on this information, the tumor stage can be determined as follows:
+
+Stage I: T1, N0, M0 (tumor is 2 cm or less in the largest dimension, and there is no evidence of vascular invasion or metastasis)
+Stage II: T2, N0, M0 (tumor is larger than 2 cm but no larger than 5 cm in the largest dimension, and there is no evidence of vascular invasion or metastasis)
+Stage III: T3, N0, M0 or T1-3, N1, M0 (tumor is larger than 5 cm in the largest dimension or there is vascular invasion, and there is no evidence of metastasis)
+Stage IV: T4, any N, M0 or any T, N1, M1 (tumor invades into other organs or there is evidence of metastasis)
+
+Since the tumor is classified as pT3 pN0, it falls under Stage III.
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
+1,"The pathology report indicates that the patient underwent a partial hepatectomy of the left lobe, and the tumor was found to be a moderately differentiated adenocarcinoma compatible with cholangiocarcinoma. The tumor size was 5.1 cm, and it was present at the inked resection margin. Additionally, there was another focus of adenocarcinoma present at the non-inked cauterized margin of the caudate lobe of the liver. The lymph node status was negative, with only one lymph node examined.
+
+Based on the AJCC staging system for cholangiocarcinoma, the tumor size of 5.1 cm and the presence of the tumor at the resection margin would classify this as a T3 tumor. The negative lymph node status would classify this as an N0 tumor. Therefore, the overall stage would be pT3aN0.
+
+However, the answer choices provided do not include this option. The closest option would be Stage III, as this stage includes T3 tumors with negative lymph nodes.
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
+2,"The pathology report indicates that the patient was diagnosed with cholangiocarcinoma, a type of bile duct cancer. The tumor is multifocal with the largest focus measuring 3.3 cm. The tumor focally extends to within 0.1 cm of the parenchymal margin of resection and superficially invades into the adventitia of a large caliber vein in the hepatic parenchyma, but the lumen of the vein is free of carcinoma. The tumor abuts the capsule of the liver. The immunohistochemical stains performed excludes the presence of focal hepatocellular differentiation. The malignant cells are positive for CK7 (bile ductular marker) and are negative for hepatocellular marker hep-par1, glypican 3, arginase. CD10 and poly-CEA show focal positivity, but canalicula pattern formation is not convincing. CD56 is negative. This pattern of staining is consistent with the above diagnosis. A trichrome stain demonstrates bridging fibrosis that would have qualified as at least stage 3 of 4.
+
+The synoptic worksheet provides additional information about the tumor. The tumor is classified as a cholangiocarcinoma, with a histologic grade of GII (moderately differentiated). The tumor size is 3.3 cm in greatest dimension. The tumor is confined to the hepatic parenchyma, and the hepatic parenchymal margin is uninvolved by invasive carcinoma. The distance of invasive carcinoma from the closest margin is 1 mm. The tumor growth pattern is mass-forming. Venous (major vessel) invasion is indeterminate, and small vessel invasion is not identified.
+
+Based on the information provided in the pathology report and the synoptic worksheet, the patient's tumor can be staged according to the American Joint Committee on Cancer (AJCC) TNM staging system for cholangiocarcinoma. The primary tumor (pT) is classified as pT"
+3,"The American Joint Committee on Cancer (AJCC) TNM staging system for intrahepatic cholangiocarcinoma is as follows:
+
+- T1: Tumor limited to the bile ducts with extension up to the muscle layer or fibrous tissue.
+- T2: Tumor invades beyond the wall of the bile duct into the liver parenchyma.
+- T3: Tumor perforates the visceral peritoneum or directly invades the adjacent organs or structures other than the gallbladder.
+- T4: Tumor invades the main portal vein or its branches, the common hepatic artery, or second-order biliary radicals bilaterally.
+
+The pathology report describes a Grade 2 (of 4) intrahepatic cholangiocarcinoma forming a 6.8 X 6.6 X 5.8 cm multilobulated mass. The tumor extends to 0.3 cm from the surgical resection margin. Based on this information, we can determine the T stage as follows:
+
+- T1: The report does not mention any invasion of the tumor beyond the wall of the bile duct, so this stage is unlikely.
+- T2: The report mentions that the tumor invades beyond the wall of the bile duct into the liver parenchyma, which is consistent with T2.
+- T3: The report does not mention any perforation of the visceral peritoneum or direct invasion of adjacent organs or structures, so this stage is unlikely.
+- T4: The report does not mention any invasion of the main portal vein or its branches, the common hepatic artery, or second-order biliary radicals bilaterally, so this stage is unlikely.
+
+Therefore, the T stage is most likely T2.
+
+The AJCC staging system for intrahepatic cholangiocarcinoma also includes N (lymph node) and M (metastasis) categories:
+
+- N0: No regional lymph node metastasis.
+- N1: Metastasis in one"
+4,"The pathology report indicates that the tumor is a cholangiocarcinoma located in segments 1-4 and a portion of segment 8 of the liver. The tumor size is 10 cm, and it is unifocal with diffuse involvement of nearly the entire specimen. The tumor growth pattern is mass forming, and it appears approximately 25% necrotic. Vascular invasion and perineural invasion are present, but capsular invasion is absent. The margins are negative for malignancy but close, with the tumor being 1 mm from the blue inked surgical margin, 1 mm from the green inked soft tissue margin, and 8 mm from the red inked margin. No lymph nodes were received for examination.
+
+Based on the AJCC Pathologic TNM Stage, the tumor is classified as pT3 pNX. According to the AJCC Cancer Staging Manual, pT3 indicates that the tumor has directly invaded adjacent organs or structures other than the gallbladder, or has perforated the visceral peritoneum. pNX indicates that regional lymph nodes cannot be assessed.
+
+Therefore, based on the information provided in the pathology report, the patient's cancer stage would be:
+
+Stage III (T3, NX, M0)
+
+Hence, the answer is:
+
+{""stage"" : ""Stage III""}"
