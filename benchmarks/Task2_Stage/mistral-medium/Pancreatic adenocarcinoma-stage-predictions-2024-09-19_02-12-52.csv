@@ -1,0 +1,281 @@
+slno,preds
+0,"The pathology report indicates that the tumor is an adenocarcinoma, moderately differentiated, and measures 4.5 cm. The extent of invasion includes the peripancreatic soft tissues and the duodenum wall, including the ampulla wall. The surgical margins are negative for cancer involvement. Regional lymph nodes show metastatic adenocarcinoma in 2 out of 11 nodes, with the larger metastasis measuring 6 mm in diameter. The AJCC stage is listed as pT3 pN1 pMx.
+
+According to the AJCC Cancer Staging Manual, 8th edition, for pancreatic cancer:
+
+* T3 indicates a tumor that extends beyond the pancreas but without involvement of the celiac axis or the superior mesenteric artery
+* N1 indicates metastasis in 1-3 regional lymph nodes
+* Mx means that distant metastasis cannot be assessed
+
+Therefore, based on the information provided in the pathology report, the patient's cancer stage is Stage III (pT3 N1 Mx).
+
+Answer:
+
+Therefore, the answer is - 
+{""stage"" : ""Stage III""}"
+1,"The pathology report provides detailed information about the patient's pancreatic cancer. To determine the AJCC stage of the cancer, we can use the TNM classification system outlined in the report.
+
+* Tumor (T): The size and extent of the primary tumor. In this case, the tumor is classified as T3 because it invades the peripancreatic soft tissues.
+* Node (N): The involvement of regional lymph nodes. Here, the report indicates that 1 out of 23 lymph nodes are positive for metastasis, so the N classification is N1.
+* Metastasis (M): The presence of distant metastasis. The report states that distant metastasis is not applicable (M0).
+
+Using the 7th edition of the AJCC staging manual, we can determine the stage of the cancer based on the TNM classification:
+
+* Stage I: T1-2, N0, M0
+* Stage IIA: T3, N0, M0
+* Stage IIB: T1-3, N1, M0
+* Stage III: T4, N0-1, M0 or T1-3, N2, M0
+* Stage IV: Any T, Any N, M1
+
+Based on the information provided in the pathology report, the patient's cancer is classified as T3N1M0, which corresponds to Stage IIB.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIB""}"
+2,"The pathology report indicates that the patient was diagnosed with a moderate to poorly-differentiated invasive pancreatic duct carcinoma. The tumor size is approximately 6.0 cm, and it has invaded into the peripancreatic adipose tissue and duodenal wall with ulceration of the duodenal mucosa (pT3). The margins are positive at the uncinate process and superior and posterior pancreaticoduodenal soft tissue margins. Lymphovascular and perineural invasion are present, and metastatic carcinoma is found in four of eleven lymph nodes (pN1).
+
+Based on the American Joint Committee on Cancer (AJCC) staging system for pancreatic cancer, the patient's tumor is classified as T3N1M0, which corresponds to stage III.
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
+3,"The pathology report indicates that the tumor is a ductal adenocarcinoma of the pancreas, moderately differentiated, and measures 4 cm in greatest dimension. The tumor invades through the muscularis propria of the duodenum and also extends into peripancreatic fat. The tumor is present at the pancreatic neck margin and extends to the proximal duodenal margin. The tumor is within 0.1 cm of the portal vein margin and radial margins. Perineural invasion is identified, but angiolymphatic invasion is absent. Twelve lymph nodes are examined, and all are negative for malignancy (0/12).
+
+According to the American Joint Committee on Cancer (AJCC) staging system for pancreatic cancer, the TNM classification for this patient would be:
+
+* T3: The tumor is >4 cm in greatest dimension and extends to the duodenum or biliary tree.
+* N0: No regional lymph nodes are involved.
+* MX: Distant metastasis cannot be assessed.
+
+Therefore, the AJCC stage for this patient would be:
+
+* Stage IIA: T3, N0, M0 (if no distant metastasis is found)
+* Stage III: T3, N1, M0 (if regional lymph nodes are involved)
+* Stage IV: T3, any N, M1 (if distant metastasis is present)
+
+Since the report does not mention distant metastasis and all lymph nodes are negative for malignancy, the patient's stage is not Stage IV. The AJCC stage for this patient is Stage IIA, as the tumor is T3, N0, and MX.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIA""}"
+4,"The pathology report indicates that the patient has ductal adenocarcinoma of the pancreas, moderately differentiated, with a tumor size of 3.0 cm. The tumor is located in the head of the pancreas and is seen in the ampulla of Vater, involving the mucosal surface at that location. However, there is no perineural invasion or angiolymphatic invasion. All margins are negative for malignancy, including the common bile duct, pancreatic duct, soft tissue, retroperitoneal margin, and pancreatic resection margin. Additionally, all 12 lymph nodes are negative for malignancy.
+
+Based on the American Joint Committee on Cancer (AJCC) staging system for pancreatic cancer, the tumor size and the involvement of the ampulla of Vater suggest that the tumor is T2 (tumor larger than 2 cm in greatest dimension, limited to the pancreas, but extending to the duodenum, bile duct, or peripancreatic tissues). The absence of lymph node involvement suggests that the tumor is N0 (no regional lymph node metastasis). The absence of distant metastasis suggests that the tumor is M0 (no distant metastasis).
+
+Therefore, the tumor stage is T2N0M0, which corresponds to Stage IIA according to the AJCC staging system for pancreatic cancer.
+
+Answer:
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIA""}"
+5,"The pathology report indicates that the tumor is an invasive ductal adenocarcinoma, moderately differentiated, and 2.8 cm in greatest dimension. The tumor extends beyond the pancreas to involve the peripancreatic soft tissue, duodenal wall, and superior mesenteric vein. Angiolymphatic and perineural invasion are present. The uncinate margin is involved by carcinoma, and multiple (2 of 19) lymph nodes are involved by metastatic carcinoma.
+
+According to the AJCC 7th edition staging system for pancreatic cancer, the T stage is determined by the size and extent of the primary tumor. The N stage is determined by the involvement of regional lymph nodes, and the M stage is determined by the presence or absence of distant metastasis.
+
+In this case, the T stage is T3 because the tumor extends beyond the pancreas and involves the superior mesenteric vein. The N stage is N1 because multiple regional lymph nodes are involved by metastatic carcinoma. Since there is no mention of distant metastasis in the report, the M stage is M0.
+
+Therefore, the overall stage of the cancer is Stage III (T3 N1 M0).
+
+Answer:
+
+Therefore, the answer is - 
+{""stage"" : ""Stage III""}"
+6,"The pathology report indicates that the patient underwent a pancreaticoduodenectomy (Whipple procedure) and cholecystectomy for an invasive ductal adenocarcinoma of the pancreas. The tumor size was 3.0 cm with additional dimensions of 2.0 x 2.0 cm. The tumor invaded the duodenal wall, peripancreatic soft tissues (anterior and inferior), extrapancreatic common bile duct, and other adjacent organs or structures (middle celiac vein). Perineural invasion was present. The margins were uninvolved by invasive carcinoma. No regional lymph nodes were involved, and 16 lymph nodes were examined. The pathologic stage was pT4N0.
+
+Based on the American Joint Committee on Cancer (AJCC) staging system for pancreatic cancer, the patient's tumor is classified as T4 due to its invasion of the celiac axis or the superior mesenteric artery (in this case, the middle celiac vein). The N0 classification indicates that no regional lymph nodes were involved. Therefore, the patient's cancer stage is IIB according to the AJCC 8th edition staging system. However, the answer choices provided do not include this option.
+
+Since the answer choices only include stages I, II, III, and IV, we can consider the following:
+
+* Stage I: T1-2, N0, M0 (tumor limited to the pancreas, no lymph node involvement, no distant metastasis)
+* Stage II: T3, N0, M0 or T1-3, N1, M0 (tumor extends beyond the pancreas but not to celiac axis or SMA, or tumor of any size with regional lymph node involvement, no distant metastasis)
+* Stage III: T4, N0-1, M0 or T1-4, N2, M0 (tumor involves celiac axis or SMA, or tumor of any size with involvement of 3 or more regional lymph nodes, no distant metastasis)
+* Stage"
+7,"The American Joint Committee on Cancer (AJCC) TNM staging system is widely used for cancer staging. In the provided pathology report, the TNM classification is given as pT3, pN1 (3/43), L1, Pn1.
+
+Let's break down the TNM classification:
+
+1. T (Tumor) describes the size of the original (primary) tumor and whether it has invaded nearby tissue. T3 means the tumor is larger than 4 cm and has invaded nearby organs or structures. In this case, it has invaded the duodenum and peripancreatic fatty tissue.
+2. N (Nodes) describes nearby (regional) lymph nodes that are involved. N1 means cancer has spread to 1 to 3 regional lymph nodes. Here, it has spread to 3 out of 46 lymph nodes.
+3. M (Metastasis) describes distant metastasis (spread of cancer from one part of the body to another). The M category is not mentioned in the report, which usually means M0 (no distant metastasis).
+4. L (Lymphatic invasion) and Pn (Perineural invasion) are additional factors that can affect the stage. L1 and Pn1 indicate the presence of lymphatic invasion and perineural invasion, respectively.
+
+Now, let's determine the stage based on the TNM classification:
+
+1. Stage I: T1-2, N0, M0 (Tumor is limited to the pancreas, has not spread to lymph nodes, and no distant metastasis)
+2. Stage II: T3, N0, M0 (Tumor has grown outside the pancreas but has not spread to nearby lymph nodes, and no distant metastasis)
+3. Stage III: T1-3, N1, M0 or T4, any N, M0 (Tumor has spread to 1-3 lymph nodes and may or may not have grown outside the pancreas, or the tumor has grown outside the pancreas and may or may not have spread to lymph nodes, but there is no distant metast"
+8,"The pathology report indicates that the patient underwent a partial pancreatectomy and splenectomy. The tumor was found in the pancreatic body, measuring 5.0 cm, and it extended beyond the pancreas, involving peripancreatic soft tissue. However, there was no angiolymphatic invasion, perineural invasion, or tumor necrosis. All surgical resection margins were negative for tumor, with a minimum tumor-free margin of 2.5 cm. Additionally, all 16 regional lymph nodes were negative for metastatic tumor.
+
+Based on the AJCC 7th edition (2010) staging system, the tumor is classified as T3 due to its extension beyond the pancreas and involvement of peripancreatic soft tissue. The N stage is N0 due to the absence of metastatic tumor in regional lymph nodes. Therefore, the overall stage is IIB, as per the AJCC staging system.
+
+However, the answer choices provided do not include stage IIB. The closest option is stage II, which corresponds to T3N0M0 in the AJCC staging system. Therefore, the answer is:
+
+## Answer
+The patient's tumor is classified as T3 due to its extension beyond the pancreas and involvement of peripancreatic soft tissue. The N stage is N0 due to the absence of metastatic tumor in regional lymph nodes. Therefore, the overall stage is IIB, as per the AJCC staging system. However, the closest answer choice provided is stage II, which corresponds to T3N0M0.
+
+Therefore, the answer is -
+{""stage"" : ""Stage II""}"
+9,"The pathology report indicates that the patient underwent a Whipple procedure, which is a surgical procedure to remove the head of the pancreas, the first part of the small intestine (duodenum), the gallbladder, and the bile duct. The pathology report also indicates that the patient was diagnosed with invasive grade 3 (of 4) ductal adenocarcinoma of the pancreas, which formed a solid mass measuring 3.3 x 3.2 x 2.6 cm. The tumor extended beyond the pancreas involving the peripancreatic soft tissue and duodenal submucosa. Angiolymphatic invasion and perineural invasion were present. However, tumor necrosis was absent, and all surgical resection margins were negative for tumor. Carcinoma in situ (low-grade PanIN) was present at the pancreatic margin. The adjacent non-neoplastic pancreatic parenchyma contained low-grade PanIN. Multiple (2 of 24) regional lymph nodes were positive for metastatic adenocarcinoma.
+
+Based on the American Joint Committee on Cancer (AJCC) 7th edition staging system for pancreatic cancer, the tumor size and extension, lymph node involvement, and distant metastasis are used to determine the stage of the cancer. In this case, the tumor size and extension correspond to T3 (tumor > 2 cm in greatest dimension and extends directly into the duodenum, bile duct, or peripancreatic soft tissue), the lymph node involvement corresponds to N1 (metastasis in 1-3 regional lymph nodes), and there is no evidence of distant metastasis (M0). Therefore, the patient's cancer stage is T3N1M0, which corresponds to Stage III according to the AJCC 7th edition staging system.
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
+10,"The pathology report indicates that the patient underwent a partial pancreatic and duodenum resection. The diagnosis reveals a moderately invasive adenocarcinoma that is 5.5 cm in size, involving the pancreas and focally involving the pancreatic resection margin. There is evidence of fat invasion, but no evidence of perineural or vascular invasion. All nine lymph nodes are positive for metastatic adenocarcinoma with extranodal extension. The tumor is also invading the muscular wall of the duodenum and common bile duct.
+
+Based on the American Joint Committee on Cancer (AJCC) staging system for pancreatic cancer, the tumor size and involvement of the pancreatic resection margin suggest that the tumor is at least T3. The involvement of nine positive lymph nodes indicates N2 disease. The absence of distant metastasis suggests M0 disease. Therefore, the patient's cancer stage is T3N2M0, which corresponds to Stage III according to the AJCC staging system.
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
+11,"The pathology report indicates that the patient has invasive ductal adenocarcinoma of the pancreas, which is well differentiated and measures 3.7 x 3.5 x 3.5 cm. The tumor invades peripancreatic soft tissues, retroperitoneal soft tissue, and the extrapancreatic common bile duct. The uncinate process (retroperitoneal) margin and common bile duct margin are involved by invasive carcinoma. Lymphatic invasion, venous invasion, and perineural invasion are present. Ten out of twenty-four lymph nodes are involved by metastatic adenocarcinoma.
+
+Based on the AJCC staging system for pancreatic cancer, the tumor is classified as T3 due to its extension beyond the pancreas without involvement of the celiac axis or the superior mesenteric artery. The lymph node involvement is classified as N1 due to the involvement of 10 out of 24 lymph nodes. Therefore, the overall stage of the cancer is Stage III (pT3 N1 M0).
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
+12,"The pathology report indicates that the tumor is a moderately differentiated adenocarcinoma of pancreatic ductal origin. The tumor size is 1.5 cm and it extends beyond the pancreas but without involvement of the celiac axis or the superior mesenteric artery, which corresponds to pT3. The report also mentions that there is metastasis in a single regional lymph node (pN1a) and that the margins are free of tumor. Additionally, there is venous (large vessel) invasion present (V1) and lymphatic (small vessel) invasion present (L1).
+
+Based on the American Joint Committee on Cancer (AJCC) staging system for pancreatic cancer, the tumor stage can be determined as follows:
+
+* Stage I: Tumor limited to the pancreas, no lymph node involvement, and no distant metastasis.
+* Stage II: Tumor extends beyond the pancreas but without involvement of the celiac axis or the superior mesenteric artery, and/or regional lymph node involvement, but no distant metastasis.
+* Stage III: Tumor involves the celiac axis or the superior mesenteric artery, and/or unresectable regional lymph node involvement, and/or distant metastasis to nearby organs or lymph nodes.
+* Stage IV: Distant metastasis to distant organs or distant lymph nodes.
+
+Given the information in the pathology report, the tumor stage is pT3, pN1a, and pMX (cannot be assessed). This corresponds to Stage IIB according to the AJCC staging system for pancreatic cancer. However, the answer choices provided do not include Stage IIB as an option.
+
+Therefore, based on the available answer choices, the closest stage that matches the pathology report is:
+
+## Answer
+The tumor extends beyond the pancreas but without involvement of the celiac axis or the superior mesenteric artery, and there is regional lymph node involvement. This corresponds to Stage II according to the AJCC staging system for pancreatic cancer. However, it is"
+13,"The pathology report provides detailed information about the patient's pancreatic cancer. To determine the AJCC stage of the cancer, we need to consider the TNM classification provided in the report.
+
+1. Tumor size (T): The tumor size is 2.8 x 2 x 1.7 cm, and it has invaded the duodenal wall and mucosa. According to the AJCC 7th edition staging system, this corresponds to T3.
+2. Lymph nodes (N): Two out of ten lymph nodes are involved with metastatic adenocarcinoma (2/11). This corresponds to N1.
+3. Distant metastasis (M): The report states that distant metastasis is not applicable (MX). However, since the report does not explicitly state that there is no distant metastasis, we cannot assume that M is negative.
+
+Based on the TNM classification, the patient's cancer can be staged as follows:
+
+1. Stage I: T1-2, N0, M0
+2. Stage II: T3, N0, M0
+3. Stage III: T1-3, N1, M0 or T4, N0-1, M0
+4. Stage IV: Any T, Any N, M1
+
+Since the patient's tumor is T3, N1, and MX, the cancer stage is Stage III.
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
+14,"The pathology report indicates that the patient underwent a Whipple procedure for pancreatic adenocarcinoma. The tumor size was 4.0 x 2.7 x 2.7 cm, and it was moderately differentiated (G2). The margins were involved by invasive tumor (uncinate & posterior retroperitoneal surface). Lymph-vascular invasion and perineural invasion were present. The pathologic staging (pTNM) was pT3, N1, R1.
+
+The TNM staging system for pancreatic cancer is as follows:
+
+* T1: Tumor limited to the pancreas, ≤2 cm in greatest dimension
+* T2: Tumor limited to the pancreas, >2 cm in greatest dimension
+* T3: Tumor extends beyond the pancreas but without involvement of the celiac axis or the superior mesenteric artery
+* T4: Tumor involves the celiac axis or the superior mesenteric artery
+* N0: No regional lymph node metastasis
+* N1: Regional lymph node metastasis
+* M0: No distant metastasis
+* M1: Distant metastasis
+
+Based on the information provided in the pathology report, the patient's tumor was classified as pT3, indicating that it extends beyond the pancreas. The report also indicates that there was regional lymph node metastasis (pN1). Therefore, the patient's cancer is at least stage III.
+
+The AJCC staging system for pancreatic cancer is as follows:
+
+* Stage IA: T1, N0, M0
+* Stage IB: T2, N0, M0
+* Stage IIA: T3, N0, M0
+* Stage IIB: T1-3, N1, M0
+* Stage III: T4, N0-1, M0
+* Stage IV: Any T, Any N, M1
+
+Based on the AJCC staging system, the patient's cancer is stage III because it is classified as T3, N1, M0.
+
+Therefore, the answer"
+15,"## Answer
+The pathology report indicates that the tumor is an invasive adenocarcinoma of the pancreas with transmural involvement of the duodenum and invasion of the peri-pancreatic soft tissue. The tumor size is 3.0 cm and it is unifocal. The tumor site is the head of the pancreas. Three out of twenty-two peri-pancreatic nodes are positive for metastatic disease. The TNM stage is pT3, pN1, pMX. Lymphatic invasion and perineural invasion are seen. The tumor is focally close (<1 mm) to the inked soft tissue margin in the area of the superior mesenteric vein. The pancreatic parenchymal, duodenal, and common bile duct margins are negative for carcinoma.
+
+Based on the TNM staging system, the tumor is classified as T3 because it directly invades the superior mesenteric vein. It is classified as N1 because there are metastases in 3 out of 22 regional lymph nodes. The MX classification means that distant metastasis cannot be assessed.
+
+Therefore, according to the AJCC staging system, the tumor is classified as Stage III (T3, N1, MX).
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
+16,"The pathology report indicates that the patient underwent a Whipple resection (pancreaticoduodenectomy) for likely pancreatic cancer. The final diagnosis revealed an invasive moderately-differentiated ductal adenocarcinoma in the pancreas. The tumor invaded peripancreatic soft tissues and retroperitoneal soft tissue. The uncinate process (retroperitoneal) margin was involved by invasive carcinoma. Perineural invasion was present. However, there was no lymph-vascular invasion, and no regional lymph node metastasis was found (pN0) after examining 15 lymph nodes.
+
+Based on the American Joint Committee on Cancer (AJCC) 8th edition staging for pancreatic cancer, the primary tumor (pT) is classified as pT3 since it extends beyond the pancreas but without involvement of the celiac axis or the superior mesenteric artery. The absence of regional lymph node metastasis (pN0) is also noted.
+
+Therefore, considering the pT3 and pN0 status, the patient's cancer stage is:
+
+C) Stage III"
+17,"The pathology report indicates that the tumor is a ductal adenocarcinoma, which is poorly differentiated (G3). The primary tumor (pT) is classified as pT2, meaning it is limited to the pancreas and is more than 2 cm in greatest dimension. There is evidence of perineural invasion, but no lymph-vascular invasion. The regional lymph nodes (pN) are classified as pN1, indicating regional lymph node metastasis. The number of lymph nodes examined was 1, and 1 lymph node was positive for metastasis.
+
+Based on the American Joint Committee on Cancer (AJCC) staging system for pancreatic cancer, the tumor stage can be determined as follows:
+
+* Stage I: Tumor limited to the pancreas, no lymph node metastasis
+* Stage II: Tumor limited to the pancreas, with regional lymph node metastasis OR tumor extends beyond the pancreas but does not involve the celiac axis or superior mesenteric artery
+* Stage III: Tumor involves the celiac axis or superior mesenteric artery OR unresectable regional lymph node metastasis
+* Stage IV: Distant metastasis
+
+Given the information in the pathology report, the tumor stage is classified as Stage II, as it is limited to the pancreas with regional lymph node metastasis.
+
+Therefore, the answer is -
+{""stage"" : ""Stage II""}"
+18,"The pathology report provides detailed information about the patient's pancreatic cancer. To determine the AJCC stage of the cancer, we can use the TNM staging system outlined in the report.
+
+1. Tumor size and extent (T): The tumor is 6 X 4.5 X 3.4 cm and located in the head of the pancreas. It extends to occlude the pancreatic duct, abuts the common bile duct, and shows invasion into the adjacent duodenal wall up to the duodenal submucosa. The retroperitoneal margin of resection is positive for adenocarcinoma. Based on these findings, the T stage is T3.
+2. Lymph nodes (N): The report states that multiple (21) regional lymph nodes are negative for malignancy. Therefore, the N stage is N0.
+3. Distant metastasis (M): The report indicates that there is no distant metastasis (M0).
+
+Based on the TNM staging system, the final pathologic stage is T3N0M0. According to the AJCC staging manual, this corresponds to stage IIA.
+
+Therefore, the answer is -
+{""stage"" : ""Stage IIA""}"
+19,"The pathology report indicates that the patient was diagnosed with pancreatic invasive well-differentiated ductal adenocarcinoma, which is a type of pancreatic cancer. The tumor size is approximately 3.5 cm, and it involves the common bile duct, peripancreatic fat, and tissue around the superior mesentery vein. Additionally, there is extensive perineural invasion, but no lymph-vascular invasion was identified. The pancreatic distal resection margin is involved by carcinoma, and five out of ten peripancreatic lymph nodes are positive for metastatic carcinoma with extranodal extension. The AJCC staging is pT4N1Mx.
+
+Based on the AJCC staging system, the ""T"" category refers to the size and extent of the primary tumor, the ""N"" category refers to the involvement of regional lymph nodes, and the ""M"" category refers to the presence of distant metastasis. In this case, the patient's tumor is classified as pT4, which means that it involves the celiac axis or the superior mesenteric artery. The ""N"" category is pN1, which indicates that there are regional lymph node metastases. The ""M"" category is Mx, which means that the presence of distant metastasis cannot be assessed.
+
+Therefore, based on the AJCC staging system, the patient's cancer can be classified as stage III, which is defined as a tumor that is resectable and has spread to regional lymph nodes (pT1-3N1M0 or pT4N0-1M0).
+
+Answer:
+
+Therefore, the answer is - 
+{""stage"" : ""Stage III""}"
+20,"The pathology report indicates that the primary tumor (T) is classified as T3, meaning it extends beyond the pancreas but without involvement of the celiac axis or the superior mesenteric artery. The regional lymph nodes (N) are classified as N1, indicating that there is regional lymph node metastasis. The number of lymph nodes examined is 12, and the number of lymph nodes involved is 1. The report does not provide information on distant metastasis (M).
+
+Based on the American Joint Committee on Cancer (AJCC) staging system for pancreatic cancer, the patient's cancer can be staged as follows:
+
+* Stage I: T1-2, N0, M0
+* Stage II: T3, N0, M0 or T1-3, N1, M0
+* Stage III: T4, N0-1, M0 or T1-3, N2, M0
+* Stage IV: Any T, Any N, M1
+
+Since the patient's tumor is classified as T3 and N1, the cancer stage is Stage II.
+
+Therefore, the answer is -
+{""stage"" : ""Stage II""}"
+21,"The pathology report indicates that the tumor is an invasive moderately differentiated ductal adenocarcinoma located in the pancreatic head, measuring 4.6 x 2.3 x 2.0 cm. The tumor extends beyond the pancreas to involve the peripancreatic soft tissue and exhibits perineural invasion. The uncinate margin tissue shows metastatic adenocarcinoma to a lymph node with soft tissue extension. The tumor is 0.1 cm from the portal vein groove. Multiple regional lymph nodes (7 of 15) are involved by metastatic adenocarcinoma. The AJCC stage (with available surgical material) is pT3N1 (7th edition).
+
+Based on the AJCC Cancer Staging Manual (7th edition), the TNM classification for this patient is:
+
+* T3: The tumor extends beyond the pancreas but without involvement of the celiac axis or the superior mesenteric artery.
+* N1: Metastasis in 1 to 3 regional lymph nodes.
+
+According to the AJCC stage grouping, the stage for this patient is:
+
+* Stage III: T3, N1, M0
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
+22,"The pathology report indicates that the patient underwent a Whipple procedure for an intraductal papillary mucinous neoplasm (IPMN) of the pancreas. The final diagnosis was invasive carcinoma within the background of an IPMN. The tumor was well differentiated and measured at least 4.5 cm. It extended into the duodenal wall and showed focal perineural invasion. One out of nine lymph nodes examined contained metastatic carcinoma. Based on this information, the tumor can be staged according to the American Joint Committee on Cancer (AJCC) 8th edition staging system for pancreatic cancer as follows:
+
+1. Tumor size: T3 (>4 cm)
+2. Tumor extension: T3 (extension to duodenum)
+3. Lymph node involvement: N1 (metastasis in 1-3 regional lymph nodes)
+4. Distant metastasis: M0 (no distant metastasis)
+
+Therefore, the overall stage is IIB (T3 N1 M0). However, the answer choices provided do not include this option. The closest option is:
+
+C) Stage III
+
+This is because Stage III pancreatic cancer includes tumors that are locally advanced and/or have spread to regional lymph nodes but have not metastasized to distant sites. While the exact criteria for Stage III vary depending on the staging system used, the presence of lymph node metastasis and a large tumor size suggest that this patient's cancer is at least Stage III.
+
+Therefore, the answer is -
+{""stage"" : ""Stage III""}"
