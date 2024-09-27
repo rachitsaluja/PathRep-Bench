@@ -3,7 +3,8 @@
 source activate HF-runner
 
 #cd ./benchmarks/Task1_Disease/
-cd ./benchmarks/Task2_Stage/
+#cd ./benchmarks/Task2_Stage/
+cd ./extras/
 
 #python preds-llama3-8b.py
 #python preds-llama3-70b.py
@@ -14,5 +15,7 @@ cd ./benchmarks/Task2_Stage/
 #python preds-gpt-4o.py
 #python preds-llama3-8b.py
 #python preds-llama3-70b.py
-python preds-mistral-large.py
-python preds-mistral-medium.py
+#python preds-mistral-large.py
+#python preds-mistral-medium.py
+
+python summarization.py

@@ -14,9 +14,9 @@ from openai import OpenAI
 class Config:
     REPETITIONS = 1
     ENV_LOC = "../.env"
-    TEST_SET_LOC = "../data/val.csv"
+    TEST_SET_LOC = "../data/test.csv"
     API_MODEL = "gpt-4o-mini-2024-07-18"
-    OUTPUT_DIR = "./val-summarization"
+    OUTPUT_DIR = "./test-summarization"
 
     @staticmethod
     def load_env():
@@ -60,7 +60,7 @@ You will always be truthful and will not say anything this is factually false. Y
         now = datetime.now()
         timestamp = now.strftime("%Y-%m-%d_%H-%M-%S")
         os.makedirs(Config.OUTPUT_DIR, exist_ok=True)
-        filename = f"{Config.OUTPUT_DIR}/val-summarization-{timestamp}.csv"
+        filename = f"{Config.OUTPUT_DIR}/test-summarization-{timestamp}.csv"
         pd.DataFrame({"slno": range(len(answers)), "preds": answers}).to_csv(
             filename, index=False)
         print(f"Completed Run {i+1}")
