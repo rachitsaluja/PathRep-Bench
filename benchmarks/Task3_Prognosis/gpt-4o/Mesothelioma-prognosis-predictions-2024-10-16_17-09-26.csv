@@ -1,0 +1,91 @@
+slno,preds
+0,"To determine if the patient will survive after 1.78 years based on the provided pathology report, we need to analyze the details given:
+
+1. **Diagnosis**: The report indicates malignant mesothelioma in the left pleura. Mesothelioma is a serious and aggressive cancer, often associated with poor prognosis.
+
+2. **Histological Patterns**: The presence of both epithelioid and sarcomatoid patterns is noted. Epithelioid mesothelioma generally has a better prognosis compared to sarcomatoid mesothelioma, which is more aggressive and associated with a worse outcome.
+
+3. **Asbestos Exposure**: The clinical history notes asbestos exposure, which is a known risk factor for mesothelioma and often correlates with a more aggressive disease course.
+
+4. **Microscopic Features**: The report describes nuclear pleomorphism and apoptotic cells, which are indicative of aggressive tumor behavior.
+
+5. **Immunohistochemical Staining**: The positive markers for cytokeratin 5/6, calretinin, and WT-1 confirm the diagnosis of mesothelioma. The different staining patterns in the sarcomatoid component suggest a more complex and potentially aggressive tumor.
+
+Considering these factors, particularly the presence of sarcomatoid patterns and asbestos exposure, the prognosis is likely poor. Therefore, it is reasonable to conclude that the patient may not survive after 1.78 years.
+
+Answer - {""Survival"": ""False""}"
+1,"To determine the likelihood of survival after 1.78 years for a patient with the given pathology report, we need to consider the following details:
+
+1. **Diagnosis**: The report indicates a diagnosis of epithelioid malignant mesothelioma, which is a type of cancer that affects the lining of the lungs (pleura). This type of mesothelioma is generally associated with a poor prognosis.
+
+2. **Immunohistochemical Profile**: The tumor cells are positive for calretinin, WT-1, and D2-40, which are markers consistent with mesothelioma. The negativity for CEA, CD15, MOC31, CK5/6, and mesothelin helps to rule out other types of cancer, confirming the diagnosis of mesothelioma.
+
+3. **Clinical History**: The presence of a pleural-based mass supports the diagnosis of mesothelioma.
+
+4. **Prognosis**: Epithelioid mesothelioma is known to have a better prognosis compared to other subtypes like sarcomatoid mesothelioma. However, the overall prognosis for mesothelioma remains poor, with many patients not surviving beyond 1-2 years after diagnosis.
+
+Based on the information provided, the diagnosis of epithelioid malignant mesothelioma suggests a serious condition with a generally poor prognosis. However, given that epithelioid mesothelioma has a relatively better prognosis compared to other subtypes, there is a possibility of survival beyond 1.78 years, especially if the disease is detected early and treated aggressively.
+
+Answer - {""Survival"": ""True""}"
+2,"To determine if the patient will survive after 1.78 years based on the provided pathology report, let's analyze the details:
+
+1. **Diagnosis**: The report indicates a diagnosis of epithelioid malignant mesothelioma, which is a type of cancer that affects the pleura (lining of the lungs). This type of mesothelioma is known for its aggressive nature and poor prognosis.
+
+2. **Biopsy Findings**: The biopsies show infiltration by an epithelioid tumor, consistent with malignant mesothelioma. The presence of large malignant pleural effusions suggests advanced disease.
+
+3. **Immunohistochemical Profile**: The tumor cells express CK5/6, WT-1, and calretinin, which are markers consistent with mesothelioma. The lack of expression of CK7, CEA, and TTF-1 helps rule out other types of cancer, such as lung adenocarcinoma.
+
+4. **Prognosis**: Epithelioid mesothelioma, while slightly better in prognosis compared to other mesothelioma subtypes like sarcomatoid, still generally has a poor prognosis. The presence of large pleural effusions and the confirmed diagnosis of malignant mesothelioma suggest an advanced stage of the disease.
+
+Based on these factors, the likelihood of survival beyond 1.78 years is low, given the aggressive nature of the disease and the advanced stage indicated by the findings.
+
+Answer - {""Survival"": ""False""}"
+3,"To determine the likelihood of survival after 1.78 years based on the provided pathology report, let's analyze the key findings:
+
+1. **Epithelioid Mesothelioma**: This is a type of malignant mesothelioma, which is generally associated with a poor prognosis.
+
+2. **Infiltration and Invasion**: The report indicates infiltration of the parietal pleura, right lung, and skeletal muscle, with angiolymphatic invasion. This suggests an aggressive and advanced disease.
+
+3. **Pleural Margins Involved**: The involvement of pleural margins by neoplasia indicates that the tumor has spread extensively within the pleural cavity.
+
+4. **Lymph Node Metastasis**: Metastasis is present in all four dissected subcarinal lymph nodes and in two out of three esophageal lymph nodes. The presence of metastasis in lymph nodes is a significant indicator of advanced disease and poor prognosis.
+
+5. **Capsular Transposition**: This is noted in the subcarinal lymph nodes, indicating further spread of the disease.
+
+6. **No Perineural Invasion**: While this is a positive finding, it does not outweigh the other negative prognostic factors.
+
+7. **Bronchial Margin Uninvolved**: This is another positive finding, but again, it does not significantly alter the overall prognosis given the other findings.
+
+Overall, the presence of extensive infiltration, angiolymphatic invasion, and lymph node metastasis suggests a poor prognosis. Therefore, it is unlikely that the patient will survive after 1.78 years.
+
+Answer - {""Survival"": ""False""}"
+4,"To determine the likelihood of survival after 1.78 years for a patient with this pathology report, we need to consider several factors:
+
+1. **Diagnosis**: The patient has malignant mesothelioma, epithelial type. This type of mesothelioma is generally associated with a better prognosis compared to other types, such as sarcomatoid mesothelioma.
+
+2. **Metastasis**: The report indicates metastasis in multiple lymph nodes and tissues, including the right pleura, diaphragm, and a pericardial nodule. The presence of metastasis, especially in multiple lymph nodes and tissues, typically indicates a more advanced stage of cancer, which is associated with a poorer prognosis.
+
+3. **Invasive Characteristics**: The tumor exhibits invasive characteristics, coming within 1 mm of skeletal muscle margins. This suggests aggressive behavior of the tumor, which can negatively impact survival.
+
+4. **Micropapillary Predominant Pattern**: This pattern is often associated with a more aggressive form of cancer and can be indicative of a worse prognosis.
+
+Given these factors, particularly the presence of metastasis in multiple lymph nodes and tissues, the invasive nature of the tumor, and the micropapillary pattern, it is likely that the prognosis is poor. Therefore, the likelihood of survival after 1.78 years is low.
+
+Answer - {""Survival"": ""False""}"
+5,"To determine the likelihood of survival after 1.78 years for this patient, we need to consider the details provided in the pathology report:
+
+1. **Diagnosis**: The report indicates the presence of malignant mesothelioma, which is a serious and aggressive cancer.
+
+2. **Types of Mesothelioma**: The report mentions mixed epithelial and sarcomatoid types. Sarcomatoid mesothelioma is known to be more aggressive and has a poorer prognosis compared to the epithelial type.
+
+3. **Extent of Disease**: The mesothelioma is present in multiple specimens, including the right chest wall, pleura, and pericardium. This indicates a widespread disease affecting critical structures in the chest.
+
+4. **Necrosis and Invasion**: The presence of extensive necrosis and invasion into surrounding tissues suggests an aggressive tumor behavior, which typically correlates with a worse prognosis.
+
+5. **Negative Findings**: The skin excision, rib fragments, and one paratracheal lymph node were negative for tumor. While this is a positive finding, it does not significantly alter the overall aggressive nature of the disease.
+
+6. **Overall Assessment**: The findings suggest a significant and aggressive malignancy affecting the chest wall and associated structures, which generally indicates a poor prognosis.
+
+Given the aggressive nature of the disease, the presence of sarcomatoid components, and the extensive invasion, it is unlikely that the patient will survive after 1.78 years.
+
+Answer - {""Survival"": ""False""}"

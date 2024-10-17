@@ -1,0 +1,390 @@
+slno,preds
+0,"To determine if the patient will survive after 1.59 years, we need to analyze the pathology report in detail:
+
+1. **Tumor Characteristics**: The report indicates a moderately differentiated adenocarcinoma of the pancreatic head, measuring 4.5 cm. The tumor has invaded the duodenal wall and peripancreatic soft tissues. The size and invasion suggest an advanced local disease.
+
+2. **Lymph Node Involvement**: Metastatic adenocarcinoma is found in 2 out of 11 regional lymph nodes. The presence of lymph node metastasis is a significant factor that can negatively impact prognosis.
+
+3. **Margins**: The pancreatic duct margin showed carcinoma in situ suspicious for stromal invasion. This suggests that there might be residual disease, which can affect the likelihood of recurrence and survival.
+
+4. **Other Findings**: The liver biopsies show benign tissue with no carcinoma, which is a positive finding. The gallbladder shows focal chronic cholecystitis, and the common bile duct margin is free of carcinoma, which are also positive findings.
+
+5. **Overall Assessment**: The presence of lymph node metastasis and potential residual disease at the pancreatic duct margin are concerning for the patient's prognosis. While the absence of liver metastasis and negative margins at other sites are positive, the factors indicating advanced disease and lymph node involvement suggest a poorer prognosis.
+
+Based on these considerations, the likelihood of survival beyond 1.59 years is reduced due to the advanced stage of the disease and lymph node involvement.
+
+Answer - {""Survival"": ""False""}"
+1,"To determine the likelihood of survival after 1.59 years for this patient, we need to consider several factors from the pathology report:
+
+1. **Tumor Type and Differentiation**: The patient has moderately differentiated pancreatic ductal adenocarcinoma. Moderately differentiated tumors generally have a better prognosis than poorly differentiated ones.
+
+2. **Tumor Size and Location**: The tumor is 2.5 cm and located in the head of the pancreas. Tumor size is relatively small, which is favorable.
+
+3. **Staging**: The cancer is staged as pT3 pN1, stage IIB. This indicates that the tumor extends beyond the pancreas (T3) and there is regional lymph node involvement (N1), but no distant metastasis (M0). Stage IIB is considered an advanced stage but not the most advanced.
+
+4. **Perineural Invasion**: The presence of perineural invasion is a negative prognostic factor, as it suggests a more aggressive tumor behavior.
+
+5. **Angiolymphatic Invasion**: The absence of angiolymphatic invasion is a positive factor, as it suggests less likelihood of spread through blood vessels or lymphatics.
+
+6. **Surgical Margins**: The surgical margins are negative for invasive carcinoma, which is a positive factor, indicating that the tumor was likely completely resected. However, the closest margin is only 0.1 cm away, which is quite close and may increase the risk of recurrence.
+
+7. **Lymph Node Involvement**: One out of 23 regional lymph nodes shows metastasis. While any lymph node involvement is a negative factor, the fact that only one node is involved out of many examined is relatively favorable.
+
+8. **Distant Metastasis**: There is no evidence of distant metastasis, which is a positive factor for survival.
+
+Considering these factors, the patient has a moderately advanced stage of pancreatic cancer with some negative prognostic factors (perineural invasion, lymph node involvement) but also some positive factors (negative surgical margins, no distant metastasis, limited lymph node involvement). While pancreatic cancer generally has a poor prognosis, the absence of distant metastasis and the relatively small tumor size with negative margins suggest a possibility of survival beyond 1.59 years.
+
+Answer - {""Survival"": ""True""}"
+2,"To determine the likelihood of survival after 1.59 years based on the pathology report, let's analyze the key findings:
+
+1. **Tumor Differentiation and Size**: The report describes a moderate to poorly-differentiated invasive pancreatic duct carcinoma measuring approximately 6.0 cm. Poor differentiation and larger tumor size are generally associated with a worse prognosis.
+
+2. **Surgical Margins**: The report indicates positive margins at the uncinate process and pancreaticoduodenal soft tissue. Positive surgical margins suggest that not all cancerous tissue was removed, which increases the risk of recurrence and negatively impacts survival.
+
+3. **Lymph Node Involvement**: Metastatic carcinoma is identified in four out of eleven lymph nodes. Lymph node involvement is a significant factor in staging and prognosis, indicating that the cancer has spread beyond the primary site.
+
+4. **Other Findings**: The para-aortic lymph node shows reactive tissue without malignancy, which is a positive finding, but the presence of metastatic carcinoma in other lymph nodes is more critical for prognosis.
+
+Considering these factors, the presence of a large, poorly differentiated tumor with positive margins and lymph node metastasis suggests a poor prognosis. These findings typically correlate with a lower likelihood of survival beyond 1.59 years.
+
+Answer - {""Survival"": ""False""}"
+3,"To determine the likelihood of survival after 1.59 years based on the pathology report, let's analyze the key findings:
+
+1. **Tumor Characteristics**: The report describes a moderately differentiated ductal adenocarcinoma of the pancreas, measuring 4 cm. The tumor invades the muscularis propria of the duodenum and extends into peripancreatic fat. This indicates a locally advanced tumor.
+
+2. **Margins**: The tumor is at the pancreatic neck margin and extends to the proximal duodenal margin. Positive or close margins can be concerning as they may indicate residual disease post-surgery.
+
+3. **Perineural Invasion**: The presence of perineural invasion is a negative prognostic factor, as it suggests a higher likelihood of local recurrence.
+
+4. **Lymph Nodes**: All 12 examined lymph nodes are negative for malignancy, which is a favorable finding, as lymph node involvement is a significant predictor of poor prognosis.
+
+5. **AJCC Staging**: The tumor is classified as AJCC stage pT3 pN0 Mx. The T3 stage indicates the tumor extends beyond the pancreas, but the N0 stage indicates no regional lymph node metastasis. The Mx indicates that distant metastasis cannot be assessed.
+
+Considering these factors:
+- The absence of lymph node involvement (N0) is a positive prognostic factor.
+- The presence of perineural invasion and involvement of surgical margins are negative prognostic factors.
+- The tumor's local advancement (T3) and its extension to critical margins are concerning.
+
+Overall, while there are some negative prognostic factors, the absence of lymph node involvement is a significant positive factor. Given the mixed prognostic indicators, the likelihood of survival beyond 1.59 years is uncertain but possible.
+
+Answer - {""Survival"": ""True""}"
+4,"To determine the likelihood of survival after 1.59 years based on the pathology report, let's analyze the key findings:
+
+1. **Tumor Characteristics**: The report indicates a moderately differentiated ductal adenocarcinoma in the head of the pancreas, measuring approximately 3.0 cm. Moderately differentiated tumors generally have a better prognosis than poorly differentiated ones.
+
+2. **Invasion**: There is no perineural or angiolymphatic invasion reported. The absence of these invasions is a positive prognostic factor, as such invasions are associated with a higher risk of recurrence and metastasis.
+
+3. **Margins**: The surgical margins are negative for malignancy, which suggests that the tumor was completely resected. Negative margins are associated with a better prognosis.
+
+4. **Lymph Nodes**: All 12 lymph nodes examined are negative for malignancy. The absence of lymph node involvement is a significant positive prognostic factor, as lymph node metastasis is associated with a worse outcome.
+
+5. **Additional Findings**: Chronic pancreatitis is noted, but this does not directly impact the prognosis of the adenocarcinoma.
+
+Considering these factors, the absence of lymph node involvement, negative margins, and no perineural or angiolymphatic invasion suggest a relatively favorable prognosis. Therefore, it is reasonable to conclude that the patient is likely to survive beyond 1.59 years.
+
+Answer - {""Survival"": ""True""}"
+5,"To determine the likelihood of survival after 1.59 years for this patient, we need to consider several factors from the pathology report:
+
+1. **Tumor Characteristics**: The patient has invasive ductal adenocarcinoma, which is moderately differentiated. The tumor measures 2.8 cm and is located in the uncinate process of the pancreas. It extends into the peripancreatic soft tissue, the duodenal wall, and the superior mesenteric vein. The presence of angiolymphatic and perineural invasion indicates aggressive tumor behavior.
+
+2. **Margins and Lymph Node Involvement**: The tumor involves the uncinate margin, which suggests that the surgical resection may not have been complete, leaving residual tumor tissue. There is metastasis to 2 out of 19 lymph nodes, indicating regional spread of the cancer.
+
+3. **Staging**: The AJCC stage is pT3 N1. T3 indicates that the tumor extends beyond the pancreas, and N1 indicates regional lymph node involvement. This stage suggests a more advanced disease with a higher risk of recurrence and metastasis.
+
+4. **Other Findings**: The common bile duct margin is negative for tumor, which is a positive finding, and the gallbladder shows chronic cholecystitis without tumor involvement, which is not directly related to the prognosis of the pancreatic cancer.
+
+Considering these factors, the presence of lymph node metastasis, involvement of the uncinate margin, and angiolymphatic and perineural invasion are significant negative prognostic indicators. These suggest a higher likelihood of disease recurrence and progression, which adversely affects survival.
+
+Based on the information provided, the likelihood of survival after 1.59 years is low.
+
+Answer - {""Survival"": ""False""}"
+6,"To determine the likelihood of survival after 1.59 years based on the pathology report, let's analyze the key findings:
+
+1. **Diagnosis**: The patient has invasive moderately differentiated ductal adenocarcinoma of the pancreas, which is a type of pancreatic cancer.
+
+2. **Tumor Size**: The tumor measures 3.0 cm, which is a moderate size for pancreatic tumors.
+
+3. **Perineural Invasion**: The presence of perineural invasion indicates that the cancer has invaded the nerves, which is often associated with a more aggressive disease and can negatively impact prognosis.
+
+4. **Margins**: The report indicates positive margins in the middle celiac vein region. Positive surgical margins mean that cancerous cells are present at the edge of the removed tissue, suggesting that not all of the cancer was removed during surgery. This is a negative prognostic factor as it increases the risk of recurrence.
+
+5. **Lymph Nodes**: All examined lymph nodes are negative for malignancy, which is a positive finding as it suggests that the cancer has not spread to the lymphatic system.
+
+6. **Additional Findings**: The liver biopsy is negative for malignancy, and there are no histopathologic abnormalities in the stomach and duodenum. Chronic cholecystitis in the gallbladder is noted but is not malignant.
+
+Considering these factors, the presence of perineural invasion and positive surgical margins are significant negative prognostic indicators. While the absence of lymph node involvement is a positive factor, the overall prognosis is likely poor due to the aggressive nature of the disease and incomplete surgical resection.
+
+Therefore, based on the information provided, it is unlikely that the patient will survive after 1.59 years.
+
+Answer - {""Survival"": ""False""}"
+7,"The pathology report describes a 4 cm moderately to poorly differentiated ductal adenocarcinoma of the pancreatic head. Key factors to consider in determining the patient's survival after 1.59 years include:
+
+1. **Tumor Differentiation**: The tumor is moderately to poorly differentiated, which generally indicates a more aggressive cancer with a worse prognosis compared to well-differentiated tumors.
+
+2. **Tumor Invasion**: The tumor has infiltrated the duodenum and surrounding fatty tissue, which suggests a locally advanced disease.
+
+3. **Perineural Invasion and Lymphangiosis Carcinomatosis**: Both are indicators of aggressive tumor behavior and are associated with a higher likelihood of recurrence and metastasis.
+
+4. **Lymph Node Involvement**: Tumor involvement in three out of 46 lymph nodes indicates regional spread, which is a negative prognostic factor.
+
+5. **Resection Margin**: The minimal distance of less than 0.1 cm to the soft tissue resection margin suggests that the tumor is very close to the margin, raising concerns about complete resection and potential residual disease.
+
+6. **Other Findings**: The presence of PanIN 1-2 lesions and chronic obstructive pancreatitis in the remaining pancreatic tissue are not directly related to survival but indicate underlying pancreatic pathology. The gall bladder being free of tumor is a positive finding but does not significantly impact the overall prognosis.
+
+Considering these factors, particularly the poor differentiation, local invasion, perineural invasion, lymph node involvement, and close resection margins, the prognosis is likely poor. Therefore, the likelihood of survival beyond 1.59 years is low.
+
+Answer - {""Survival"": ""False""}"
+8,"To determine the likelihood of survival after 1.59 years based on the pathology report, let's analyze the key findings:
+
+1. **Tumor Characteristics**: The report identifies a 5.0 cm invasive moderately differentiated ductal adenocarcinoma in the pancreatic body. The tumor extends beyond the pancreas into peripancreatic soft tissue, which is consistent with a pT3 classification. However, there is no angiolymphatic or perineural invasion, which are typically poor prognostic factors.
+
+2. **Lymph Node Involvement**: All 16 regional lymph nodes examined are negative for metastatic tumor, indicating no lymph node involvement (N0). The absence of lymph node metastasis is generally associated with a better prognosis.
+
+3. **Surgical Margins**: All surgical margins from the celiac artery and pancreatic neck are negative for malignancy, suggesting that the tumor was completely resected, which is a positive prognostic factor.
+
+4. **AJCC Staging**: The classification is pT3 N0, indicating a tumor that extends beyond the pancreas but without regional lymph node metastasis. This stage suggests a localized disease without distant spread.
+
+Considering these factors, the absence of lymph node involvement, negative surgical margins, and lack of angiolymphatic or perineural invasion are favorable indicators for survival. While the tumor size and extension beyond the pancreas are concerning, the overall findings suggest a reasonable chance of survival beyond 1.59 years.
+
+Answer - {""Survival"": ""True""}"
+9,"To determine the likelihood of survival after 1.59 years based on the pathology report, let's analyze the key findings:
+
+1. **Tumor Type and Grade**: The report indicates invasive grade 3 ductal adenocarcinoma in the head of the pancreas. Grade 3 tumors are poorly differentiated, which generally suggests a more aggressive cancer with a worse prognosis compared to lower-grade tumors.
+
+2. **Lymph Node Involvement**: Two out of twenty-four regional lymph nodes are positive for metastatic adenocarcinoma. The presence of lymph node metastasis indicates that the cancer has started to spread beyond the primary site, which can negatively impact prognosis.
+
+3. **Surgical Margins**: All surgical resection margins are negative for tumor, which is a positive factor as it suggests that the tumor was completely resected during surgery.
+
+4. **Pancreatic Intraepithelial Neoplasia (PanIN)**: Low-grade PanIN is present at the pancreatic neck margin, but it is negative for malignancy. This finding is not directly related to the invasive cancer prognosis but indicates precancerous changes.
+
+5. **Extent of Tumor Invasion**: The tumor extends into surrounding tissues, which is indicative of a more advanced local disease.
+
+Considering these factors, the presence of grade 3 ductal adenocarcinoma with lymph node involvement suggests a more aggressive disease with a higher risk of recurrence or progression. However, the negative surgical margins are a favorable factor. Overall, the prognosis is guarded, but given the aggressive nature of the tumor and lymph node involvement, the likelihood of survival beyond 1.59 years is uncertain and potentially lower.
+
+Answer - {""Survival"": ""False""}"
+10,"To determine the likelihood of survival after 1.59 years based on the pathology report, let's analyze the key findings:
+
+1. **Moderately Invasive Adenocarcinoma**: This indicates a significant level of cancer aggressiveness, which can impact prognosis.
+
+2. **Fat Invasion, Perineural, and Vascular Invasion**: These are poor prognostic factors. Fat invasion suggests the tumor has spread beyond the pancreas, while perineural and vascular invasion indicate the cancer's ability to spread along nerves and blood vessels, respectively.
+
+3. **Tumor Present at Resection Margin**: This is a critical finding. A positive resection margin means that cancerous cells are present at the edge of the removed tissue, suggesting that not all of the cancer was removed during surgery. This increases the risk of recurrence and negatively impacts survival.
+
+4. **Gallbladder and Bile Duct Margins Negative for Malignancy**: These findings are favorable, indicating no spread of cancer to these areas.
+
+5. **Portal Vein Biopsy Negative for Malignancy**: This is also a favorable finding, suggesting no direct invasion into the portal vein.
+
+6. **Pancreatic Margin Positive for Carcinoma**: This confirms the presence of cancerous cells at the surgical margin, which is a significant negative prognostic factor.
+
+Considering these factors, particularly the positive resection margin and the presence of perineural and vascular invasion, the prognosis is poor. These findings suggest a high likelihood of recurrence and a lower chance of survival beyond 1.59 years.
+
+Answer - {""Survival"": ""False""}"
+11,"To determine the likelihood of survival after 1.59 years for this patient, we need to consider several factors from the pathology report:
+
+1. **Tumor Differentiation**: The tumor is described as well-differentiated, which generally indicates a better prognosis compared to poorly differentiated tumors.
+
+2. **Tumor Size**: The tumor measures 3.7 cm, which is a moderate size for pancreatic cancer.
+
+3. **Invasion**: There is evidence of lymphatic, venous, and perineural invasion, which are negative prognostic factors as they suggest aggressive tumor behavior and potential for spread.
+
+4. **Margins**: The involvement of the common bile duct and retroperitoneal margins indicates that the tumor has spread to these areas, which is concerning for complete surgical resection and increases the risk of recurrence.
+
+5. **Lymph Node Involvement**: One out of 21 lymph nodes is involved by metastatic adenocarcinoma. Lymph node involvement is a significant factor in staging and prognosis, indicating regional spread of the disease.
+
+6. **Other Findings**: The presence of rare atypical cells at the pancreatic neck margin suggests that the tumor is close to this margin, which may indicate incomplete resection or higher risk of recurrence.
+
+7. **Gallbladder Findings**: The gallbladder shows chronic cholecystitis with cholesterolosis, which is not directly related to the prognosis of pancreatic cancer.
+
+Considering these factors, the presence of lymphatic, venous, and perineural invasion, positive margins, and lymph node involvement are significant negative prognostic indicators. Despite the well-differentiated nature of the tumor, these factors suggest a higher risk of recurrence and a poorer prognosis.
+
+Therefore, based on the information provided, it is likely that the patient will not survive after 1.59 years.
+
+Answer - {""Survival"": ""False""}"
+12,"To determine the likelihood of survival after 1.59 years based on the provided pathology report, we need to consider several key factors:
+
+1. **Tumor Differentiation**: The tumor is described as moderately differentiated adenocarcinoma. Moderately differentiated tumors generally have a better prognosis than poorly differentiated ones, but worse than well-differentiated tumors.
+
+2. **Tumor Invasion**: The tumor has invaded the duodenum, common bile duct, and peripancreatic tissue, indicating a locally advanced disease. This level of invasion is significant and can impact prognosis.
+
+3. **Lymph Node Involvement**: Metastasis is found in one of 28 examined lymph nodes. The presence of lymph node metastasis is a negative prognostic factor, but the involvement of only one lymph node out of 28 is relatively limited.
+
+4. **Vascular Invasion**: The report mentions lymphatic and large vessel invasion, which is another negative prognostic factor as it suggests a higher likelihood of systemic spread.
+
+5. **Surgical Margins**: The margins are reported to be free of tumor, which is a positive factor as it indicates that the tumor was completely resected.
+
+6. **Staging**: The tumor is classified as pT3, which means it extends beyond the pancreas but without distant metastasis. This stage is serious but not the most advanced.
+
+Considering these factors, the presence of lymph node metastasis and vascular invasion are concerning for prognosis. However, the fact that only one lymph node is involved and the surgical margins are clear are positive factors. Overall, while the prognosis is guarded due to the lymphatic and vascular invasion, the limited lymph node involvement and clear margins provide some hope for survival beyond 1.59 years.
+
+Answer - {""Survival"": ""True""}"
+13,"To determine the likelihood of survival after 1.59 years for this patient, we need to consider several factors from the pathology report:
+
+1. **Tumor Differentiation**: The tumor is poorly differentiated (G3), which generally indicates a more aggressive cancer with a worse prognosis compared to well-differentiated tumors.
+
+2. **Tumor Size and Invasion**: The tumor measures 2.8 x 2 x 1.7 cm and has invaded the duodenal wall and mucosa. The size and local invasion suggest a significant tumor burden.
+
+3. **Lymph Node Involvement**: Two out of twelve examined lymph nodes show metastatic adenocarcinoma. Lymph node involvement (N1) is a negative prognostic factor, as it indicates regional spread of the cancer.
+
+4. **Surgical Margins**: All surgical margins are uninvolved by invasive carcinoma, which is a positive factor, as it suggests that the tumor was completely resected.
+
+5. **Staging**: The tumor is staged as pT3, N1, MX. The T3 stage indicates local extension beyond the pancreas, and N1 indicates regional lymph node metastasis. MX means that distant metastasis cannot be assessed, but there is no evidence of distant metastasis in the report.
+
+Considering these factors, the presence of poorly differentiated tumor, lymph node involvement, and local invasion are significant negative prognostic indicators. However, the clear surgical margins are a positive factor. Overall, the presence of lymph node metastasis and poor differentiation are likely to outweigh the positive factors, suggesting a lower likelihood of survival beyond 1.59 years.
+
+Answer - {""Survival"": ""False""}"
+14,"To determine the likelihood of survival after 1.59 years for this patient, we need to consider several key factors from the pathology report:
+
+1. **Tumor Characteristics**: The patient has invasive moderately differentiated pancreatic ductal adenocarcinoma, which is a type of cancer known for its aggressive nature.
+
+2. **Tumor Size and Spread**: The tumor measures 4.0 x 2.7 x 2.7 cm, which is a significant size. The presence of regional lymph node metastasis (1 out of 17 nodes involved) indicates that the cancer has started to spread beyond the primary site.
+
+3. **Surgical Margins**: The report mentions involved surgical margins (R1), meaning that cancerous cells are present at the edge of the removed tissue, suggesting that not all of the cancer was removed during surgery.
+
+4. **Staging**: The staging is pT3, N1, R1. 
+   - pT3 indicates that the tumor extends beyond the pancreas.
+   - N1 indicates regional lymph node involvement.
+   - R1 indicates that there are residual cancer cells at the surgical margins.
+
+5. **Additional Findings**: Antral gastritis is noted, but it is not directly related to the prognosis of pancreatic cancer. No tumors were found in the gallbladder or jejunal mesenteric mass, which is a positive aspect.
+
+Considering these factors, the presence of regional lymph node metastasis, involved surgical margins, and the advanced local disease stage (pT3, N1, R1) suggest a poor prognosis. Pancreatic ductal adenocarcinoma with these characteristics typically has a lower survival rate, and the involved margins indicate that the cancer may not have been completely resected, increasing the risk of recurrence.
+
+Based on this analysis, it is unlikely that the patient will survive after 1.59 years.
+
+Answer - {""Survival"": ""False""}"
+15,"To determine the likelihood of survival after 1.59 years for this patient, we need to consider several factors from the pathology report:
+
+1. **Diagnosis and Tumor Characteristics**: The patient has invasive ductal adenocarcinoma of the pancreas, which is a highly aggressive form of cancer. The tumor measures 3.0 cm and shows transmural involvement of the duodenum, invasion into peripancreatic soft tissue, and the wall of the superior mesenteric vein. These characteristics indicate a locally advanced disease.
+
+2. **Lymph Node Involvement**: Three out of twenty-two examined peripancreatic lymph nodes are positive for metastatic disease. Lymph node involvement (pN1) is a significant factor that worsens the prognosis, as it indicates that the cancer has started to spread beyond the primary site.
+
+3. **TNM Staging**: The tumor is classified as pT3, pN1, pMX. The pT3 stage indicates that the tumor extends beyond the pancreas, which is consistent with the invasion into the duodenum and peripancreatic tissues. The pN1 stage indicates regional lymph node metastasis. The pMX indicates that distant metastasis cannot be assessed, but the presence of lymph node metastasis already suggests a more advanced disease.
+
+4. **Surgical Margins**: The report notes that the margins are focally close to the tumor, but the pancreatic parenchymal, duodenal, and common bile duct margins are negative for carcinoma. Negative margins are a positive factor, as it suggests that the tumor was completely resected, which can improve outcomes.
+
+5. **Overall Prognosis**: Despite the negative margins, the presence of lymph node metastasis and the locally advanced nature of the tumor (invasion into the superior mesenteric vein and peripancreatic tissues) are poor prognostic factors. Pancreatic ductal adenocarcinoma with these characteristics typically has a lower survival rate beyond 1.59 years.
+
+Considering these factors, the likelihood of survival beyond 1.59 years is low due to the aggressive nature of the disease, lymph node involvement, and local advancement.
+
+Answer - {""Survival"": ""False""}"
+16,"To determine the likelihood of survival after 1.59 years for this patient, we need to consider several factors from the pathology report:
+
+1. **Tumor Type and Differentiation**: The patient has invasive moderately-differentiated ductal adenocarcinoma of the pancreas. Moderately-differentiated tumors generally have a better prognosis than poorly-differentiated ones.
+
+2. **Perineural Invasion and Extrapancreatic Extension**: The presence of perineural invasion and extrapancreatic extension indicates a more aggressive tumor behavior, which can negatively impact prognosis.
+
+3. **Pancreatic Intraepithelial Neoplasia (PanIN) Grade 3**: This is a precursor lesion to invasive cancer, but its presence does not directly affect the prognosis of the already established invasive cancer.
+
+4. **Lymph Node Involvement**: All examined lymph nodes and the mesenteric nodule are negative for malignancy, which is a favorable prognostic factor. The absence of lymph node metastasis suggests that the cancer has not spread extensively.
+
+5. **Vascular Involvement**: The tumor does not involve major vascular structures, which is another positive factor, as vascular involvement often complicates surgical resection and is associated with a worse prognosis.
+
+6. **Chronic Cholecystitis**: This is a benign condition and does not impact the prognosis of pancreatic cancer.
+
+Overall, the absence of lymph node metastasis and major vascular involvement, along with the moderately-differentiated nature of the tumor, suggest a relatively better prognosis compared to cases with lymph node involvement or poorly-differentiated tumors. While the presence of perineural invasion and extrapancreatic extension are concerning, they are not necessarily definitive indicators of poor survival within the specified timeframe.
+
+Based on these considerations, it is reasonable to conclude that the patient has a chance of surviving beyond 1.59 years.
+
+Answer - {""Survival"": ""True""}"
+17,"To determine the likelihood of survival after 1.59 years for this patient, we need to consider several key factors from the pathology report:
+
+1. **Histologic Grade**: The tumor is described as poorly differentiated (G3), which generally indicates a more aggressive cancer with a worse prognosis.
+
+2. **Tumor Invasion**: The tumor has invaded the duodenal wall, suggesting a more advanced local spread.
+
+3. **Lymph Node Involvement**: There is metastatic carcinoma in a peripancreatic lymph node, indicating regional spread of the cancer.
+
+4. **Surgical Margins**: The common bile duct margin is positive for invasive carcinoma, meaning that cancerous cells are present at the edge of the resected tissue, suggesting that not all of the cancer was removed during surgery. This is a significant negative prognostic factor.
+
+5. **Other Margins**: The distal bile duct, pancreatic duct, and retroperitoneal margins are negative for malignancy, which is a positive finding, but the positive margin at the common bile duct is more concerning.
+
+6. **Additional Findings**: Chronic cholecystitis and low-grade PanIN are noted, but these findings are less critical in determining the prognosis compared to the factors above.
+
+Given the poorly differentiated grade, lymph node involvement, and positive surgical margin, the prognosis is poor. These factors collectively suggest a high likelihood of recurrence and a lower chance of survival beyond 1.59 years.
+
+Answer - {""Survival"": ""False""}"
+18,"To determine the likelihood of survival after 1.59 years based on the provided pathology report, let's analyze the key findings:
+
+1. **Tumor Characteristics**: The patient has invasive moderately-differentiated adenocarcinoma in the head of the pancreas, measuring 6 x 4.5 x 3.4 cm. The size and location of the tumor are significant, as larger tumors and those located in the head of the pancreas can be more challenging to treat.
+
+2. **Perineural Invasion**: The presence of extensive perineural invasion is a negative prognostic factor. Perineural invasion is associated with a higher risk of recurrence and can complicate treatment.
+
+3. **Surgical Margins**: The retroperitoneal margin is positive, indicating that cancer cells are present at the margin, suggesting that the tumor may not have been completely resected. This is a significant negative prognostic factor, as it increases the likelihood of local recurrence.
+
+4. **Lymph Node Status**: All 21 regional lymph nodes examined were negative for malignancy. This is a positive factor, as the absence of lymph node involvement generally indicates a better prognosis.
+
+5. **Pathologic Stage**: The final pathologic stage is pT3N0M0, classified as stage IIA. Stage IIA indicates that the tumor is large and has extended beyond the pancreas but has not spread to lymph nodes or distant sites. While this stage is serious, it is not as advanced as stages III or IV.
+
+6. **Other Findings**: The gallbladder showed mild chronic cholecystitis with cholesterolosis but was negative for malignancy, which does not impact the prognosis of the pancreatic cancer.
+
+Considering these factors, the presence of a positive retroperitoneal margin and extensive perineural invasion are significant negative prognostic indicators. However, the absence of lymph node involvement is a positive factor. Overall, the prognosis is guarded due to the positive margin and perineural invasion, which are associated with a higher risk of recurrence and reduced survival.
+
+Based on these considerations, the likelihood of survival after 1.59 years is uncertain, but given the negative prognostic factors, it leans towards a lower probability of survival.
+
+Answer - {""Survival"": ""False""}"
+19,"To determine the likelihood of survival after 1.59 years for this patient, we need to consider several factors from the pathology report:
+
+1. **Tumor Differentiation**: The tumor is described as well-differentiated, which generally indicates a better prognosis compared to poorly differentiated tumors.
+
+2. **Tumor Size and Invasion**: The tumor measures 3.5 cm and shows extensive invasion into surrounding tissues. This suggests an aggressive tumor behavior.
+
+3. **Surgical Margins**: The involvement of the distal pancreatic margin indicates that the cancer has spread to the edge of the resected tissue, which is a negative prognostic factor as it suggests that not all cancerous tissue may have been removed.
+
+4. **Lymph Node Involvement**: Five out of ten peripancreatic lymph nodes are positive for metastatic carcinoma. Lymph node involvement is a significant negative prognostic factor as it indicates the spread of cancer beyond the primary site.
+
+5. **AJCC Staging**: The staging is pT4N1Mx. T4 indicates a tumor that has invaded into surrounding structures, N1 indicates regional lymph node involvement, and Mx indicates that distant metastasis cannot be assessed. T4N1 is associated with a more advanced stage of cancer, which typically correlates with a poorer prognosis.
+
+Considering these factors, particularly the extensive invasion, positive lymph nodes, and involved surgical margins, the prognosis is likely poor. Therefore, the likelihood of survival after 1.59 years is low.
+
+Answer - {""Survival"": ""False""}"
+20,"To determine the likelihood of survival after 1.59 years for this patient, we need to consider several factors from the pathology report:
+
+1. **Tumor Type and Differentiation**: The patient has a moderately differentiated (G2) ductal adenocarcinoma of the pancreas. Moderately differentiated tumors have an intermediate prognosis compared to well-differentiated (better prognosis) and poorly differentiated (worse prognosis) tumors.
+
+2. **Tumor Size and Invasion**: The tumor measures 2.8 cm and invades the duodenal wall. The invasion of the duodenal wall indicates local spread, which is a negative prognostic factor.
+
+3. **Lymph Node Involvement**: There is involvement of one regional lymph node (pN1). Lymph node involvement is a significant negative prognostic factor, as it indicates the spread of cancer beyond the primary site.
+
+4. **Margins and Other Lymph Nodes**: The pericaval and hepatic artery lymph nodes, as well as the bile duct and pancreas margins, are negative for metastatic malignancy. Negative margins are a positive prognostic factor, as they suggest that the tumor was completely resected.
+
+5. **Staging**: The tumor is staged as pT3, indicating it extends beyond the pancreas but does not involve major vascular structures. While pT3 indicates a more advanced local disease, the absence of major vascular involvement is somewhat favorable.
+
+Considering these factors, the presence of lymph node involvement (pN1) and local invasion (pT3) are significant negative prognostic indicators. However, the negative margins and absence of major vascular involvement provide some positive aspects. Overall, the presence of lymph node metastasis is a critical factor that often correlates with a poorer prognosis.
+
+Based on these considerations, the likelihood of survival beyond 1.59 years is uncertain but leans towards a less favorable outcome due to the lymph node involvement and local invasion.
+
+Answer - {""Survival"": ""False""}"
+21,"To determine the likelihood of survival after 1.59 years for this patient, we need to consider several factors from the pathology report:
+
+1. **Tumor Type and Differentiation**: The patient has invasive moderately differentiated ductal adenocarcinoma in the pancreatic head. Moderately differentiated tumors generally have a better prognosis than poorly differentiated ones, but ductal adenocarcinoma of the pancreas is known for its aggressive nature.
+
+2. **Intraductal Papillary Mucinous Neoplasm (IPMN)**: The presence of extensive IPMN with high-grade dysplasia indicates a precursor lesion that has progressed to invasive cancer. High-grade dysplasia suggests a high risk of malignancy.
+
+3. **Perineural Invasion**: This is a negative prognostic factor, as it indicates the cancer's ability to invade nerves, which is associated with a higher likelihood of recurrence and spread.
+
+4. **Lymph Node Involvement**: Metastatic adenocarcinoma is identified in multiple regional lymph nodes. Lymph node involvement (N1) is a significant negative prognostic factor, as it indicates that the cancer has spread beyond the primary site.
+
+5. **Margins**: The surgical margins from the common hepatic duct and pancreatic body are negative for invasive carcinoma, which is a positive factor, as it suggests that the tumor was completely resected.
+
+6. **Staging**: The overall staging is pT3N1. T3 indicates that the tumor extends beyond the pancreas, and N1 indicates regional lymph node metastasis. This stage is associated with a poorer prognosis compared to earlier stages.
+
+7. **Treatment**: The patient has not received prior treatment, which means the prognosis is based solely on the surgical findings and the natural history of the disease.
+
+Considering these factors, particularly the presence of lymph node metastasis (N1), perineural invasion, and the aggressive nature of pancreatic ductal adenocarcinoma, the prognosis is generally poor. While complete surgical resection with negative margins is a positive factor, the presence of metastatic disease in lymph nodes significantly impacts survival negatively.
+
+Based on these considerations, the likelihood of survival after 1.59 years is low.
+
+Answer - {""Survival"": ""False""}"
+22,"To determine the likelihood of survival after 1.59 years based on the provided pathology report, let's analyze the key findings:
+
+1. **Tumor Characteristics**: The report confirms the presence of invasive adenocarcinoma arising from an intraductal papillary mucinous neoplasm (IPMN), measuring at least 4.5 cm. The tumor extends into the duodenal wall, indicating significant local invasion.
+
+2. **Lymph Node Involvement**: One out of nine examined lymph nodes shows metastatic carcinoma. Lymph node involvement is a critical factor in determining prognosis, as it suggests the spread of cancer beyond the primary site.
+
+3. **Pathologic Staging**: The tumor is staged as pT3 N1. The T3 classification indicates that the tumor extends beyond the pancreas, and N1 indicates regional lymph node metastasis. This staging suggests a more advanced disease.
+
+4. **Other Findings**: The presence of a benign omental implant and chronic cholecystitis with cholelithiasis does not directly impact the prognosis of the pancreatic adenocarcinoma.
+
+Considering these factors, the presence of lymph node metastasis (N1) and the T3 stage of the tumor suggest a more aggressive disease with a higher risk of recurrence and poorer prognosis. While survival can vary based on individual patient factors and treatment, the combination of these findings generally indicates a lower likelihood of survival beyond 1.59 years.
+
+Answer - {""Survival"": ""False""}"

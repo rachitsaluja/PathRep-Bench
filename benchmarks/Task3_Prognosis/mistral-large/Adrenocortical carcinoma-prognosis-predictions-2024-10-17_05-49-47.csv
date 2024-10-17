@@ -1,0 +1,46 @@
+slno,preds
+0,"Answer - {""Survival"": ""False""}
+
+The pathology report indicates a high-grade adrenocortical carcinoma with several concerning features, including capsular and extensive vascular invasion, necrosis, and a high mitotic rate. The tumor also has extra-adrenal extension, which suggests a more advanced stage of the disease. These factors collectively indicate a more aggressive tumor with a higher likelihood of recurrence or metastasis, which would negatively impact the patient's survival prospects. Therefore, it is less likely that the patient will survive after 3.98 years."
+1,"Answer - {""Survival"": ""False""}
+
+The pathology report indicates a diagnosis of adrenocortical carcinoma, a type of malignant tumor that can be aggressive and have a poor prognosis. The tumor size is 10 x 6.5 x 6.5 cm, which is quite large. The cancer is classified as pT3 pN1 pM1, indicating that the primary tumor has grown into nearby organs or structures, cancer cells have spread to at least one lymph node, and distant metastasis is present. All 52 lymph nodes examined show positivity for cancer cells, suggesting widespread lymph node involvement.
+
+The Weiss score of 4 suggests that the tumor meets four of the nine criteria for malignancy, which is concerning but not definitive for a poor prognosis. However, the proliferation index (KI67) is between 10-20%, indicating a high growth fraction of cells and a more aggressive tumor. The Hough score of 0.97 and the Van Slooten score of 12.3 are additional metrics that suggest malignancy.
+
+Given the large tumor size, extensive lymph node involvement, distant metastasis, and high proliferation index, the patient's prognosis is likely poor, and it is unlikely that the patient will survive after 3.98 years. Therefore, the answer is {""Survival"": ""False""}."
+2,"Reasoning:
+
+1. The pathology report indicates a diagnosis of low-grade adrenocortical carcinoma. Low-grade tumors generally have a better prognosis than high-grade ones.
+2. The surgical margins are negative, meaning that the cancer has been completely removed and there is no evidence of cancer cells at the edges of the removed tissue. This is a positive sign for recovery.
+3. However, there is evidence of necrosis (tissue death) in the tumor. Necrosis can be a sign of rapid tumor growth, which could potentially indicate a more aggressive cancer.
+4. The immunohistochemical analysis revealed focal p53 positivity and an increased Ki-67 labeling index. p53 is a tumor suppressor gene, and its positivity can indicate a mutation, which is often associated with a poorer prognosis. An increased Ki-67 labeling index suggests a higher growth fraction of cells in the tumor, which could potentially indicate a more aggressive cancer.
+5. However, the report mentions that the clinical significance of these findings remains uncertain.
+6. The presence of a simple cyst in the right liver is not related to the adrenal carcinoma and does not affect the prognosis.
+
+Given the conflicting information in the report, it is difficult to definitively determine the patient's survival after 3.98 years. However, considering the low-grade nature of the tumor and the negative surgical margins, the prognosis may be more favorable.
+
+Answer - {""Survival"": ""True""}"
+3,"Answer - {""Survival"": ""False""}
+
+The pathology report indicates a large adrenocortical carcinoma with a high KI67 index of 60%, suggesting rapid cell proliferation and aggressive tumor behavior. The Weiss score of 8, Hough score of 4.89, and Van Slooten score of 22.7 all support the diagnosis of a malignant tumor with significant potential for invasion and metastasis. Given these findings, it is unlikely that the patient will survive after 3.98 years."
+4,"Answer - {""Survival"": ""True""}
+
+Reasoning:
+
+1. The pathology report indicates a diagnosis of adrenal cortical carcinoma from a left adrenal mass, measuring 5.2 cm. This size is relatively small compared to other reported cases, which often have masses larger than 10 cm.
+
+2. The report mentions lymphovascular invasion is present, but no regional lymph node metastasis has been identified. This suggests that while the cancer has begun to invade the lymphovascular system, it has not yet spread to the regional lymph nodes, which is a positive prognostic factor.
+
+3. The tumor exhibits strong positivity for calretinin, synaptophysin, and Melan A, which are markers consistent with adrenal cortical carcinoma. These markers do not necessarily indicate a poor prognosis.
+
+4. The report mentions additional findings of tumor necrosis and degenerative changes. While tumor necrosis can be a negative prognostic factor, the presence of degenerative changes may suggest that the tumor is not growing as rapidly as it could be.
+
+5. The margins are uninvolved by the tumor, meaning that the surgical resection was successful in removing the entire tumor without leaving any cancerous tissue behind. This is a positive prognostic factor.
+
+6. The overall pathologic staging is consistent with pT1, indicating no extra-adrenal invasion. This is the earliest stage of adrenal cortical carcinoma and suggests a better prognosis.
+
+Given these factors, it is more likely that the patient will survive after 3.98 years. However, it is important to note that survival rates can vary greatly depending on individual patient factors and the effectiveness of any additional treatments."
+5,"Answer - {""Survival"": ""False""}
+
+The pathology report indicates a high-grade adrenal cortical carcinoma, which is a malignant tumor with a high potential for aggressive behavior. The presence of necrosis and a high mitotic rate are indicators of rapid growth and potential for metastasis. Although the tumor is confined to the adrenal gland and there is no evidence of extraglandular extension or carcinoma in the left lobe of the liver, the significant tumor burden and high grade of the carcinoma suggest a poor prognosis. Therefore, it is unlikely that the patient will survive after 3.98 years."

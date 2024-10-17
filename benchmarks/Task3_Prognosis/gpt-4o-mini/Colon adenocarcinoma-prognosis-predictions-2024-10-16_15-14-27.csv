@@ -1,0 +1,515 @@
+slno,preds
+0,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The tumor is described as moderately differentiated adenocarcinoma, which is classified as pT3. This indicates that the tumor has invaded through the muscularis propria into the surrounding adipose tissue, suggesting a more advanced stage of cancer.
+
+2. **Lymph Node Involvement**: There are four regional lymph node metastases identified. The presence of lymph node metastases is a significant factor that typically correlates with a poorer prognosis, as it indicates that the cancer has spread beyond the primary site.
+
+3. **Margins**: The report states that the margins are tumor-free, which is a positive aspect as it suggests that the tumor was completely resected without residual disease at the surgical margins.
+
+4. **Vascular Invasion**: There is no vascular invasion noted, which is another positive factor, as vascular invasion can lead to a higher risk of metastasis.
+
+Considering these points, the presence of lymph node metastases (4 positive nodes) is a critical factor that negatively impacts the prognosis. While the tumor-free margins and absence of vascular invasion are favorable, the advanced stage (pT3) and lymph node involvement suggest a higher likelihood of recurrence and lower survival rates.
+
+Based on this analysis, the conclusion is that the patient is unlikely to survive after 2.2 years due to the advanced nature of the disease and the presence of lymph node metastases.
+
+Answer - {""Survival"": ""False""}"
+1,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Type and Differentiation**: The report indicates a poorly differentiated invasive adenocarcinoma of the colon with partial neuroendocrine differentiation. Poorly differentiated tumors generally have a worse prognosis compared to well-differentiated tumors.
+
+2. **Tumor Staging**: The tumor is classified as pT3, which indicates that it has invaded through the muscularis propria into the surrounding tissues. This suggests a more advanced stage of cancer.
+
+3. **Vascular Involvement**: The report notes vascular involvement (V1), which is a significant factor as it indicates that cancer cells may have spread through the blood vessels, increasing the risk of metastasis.
+
+4. **Lymph Node Involvement**: Although the report mentions chronic resorptive lymphadenitis, it does not specify any lymph node metastasis (pN0). This is a positive aspect, as it suggests that the cancer has not spread to the lymph nodes.
+
+5. **Margins**: The report states that the resection margins are R0, meaning that no cancer was found at the margins of the resected tissue. This is favorable as it indicates that the tumor was completely removed.
+
+6. **Overall Assessment**: Despite the R0 margins and no lymph node involvement, the presence of poorly differentiated cancer, vascular involvement, and the advanced pT3 stage suggest a higher risk of recurrence and metastasis. 
+
+Considering these factors, the prognosis appears to be poor due to the aggressive nature of the tumor and the vascular involvement, which could lead to metastasis.
+
+Final Answer: {""Survival"": ""False""}"
+2,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The tumor is described as moderately differentiated adenocarcinoma located in the cecal pouch of the right colon, measuring 4.6 x 3.0 cm. The size and location suggest a significant tumor burden.
+
+2. **Lymphovascular Invasion**: The presence of lymphovascular invasion is a concerning factor, as it indicates that the cancer may have the potential to spread to other parts of the body through the lymphatic system or bloodstream.
+
+3. **Perforation of the Visceral Peritoneum**: Focal perforation of the visceral peritoneum is a critical finding, as it suggests that the cancer has breached the peritoneal lining, which can lead to peritoneal carcinomatosis and significantly worsens the prognosis.
+
+4. **Lymph Node Involvement**: Out of 17 lymph nodes examined, 11 showed metastatic carcinoma. This indicates a high level of lymph node involvement (N2b), which is associated with a poorer prognosis.
+
+5. **Staging**: The tumor is staged as pT4aN2bVL, indicating advanced disease with local invasion (T4a) and significant lymph node involvement (N2b). The presence of vascular invasion (VL) further complicates the situation.
+
+Given these factors, the prognosis for a patient with such advanced disease, significant lymph node involvement, and evidence of local invasion is generally poor. The combination of these findings suggests a high likelihood of disease progression and a lower chance of survival over the specified time frame.
+
+Based on this analysis, the conclusion is that the patient is unlikely to survive after 2.2 years.
+
+Answer - {""Survival"": ""False""}"
+3,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we can analyze the key findings:
+
+1. **Tumor Characteristics**: The tumor is described as moderately differentiated adenocarcinoma of the colorectal type, measuring 4.5 cm. It shows minimal infiltration into the pericolic fatty tissue, which is a positive sign as it indicates limited local spread.
+
+2. **Lymph Node Involvement**: All examined regional lymph nodes (0/24) are tumor-free. This is crucial because the absence of lymph node involvement significantly reduces the risk of metastasis and indicates a better prognosis.
+
+3. **Resection Margins**: The report states that the resection margins are also tumor-free. Clear margins after surgical resection are associated with a lower likelihood of local recurrence.
+
+4. **Tumor Staging**: The tumor is staged as pT3, which indicates that it has invaded through the muscularis propria but has not metastasized to lymph nodes (pN0) or distant sites (pMX). The G2 classification indicates moderate differentiation, which is generally associated with a better prognosis compared to poorly differentiated tumors.
+
+5. **Additional Findings**: The presence of three tubular colon mucosa adenomas with mild to moderate dysplasia suggests some precancerous changes, but these are not indicative of aggressive disease.
+
+6. **Lymphovascular and Perineural Invasion**: The report notes no lymphovascular or perineural invasion, which further supports a favorable prognosis.
+
+Considering all these factors, the overall assessment indicates that the patient has a relatively localized and non-aggressive form of cancer with no evidence of metastasis or significant risk factors that would suggest a poor outcome.
+
+Based on this analysis, the conclusion is that the patient is likely to survive after 2.2 years.
+
+Answer - {""Survival"": ""True""}"
+4,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The report indicates a poorly differentiated colorectal adenocarcinoma located in the cecum, measuring 5 cm. Poorly differentiated tumors generally have a worse prognosis compared to well-differentiated tumors.
+
+2. **Invasion**: The tumor has invaded the subserosa and surrounding fatty tissue, which indicates a more advanced stage of cancer.
+
+3. **Lymph Node Involvement**: The tumor has metastasized to 2 out of 16 examined mesocolic and mesenteric lymph nodes (pN1). Lymph node involvement is a significant factor in cancer staging and typically correlates with a higher risk of recurrence and poorer survival rates.
+
+4. **R0 Resection**: The resection margins and greater omentum are tumor-free, which is a positive sign as it suggests that the tumor was completely removed without residual disease.
+
+5. **Staging**: The tumor is classified as pT3 pN1 (2/16) L0, V0; G3. The pT3 classification indicates that the tumor has penetrated through the muscularis propria into the subserosa, and pN1 indicates lymph node involvement. The G3 classification indicates a poorly differentiated tumor.
+
+Considering these factors, the presence of lymph node metastasis (pN1) and the poorly differentiated nature of the tumor (G3) suggest a more aggressive disease course and a higher likelihood of recurrence. While the clear resection margins are favorable, the overall prognosis is still concerning due to the lymph node involvement.
+
+Based on this analysis, it is likely that the patient may not survive after 2.2 years due to the aggressive nature of the cancer and the presence of metastasis.
+
+Answer - {""Survival"": ""False""}"
+5,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The report describes a moderately differentiated adenocarcinoma that is ulcerated and measures 8.5 cm in extent, reaching the subserosa. While the tumor is moderately differentiated, the size and invasion depth are important factors.
+
+2. **Lymph Node Involvement**: The report states that there is no evidence of metastasis in the examined lymph nodes (0/12). This is a positive indicator, as lymph node involvement is often associated with a worse prognosis.
+
+3. **Surgical Margins**: The surgical margins are described as uninvolved, indicating that the tumor was completely resected. Clear margins are a favorable prognostic factor.
+
+4. **Absence of Metastasis**: There is no evidence of metastasis in adjacent fatty tissue, which further supports a better prognosis.
+
+Considering these factors, the absence of lymph node involvement and clear surgical margins suggest that the patient has a good chance of survival after 2.2 years. The tumor's characteristics, while concerning due to its size and invasion, do not outweigh the positive indicators of no metastasis and complete resection.
+
+Based on this reasoning, the final answer is:
+
+{""Survival"": ""True""}"
+6,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key features of the tumor:
+
+1. **Tumor Differentiation**: The adenocarcinoma is well-differentiated, which generally indicates a better prognosis compared to poorly differentiated tumors.
+
+2. **Tumor Size and Invasion**: The tumor measures 6.5 x 4.5 x 4 cm and extends into the muscularis propria. While this indicates local invasion, the extent of invasion is not specified beyond the muscularis propria.
+
+3. **Lymph Node Involvement**: There is no information provided about lymph node involvement. The absence of lymph node involvement would typically suggest a better prognosis.
+
+4. **Margins**: The report does not specify the status of the surgical margins. Clear margins would indicate that the tumor has been completely resected, which is favorable for survival.
+
+5. **Neo-adjuvant Treatment**: There is no mention of neo-adjuvant treatment, which could influence the prognosis, but the lack of such treatment does not necessarily indicate a poor outcome.
+
+Given that the tumor is well-differentiated and there is no information suggesting significant adverse features (like lymph node involvement or positive margins), it is reasonable to conclude that the patient has a favorable prognosis.
+
+Based on these considerations, the final answer is:
+
+{""Survival"": ""True""}"
+7,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The report indicates a moderately to poorly differentiated adenocarcinoma of the cecum measuring 4.5 x 3.2 cm. While the differentiation is not optimal (moderately to poorly differentiated), the size and invasion are critical factors.
+
+2. **Invasion**: The tumor has invaded into the superficial muscularis propria, which suggests that it is not deeply invasive at this stage. This is a positive sign as deeper invasion typically correlates with worse outcomes.
+
+3. **Surgical Margins**: The surgical resection margins are negative for tumor, indicating that the tumor has been completely removed with no residual cancer at the edges of the resected tissue. This is a favorable prognostic factor.
+
+4. **Lymph Node Involvement**: All sixteen examined pericolic lymph nodes are negative for tumor involvement (pN0). This is significant because lymph node metastasis is a critical factor in staging and prognosis. The absence of metastasis in the lymph nodes suggests a lower risk of systemic spread.
+
+5. **Additional Findings**: The presence of hyperplastic polyps and the absence of tumor in the vermiform appendix do not contribute negatively to the prognosis.
+
+Considering these factors, the patient has a moderately to poorly differentiated adenocarcinoma that is localized, with negative margins and no lymph node involvement. These findings suggest a better prognosis and a higher likelihood of survival after 2.2 years.
+
+Based on this analysis, the answer is:
+
+{""Survival"": ""True""}"
+8,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The report indicates a high-grade, moderately differentiated adenocarcinoma located in the cecum. High-grade tumors are generally associated with a poorer prognosis due to their aggressive nature.
+
+2. **Invasion**: The tumor is described as ulcerative and has invaded through the muscularis propria into the serosal surface. This indicates that the cancer has penetrated deeper layers of the colon wall and may have a higher likelihood of metastasis.
+
+3. **Resection Margins**: The report states that the resection margins are negative, which is a positive sign as it suggests that the tumor has been completely removed without leaving cancerous cells at the edges of the resected tissue.
+
+4. **Perineural Invasion**: The presence of perineural invasion is concerning as it suggests that the cancer may be spreading along the nerves, which can lead to a higher risk of recurrence and metastasis.
+
+5. **Liver Biopsy**: The liver biopsy shows a bile duct adenoma, which is typically benign. However, the presence of a high-grade adenocarcinoma in the colon raises concerns about the potential for metastasis to the liver, although the report does not indicate any metastatic disease at this time.
+
+6. **Immunohistochemical Analysis**: The loss of MLH1 and PMS2 staining suggests a potential sporadic methylation silencing, which may indicate a different pathway of tumorigenesis. This could have implications for treatment and prognosis, but the immediate concern is the aggressiveness of the tumor.
+
+Considering these factors, the presence of a high-grade tumor with invasion into the serosal surface and perineural invasion suggests a more aggressive disease course. While the negative resection margins are a positive aspect, the overall characteristics of the tumor indicate a higher risk of recurrence and potentially poor survival outcomes.
+
+Based on this analysis, the conclusion is that the patient is unlikely to survive after 2.2 years.
+
+Answer - {""Survival"": ""False""}"
+9,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The report indicates that the patient has invasive moderate to poorly differentiated colonic adenocarcinoma in the sigmoid colon. Poorly differentiated tumors generally have a worse prognosis compared to well-differentiated tumors.
+
+2. **Tumor Invasion**: The tumor has extended through the bowel wall into the pericolonic fat, indicating significant local invasion. This is concerning as it suggests a more aggressive disease.
+
+3. **Lymph Node Involvement**: Three out of 41 mesenteric lymph nodes show metastatic adenocarcinoma. The presence of lymph node metastasis is a critical factor that negatively impacts survival rates.
+
+4. **Margins**: The proximal, distal, and radial margins of the resection are free of tumor, which is a positive aspect as it suggests that the tumor was completely resected in those areas.
+
+5. **Soft Tissue Metastasis**: There is a soft tissue metastasis present in the lateral mesentery. This indicates that the cancer has spread beyond the primary site and is a significant factor in determining prognosis.
+
+Considering these points, the presence of poorly differentiated adenocarcinoma, lymph node involvement, and soft tissue metastasis suggests a more advanced stage of cancer with a poorer prognosis. Therefore, it is likely that the patient will not survive after 2.2 years.
+
+Answer - {""Survival"": ""False""}"
+10,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The report indicates a moderately differentiated adenocarcinoma that invades through the bowel wall. While invasion is a concerning factor, the degree of differentiation (moderately differentiated) is generally associated with a better prognosis compared to poorly differentiated tumors.
+
+2. **Lymph Node Involvement**: Importantly, the report states that there is no metastasis in the examined regional lymph nodes. This is a significant positive factor, as lymph node involvement is often a critical determinant of prognosis in cancer.
+
+3. **Margins**: The tumor margins are reported as uninvolved, which means that the cancer has not spread to the edges of the resected tissue. Clear margins are associated with a lower risk of local recurrence.
+
+4. **Additional Findings**: The biopsies from the liver show granulomatous inflammation, which is not indicative of malignancy. The pelvic peritoneal nodule shows fat necrosis with fibrosis and calcification, which also does not suggest active cancer.
+
+5. **Lymph-Vascular and Perineural Invasion**: The absence of lymph-vascular or perineural invasion is another favorable sign, as these factors can indicate a higher risk of metastasis and poorer outcomes.
+
+Considering all these factors, the absence of lymph node involvement, clear resection margins, and no evidence of metastasis or aggressive features suggest a more favorable prognosis for the patient.
+
+Based on this analysis, it is reasonable to conclude that the patient has a good chance of survival after 2.2 years.
+
+Answer - {""Survival"": ""True""}"
+11,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Type and Differentiation**: The report indicates a slightly differentiated mucinous adenocarcinoma classified as G3. While G3 indicates a poorly differentiated tumor, the presence of significant extracellular mucus accumulation can sometimes be associated with a better prognosis in mucinous adenocarcinomas.
+
+2. **Invasion and Staging**: The tumor is staged as pT3, which indicates that it has invaded through the muscularis propria into the pericolic tissue. This suggests a more advanced local disease.
+
+3. **Lymph Node Involvement**: Importantly, the report states that there is no tumor in the examined lymph nodes (pN0). This is a favorable sign, as lymph node involvement is often associated with a worse prognosis.
+
+4. **Resection Margins**: The report indicates that there is no residual tumor in the resection margins. Clear margins are a positive prognostic factor, suggesting that the tumor was completely resected.
+
+5. **Additional Findings**: The presence of a tubulovillous adenoma with mild dysplasia in the colon mucosa is noted, but this is not directly related to the prognosis of the invasive adenocarcinoma.
+
+Considering these factors, the absence of lymph node involvement and clear resection margins are significant positive indicators for survival. Although the tumor is poorly differentiated and has invaded local tissues, the overall findings suggest a reasonable chance of survival.
+
+Based on this analysis, the final answer is:
+
+{""Survival"": ""True""}"
+12,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key features of the tumor:
+
+1. **Tumor Characteristics**: The report indicates a poorly differentiated adenocarcinoma with a significant size (9 x 8.5 x 8 cm). Poorly differentiated tumors generally have a worse prognosis compared to well-differentiated tumors.
+
+2. **Invasion**: The tumor extends into the pericolonic tissues, which suggests local invasion. This is a concerning feature as it indicates that the cancer may be more aggressive and has the potential to spread.
+
+3. **Lymph Nodes and Margins**: The report does not provide information about lymph node involvement or surgical margins. The absence of this information is critical because lymph node involvement typically indicates a higher stage of cancer and a worse prognosis. Clear margins are also important for a better outcome.
+
+4. **Lack of Additional Information**: There is no mention of neo-adjuvant treatment or other pathologic findings that could provide insight into the overall prognosis.
+
+Given these considerations, the combination of a poorly differentiated tumor, significant size, local invasion, and lack of information regarding lymph nodes and margins suggests a poor prognosis. Therefore, it is reasonable to conclude that the likelihood of survival after 2.2 years is low.
+
+Answer - {""Survival"": ""False""}"
+13,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Metastatic Adenocarcinoma in the Liver**: The presence of metastatic adenocarcinoma in the liver is a significant concern. The size of the metastasis (5.0 cm) indicates a substantial burden of disease, which typically correlates with a poorer prognosis.
+
+2. **Colorectal Adenocarcinoma**: The report describes a high-grade, poorly differentiated adenocarcinoma in the sigmoid colon, also measuring 5.0 cm. This type of cancer is aggressive and has invaded through the muscularis propria into the serosa, which suggests advanced local disease. Although the resection margins are negative, indicating that the tumor was completely removed, the high-grade nature of the tumor and its size are concerning.
+
+3. **Negative Resection Margins**: While negative resection margins are a positive aspect, they do not negate the fact that the patient has metastatic disease in the liver, which is a critical factor in determining prognosis.
+
+4. **Overall Prognosis**: The combination of a high-grade, poorly differentiated colorectal adenocarcinoma with liver metastasis typically indicates a poor prognosis. The presence of metastasis (pM1) is a significant factor that often leads to a reduced survival rate.
+
+Given these considerations, the prognosis for this patient is likely unfavorable due to the metastatic disease and the aggressive nature of the cancer.
+
+Final Answer - {""Survival"": ""False""}"
+14,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The tumor is described as an 8 x 5 x 1.5 cm invasive tubular adenocarcinoma. It is classified as G2, indicating moderate differentiation. The tumor surrounds 55% of the intestinal circumference and invades the periintestinal tissue, which suggests a significant local invasion.
+
+2. **Staging**: The tumor is classified as pT3, which indicates that it has penetrated through the muscularis propria into the surrounding tissues. The classification of pNO indicates that there is no lymph node involvement, which is a positive prognostic factor.
+
+3. **Margins**: The minimum side margin is reported as 0.1 cm, which is quite narrow but the incision lines are free of neoplastic lesions. This suggests that while the tumor is invasive, it has not extended to the surgical margins.
+
+4. **Dukes and Astler-Coller Classification**: The tumor is categorized as Dukes B and Astler-Coller B2. Dukes B indicates that the cancer has penetrated the bowel wall but has not spread to the lymph nodes, which is generally associated with a better prognosis.
+
+Considering these factors, the absence of lymph node involvement and the fact that the tumor is classified as Dukes B suggest a relatively favorable prognosis. Although the tumor is invasive and has a narrow margin, the overall findings indicate that the patient has a reasonable chance of survival over the next 2.2 years.
+
+Based on this analysis, the answer is:
+
+{""Survival"": ""True""}"
+15,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Types and Grades**: The report indicates the presence of both a poorly differentiated adenocarcinoma (G3, pT3) and a moderately differentiated adenocarcinoma (G2, pT1). The poorly differentiated adenocarcinoma is more concerning due to its aggressive nature and higher grade.
+
+2. **Tumor Staging**: The poorly differentiated adenocarcinoma is classified as pT3, indicating that it has invaded through the muscularis propria into surrounding tissues. This suggests a more advanced stage of cancer, which typically correlates with a poorer prognosis.
+
+3. **Resection Margins**: Both oral and aboral resection margins are reported as tumor-free, which is a positive sign indicating that the tumor was completely resected without residual disease at the margins.
+
+4. **Lymph Node Involvement**: The report states that all examined lymph nodes (21 in total) are free of tumor involvement, categorized as pN0 (0/12). This is also a favorable finding, as the absence of lymph node metastasis generally indicates a better prognosis.
+
+5. **Additional Findings**: The presence of tubular adenomas and tubulovillous adenomas with moderate dysplasia suggests precancerous lesions, but these are not malignant and do not directly impact the survival prognosis.
+
+Considering the combination of a poorly differentiated adenocarcinoma with significant local invasion (pT3) and the absence of lymph node involvement, the prognosis is concerning. However, the clear resection margins provide some hope for survival.
+
+In summary, while the presence of a poorly differentiated adenocarcinoma (G3, pT3) raises concerns about the patient's prognosis, the absence of lymph node involvement and clear margins suggest that there is a possibility of survival. However, the aggressive nature of the poorly differentiated tumor cannot be overlooked.
+
+Final Answer: {""Survival"": ""False""}"
+16,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The report describes a 4 cm tubulopapillary adenocarcinoma (G2) that is infiltrating the muscular layer of the large intestine. The tumor surrounds 50% of the intestinal circumference, indicating a significant local invasion.
+
+2. **Surgical Margins**: The surgical margins are reported to be free of neoplastic lesions, which is a positive indicator. Clear margins suggest that the tumor has been completely resected, reducing the risk of local recurrence.
+
+3. **Dukes Classification**: The diagnosis is consistent with Dukes B classification. Dukes B indicates that the cancer has penetrated the muscularis propria but has not spread to the lymph nodes (pN0). This classification generally has a better prognosis compared to more advanced stages.
+
+4. **Overall Assessment**: Given that the tumor is localized (Dukes B), has clear surgical margins, and there is no lymph node involvement, the prognosis is favorable. Patients with Dukes B colorectal cancer typically have a good chance of survival, especially when the tumor is completely resected.
+
+Based on this analysis, it is reasonable to conclude that the patient is likely to survive after 2.2 years.
+
+Answer - {""Survival"": ""True""}"
+17,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The report indicates a moderately differentiated colorectal adenocarcinoma measuring 4 cm. It is classified as pT2, which means it has invaded the muscularis propria but has not penetrated through the outer layer of the colon.
+
+2. **Margins**: The resection margins are clear, both orally and aborally. This is a positive indicator as it suggests that the tumor has been completely removed without residual disease at the margins.
+
+3. **Lymph Node Involvement**: The report states that all twelve examined lymph nodes are tumor-free (pN0). This is significant because the absence of lymph node involvement typically correlates with a better prognosis.
+
+4. **Staging**: The tumor is staged as pT2 pNO (1/12), L0, V0; G2. The absence of lymphovascular invasion (L0) and the absence of metastasis (V0) further support a favorable prognosis.
+
+Considering these factors, the patient has a moderately differentiated tumor that is localized, with clear margins and no lymph node involvement. These findings suggest a lower risk of recurrence and a better chance of survival.
+
+Based on this analysis, the conclusion is that the patient is likely to survive after 2.2 years.
+
+Answer - {""Survival"": ""True""}"
+18,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Size and Type**: The tumor is a 7.5 cm ulcerated adenocarcinoma located in the sigmoid colon and is classified as moderately differentiated. The size of the tumor is significant, as larger tumors often correlate with a worse prognosis.
+
+2. **Lymph Node Involvement**: There is evidence of metastasis in 3 out of 12 examined lymph nodes. Lymph node involvement is a critical factor in cancer staging and prognosis. The presence of metastasis in lymph nodes typically indicates a more advanced stage of cancer and can significantly affect survival rates.
+
+3. **Surgical Margins**: The surgical margins are uninvolved, which is a positive sign. Clear margins suggest that the tumor was completely resected, reducing the likelihood of local recurrence.
+
+4. **Lack of Additional Information**: There is no information provided regarding neo-adjuvant treatment or other pathologic findings that could influence the prognosis.
+
+Considering the size of the tumor, the presence of lymph node metastasis, and the fact that it is moderately differentiated, the prognosis is likely to be poor. The involvement of lymph nodes is particularly concerning, as it indicates that the cancer has spread beyond the primary site.
+
+Based on these factors, it is reasonable to conclude that the patient may not survive after 2.2 years due to the advanced nature of the disease.
+
+Answer - {""Survival"": ""False""}"
+19,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The report indicates a moderately differentiated colorectal adenocarcinoma measuring 3.5 cm. It has invaded all layers of the intestinal wall and extended into adjacent mesocolic fatty tissue, which suggests a more aggressive tumor behavior.
+
+2. **Staging**: The tumor is classified as pT3, indicating significant local invasion. The presence of pN1 means that there is lymph node involvement, with one out of 26 lymph nodes showing metastasis. This is a critical factor as lymph node involvement often correlates with a higher risk of recurrence and poorer prognosis.
+
+3. **Resection Margins**: The report states that the resection margins are tumor-free, which is a positive aspect as it suggests that the tumor was completely removed without residual disease at the margins.
+
+4. **Additional Findings**: The presence of pseudodiverticula and chronic scarring due to peridiverticulitis may indicate prior bowel issues but do not directly impact the prognosis of the cancer.
+
+Considering the combination of a moderately differentiated tumor, pT3 classification, and pN1 status, the prognosis is concerning. The presence of lymph node metastasis typically indicates a higher likelihood of disease progression and lower survival rates.
+
+Based on these factors, the likelihood of survival after 2.2 years is diminished due to the presence of lymph node involvement and the aggressive nature of the tumor.
+
+Final Answer: {""Survival"": ""False""}"
+20,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The report indicates a moderately differentiated adenocarcinoma located in the cecum, measuring 6.8 cm. This size suggests a significant tumor, but it is classified as pT3, which indicates that it has invaded into pericolorectal tissues.
+
+2. **Invasion and Metastasis**: Importantly, there is no evidence of lymphovascular or perineural invasion, which are factors that can worsen prognosis. Additionally, the report states that there is no regional lymph node metastasis identified, which is a positive sign for survival.
+
+3. **Surgical Margins**: The surgical margins are free, meaning that the tumor has been completely resected without any remaining cancerous cells at the edges of the removed tissue. This is crucial for a favorable prognosis.
+
+4. **Other Findings**: The liver biopsy and both fallopian tube and ovary specimens were reported as benign, indicating no evidence of metastatic disease in these areas.
+
+Considering these factors, the absence of lymph node involvement, clear surgical margins, and no evidence of metastasis suggest a better prognosis for the patient.
+
+Based on this analysis, the patient is likely to survive after 2.2 years.
+
+Answer - {""Survival"": ""True""}"
+21,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The report indicates the presence of a colorectal double carcinoma, which is an ulcerated, moderately differentiated adenocarcinoma. The tumor has invaded the muscularis propria, which suggests a more advanced stage of cancer.
+
+2. **Lymphatic Involvement**: The report notes that there are three local lymph node metastases (pN1, 3/21). The presence of metastases in lymph nodes is a significant factor that typically indicates a poorer prognosis.
+
+3. **Tumor Staging**: The tumor is classified as pT2, L1, V0, R0, pN1. The pT2 classification indicates that the tumor has invaded through the muscularis propria but has not penetrated through the serosa. The L1 indicates lymphatic invasion, which is concerning. The R0 indicates that the resection margins are free of tumor, which is a positive aspect.
+
+4. **Overall Prognosis**: The presence of lymph node metastases (pN1) is a critical factor that often correlates with a higher risk of recurrence and lower survival rates. Even though the resection margins are clear, the lymphatic involvement and the fact that the tumor is moderately differentiated suggest that the cancer is more aggressive.
+
+Considering these factors, the presence of lymph node metastases and the invasive nature of the tumor lead to a conclusion that the prognosis is not favorable.
+
+Final Answer: {""Survival"": ""False""}"
+22,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The report indicates a poorly differentiated adenocarcinoma measuring 4.5 x 4.5 cm. Poorly differentiated tumors generally have a worse prognosis compared to well-differentiated tumors.
+
+2. **Invasion**: The tumor is described as invasive and has invaded adjacent structures, which suggests a more aggressive disease. However, it spares the gastric mucosa, which is a positive aspect.
+
+3. **Lymph Node Involvement**: All 25 examined lymph nodes are negative for carcinoma (N0). This is a significant positive factor, as the absence of lymph node involvement typically indicates a better prognosis.
+
+4. **Surgical Margins**: The surgical margins are clear of tumor, which is another favorable sign. Clear margins suggest that the tumor has been completely resected, reducing the risk of local recurrence.
+
+5. **Pathological Stage**: The tumor is classified as pT4 N0 Mx. The pT4 classification indicates that the tumor has invaded nearby structures, which is concerning. However, the absence of lymph node involvement (N0) is a strong positive indicator.
+
+6. **Additional Findings**: The presence of acute suppurative and chronic inflammation with abscess formation may complicate the clinical picture, but it does not directly indicate a worse prognosis for survival.
+
+Considering these factors, the absence of lymph node involvement and clear surgical margins are significant positives that may contribute to a better chance of survival despite the aggressive nature of the tumor. 
+
+Based on this analysis, the conclusion is that the patient has a reasonable chance of survival after 2.2 years.
+
+Answer - {""Survival"": ""True""}"
+23,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The report describes a moderately differentiated, partially mucus-producing colorectal adenocarcinoma that is ulcerated and measures 4 cm. It has invaded all layers of the intestinal wall and surrounding mesocolic fatty tissue, indicating significant local invasion.
+
+2. **Lymph Node Involvement**: There are 7 out of 26 lymph nodes that show metastases (pN2), which indicates a higher stage of disease and suggests a worse prognosis. Lymph node involvement is a critical factor in cancer staging and prognosis.
+
+3. **Tumor Stage Classification**: The tumor is classified as pT3, which indicates that it has penetrated through the muscularis propria into the surrounding tissues. The presence of lymph node metastases (pN2) further complicates the prognosis.
+
+4. **Resection Margins**: The report states that the resection margins and large omentum are tumor-free, which is a positive aspect as it suggests that the tumor was completely removed in the surgical procedure.
+
+5. **Skin Metastasis**: The presence of skin metastasis from an adenocarcinoma of unknown primary origin is concerning. This indicates that the cancer has spread beyond the original site, which typically correlates with a poorer prognosis.
+
+Considering these factors, the presence of lymph node metastases and skin metastasis suggests that the disease is more advanced and aggressive. While the tumor margins are clear, the overall prognosis is likely to be unfavorable due to the metastatic spread.
+
+Based on this analysis, the conclusion is that the patient is unlikely to survive after 2.2 years.
+
+Answer - {""Survival"": ""False""}"
+24,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Type and Differentiation**: The report indicates a moderately differentiated adenocarcinoma. Moderately differentiated tumors generally have a better prognosis compared to poorly differentiated ones.
+
+2. **Tumor Size and Invasion**: The tumor measures 9 x 4.2 cm and is classified as pT3, indicating that it has invaded through the muscularis propria into the subserosa. While pT3 indicates local invasion, it is not the most advanced stage.
+
+3. **Margins of Excision**: All margins of excision are negative for cancer, which is a positive sign. Negative margins suggest that the tumor has been completely removed, reducing the risk of local recurrence.
+
+4. **Lymph Node Involvement**: All 34 examined lymph nodes are negative for metastatic disease (pN0). This is a crucial factor as the absence of lymph node involvement significantly improves the prognosis.
+
+5. **Vascular Invasion**: There is no evidence of vascular invasion, which further supports a favorable prognosis as it indicates a lower likelihood of metastasis.
+
+Considering these factors, the patient has a moderately differentiated adenocarcinoma with no lymph node involvement, negative margins, and no vascular invasion. These findings suggest a relatively favorable prognosis.
+
+Based on this analysis, it is reasonable to conclude that the patient is likely to survive after 2.2 years.
+
+Answer - {""Survival"": ""True""}"
+25,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The tumor is described as moderately to poorly differentiated invasive colorectal adenocarcinoma measuring 5.5 cm. Poorly differentiated tumors generally have a worse prognosis compared to well-differentiated tumors.
+
+2. **Location**: The tumor is located at the rectosigmoid junction, which can be a challenging area for surgical resection and may have implications for treatment and prognosis.
+
+3. **Angiolymphatic Invasion**: The presence of angiolymphatic invasion indicates that the cancer has the potential to spread through the lymphatic system and blood vessels, which is a negative prognostic factor.
+
+4. **Lymph Node Involvement**: There is metastasis to 10 of 12 regional lymph nodes. This high rate of lymph node involvement is a significant indicator of advanced disease and correlates with a poorer prognosis.
+
+5. **Surgical Margins**: The surgical margins are benign, with the carcinoma being 0.5 cm from the closest resection margin. While this is a positive aspect, the extensive lymph node involvement and angiolymphatic invasion overshadow this finding.
+
+6. **Metastasis**: There is also metastatic colonic adenocarcinoma identified in the liver, which indicates that the cancer has spread beyond the primary site. This is classified as stage IV disease, which is associated with a significantly reduced survival rate.
+
+7. **Additional Findings**: The presence of hyperplastic polyps and benign findings in the appendix do not impact the prognosis of the invasive adenocarcinoma.
+
+Considering all these factors, the presence of poorly differentiated cancer, significant lymph node involvement, angiolymphatic invasion, and liver metastasis strongly suggest a poor prognosis.
+
+Based on this analysis, the conclusion is that the patient is unlikely to survive after 2.2 years.
+
+Answer - {""Survival"": ""False""}"
+26,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The tumor is described as moderately differentiated adenocarcinoma, which is a type of colorectal cancer. The size of the tumor is 5 x 4 x 1 cm, indicating a significant mass.
+
+2. **Invasion**: The tumor has extended into the pericolonic tissues, suggesting local invasion beyond the colon itself. This is a concerning feature as it indicates a more aggressive disease.
+
+3. **Lymph Node Involvement**: All six examined lymph nodes show evidence of metastasis. Lymph node involvement is a critical factor in cancer staging and prognosis. The presence of metastasis in lymph nodes typically indicates a higher stage of cancer and a poorer prognosis.
+
+4. **Margins and Treatment**: The report does not specify the status of the surgical margins or any neo-adjuvant treatment. Clear margins are important for a better prognosis, and the absence of information on margins raises concerns.
+
+Given these factors, the presence of a moderately differentiated adenocarcinoma with local invasion and metastasis to all examined lymph nodes suggests an advanced stage of cancer. This typically correlates with a lower likelihood of survival over the specified time frame.
+
+Based on this analysis, the conclusion is that the patient is unlikely to survive after 2.2 years.
+
+Answer - {""Survival"": ""False""}"
+27,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The report indicates a moderately differentiated adenocarcinoma in the sigmoid colon that has penetrated all layers of the wall and the peritoneum. This suggests an advanced stage of cancer, as it has invaded beyond the muscularis propria.
+
+2. **Lymph Node Involvement**: There is one regional lymph node showing metastasis. The presence of metastasis in lymph nodes is a critical factor that typically indicates a poorer prognosis, as it suggests that the cancer has begun to spread beyond the primary site.
+
+3. **Overall Findings**: While the gall bladder and perivesicular lymph nodes are tumor-free, the significant local invasion and lymph node metastasis in the colon are concerning. The fact that the cancer has penetrated the peritoneum also raises the risk of further spread.
+
+Given these points, the presence of lymph node metastasis and the invasive nature of the tumor suggest a more aggressive disease course, which typically correlates with a lower survival rate.
+
+Based on this analysis, the conclusion is that the patient is unlikely to survive after 2.2 years.
+
+Answer - {""Survival"": ""False""}"
+28,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The report indicates a moderately differentiated adenocarcinoma of the left colon that has infiltrated through the muscularis propria into the subserosa. This suggests a more advanced stage of cancer (pT3), which is concerning.
+
+2. **Perineural Invasion**: The presence of perineural invasion is a negative prognostic factor, as it indicates that the cancer may be spreading along nerve pathways, which can lead to a higher likelihood of recurrence and metastasis.
+
+3. **Necrosis**: Extensive intramural suppurative necrosis can indicate aggressive tumor behavior, which is also a concerning sign.
+
+4. **Lymph Node Involvement**: The report states that one out of eighty-two lymph nodes examined was positive for metastatic adenocarcinoma (N1). This indicates that the cancer has spread to at least one lymph node, which is a significant factor in staging and prognosis.
+
+5. **Surgical Margins**: The surgical margins are reported as negative for invasive carcinoma, which is a positive aspect, as it suggests that the tumor was completely resected without residual disease at the margins.
+
+6. **Pathological Staging**: The final pathological staging is pT3 N1 Mx, indicating a locally advanced tumor with lymph node involvement but no distant metastasis confirmed (Mx).
+
+Considering these factors, the presence of lymph node involvement (N1) and perineural invasion suggests a higher risk of recurrence and poorer prognosis. While the negative surgical margins are favorable, the overall picture indicates a significant risk for the patient's survival over the next 2.2 years.
+
+Based on this analysis, the conclusion is that the patient is likely to have a poor prognosis.
+
+Answer - {""Survival"": ""False""}"
+29,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The report indicates a 6 cm ulcerous tumor classified as tubular adenocarcinoma (G2). The tumor is invasive, having infiltrated the muscularis propria and surrounding adipose tissue.
+
+2. **Tumor Staging**: The tumor is classified as pT3, which indicates that it has invaded through the muscularis propria into the surrounding tissues but has not metastasized to lymph nodes (pNO). This suggests a locally advanced tumor but without lymphatic spread.
+
+3. **Margins**: The incision margins are clear of neoplastic lesions, which is a positive sign indicating that the tumor has been completely resected.
+
+4. **Dukes and Astler-Coller Classification**: The tumor is classified as Dukes B and Astler-Coller B2. Dukes B indicates that the cancer has penetrated the bowel wall but has not spread to lymph nodes, which generally has a better prognosis compared to more advanced stages.
+
+Considering these factors, the absence of lymph node involvement and clear surgical margins are significant indicators of a favorable prognosis. While the tumor is invasive, the classification and staging suggest that the patient has a reasonable chance of survival after 2.2 years.
+
+Based on this analysis, the final answer is:
+
+{""Survival"": ""True""}"
+30,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Type and Differentiation**: The report indicates an invasive, moderately-differentiated colonic adenocarcinoma with mucinous differentiation. Moderately differentiated tumors generally have a better prognosis compared to poorly differentiated ones.
+
+2. **Tumor Extent**: The tumor is described as extending through the muscularis into the pericolonic fat. This indicates local invasion but does not necessarily imply advanced disease.
+
+3. **Surgical Margins**: The surgical margins (proximal, distal, and circumferential) are negative for tumor involvement. This is a positive sign, as it suggests that the tumor has been completely resected without residual disease at the margins.
+
+4. **Lymph Node Involvement**: All 24 examined lymph nodes are free of metastatic carcinoma. This is crucial because the absence of lymph node involvement (pN0) is associated with a better prognosis and indicates that the cancer has not spread to regional lymph nodes.
+
+5. **Overall Findings**: The overall findings suggest a localized tumor without evidence of regional lymph node metastasis. This is a favorable scenario for the patient's prognosis.
+
+Considering these points, the patient has a localized tumor with no lymph node involvement and negative surgical margins, which typically correlates with a higher chance of survival.
+
+Based on this analysis, the answer is:
+
+{""Survival"": ""True""}"
+31,"To determine if the patient will survive after 2.2 years based on the provided pathology report, we need to analyze the key findings:
+
+1. **Tumor Characteristics**: The tumor is described as a low-grade, moderately differentiated adenocarcinoma with focal mucinous features. Low-grade tumors typically have a better prognosis compared to high-grade tumors.
+
+2. **Size and Invasion**: The tumor measures 4.5 cm and exhibits ulcerative and infiltrative characteristics. It invades through the muscularis propria into the serosa, which indicates a more advanced stage (pT3a).
+
+3. **Margins**: Both proximal and distal resection margins are negative for tumor, which is a positive sign indicating that the tumor has been completely resected.
+
+4. **Lymph Node Involvement**: There is no lymphovascular, extramural venous, or perineural invasion identified, and all 22 regional lymph nodes examined are negative for malignancy (N0). This suggests that the cancer has not spread to the lymph nodes, which is a favorable prognostic factor.
+
+5. **AJCC Classification**: The classification of pT3a N0 Mx indicates that while there is local invasion (pT3a), there is no regional lymph node involvement (N0), and the status of distant metastasis is unknown (Mx).
+
+Considering these factors, the presence of a low-grade tumor, negative margins, and no lymph node involvement suggests a better prognosis. Therefore, it is reasonable to conclude that the patient has a good chance of survival after 2.2 years.
+
+Answer - {""Survival"": ""True""}"

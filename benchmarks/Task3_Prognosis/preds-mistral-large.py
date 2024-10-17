@@ -8,8 +8,8 @@ from glob2 import glob
 from natsort import natsorted
 from dotenv import load_dotenv
 from datetime import datetime
-from openai import OpenAI
-
+from mistralai.client import MistralClient
+from mistralai.models.chat_completion import ChatMessage
 
 class Config:
     REPETITIONS = 5
@@ -19,8 +19,8 @@ class Config:
     TRAIN_SET_LOC = "../../data/train.csv"
     VAL_SET_LOC = "../../data/val.csv"
     SUMMARY_TRAIN_SET_LOC = "../../extras/train-summarization/train-summarization-2024-09-26_20-06-20.csv"
-    API_MODEL = "gpt-4o-2024-08-06"
-    OUTPUT_DIR = "./gpt-4o"
+    API_MODEL = "mistral-large-2402"
+    OUTPUT_DIR = "./mistral-large"
     DISEASE_LIST = ['Adrenocortical carcinoma',
                     'Bladder Urothelial Carcinoma',
                     'Breast invasive carcinoma',
@@ -42,12 +42,12 @@ class Config:
                     'Testicular Germ Cell Tumors',
                     'Thyroid carcinoma',
                     'Uveal Melanoma']
-
+    
     @staticmethod
     def load_env():
         load_dotenv(Config.ENV_LOC)
-        return os.getenv("OPENAI_API_KEY")
-
+        return os.getenv("MISTRAL_API_KEY")
+    
 
 def create_fewShot_prompt(disease_name, train_df, max_samples=4):
     a_df = train_df[train_df['type_name'] == disease_name].groupby('survival_over_mean').apply(
@@ -96,7 +96,7 @@ def fetch_answers(client, reports, mean_times, system_prompt):
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_content}
             ]
-            chat_response = client.chat.completions.create(
+            chat_response = client.chat(
                 model=Config.API_MODEL, messages=messages, max_tokens=500, temperature=0.001)
             answers.append(chat_response.choices[0].message.content)
         except KeyboardInterrupt:
@@ -106,11 +106,10 @@ def fetch_answers(client, reports, mean_times, system_prompt):
             answers.append("NOT COMPLETED")
     return answers
 
-
 def main():
     api_key = Config.load_env()
-    client = OpenAI(api_key=api_key)
-
+    client = MistralClient(api_key=api_key)
+    
     test_df = load_and_prepare_data(
         Config.TEST_SET_LOC, Config.SUMMARY_TEST_SET_LOC)
     train_df = load_and_prepare_data(

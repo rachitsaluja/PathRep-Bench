@@ -8,8 +8,8 @@ from glob2 import glob
 from natsort import natsorted
 from dotenv import load_dotenv
 from datetime import datetime
-from openai import OpenAI
-
+from groq import Groq
+import time
 
 class Config:
     REPETITIONS = 5
@@ -19,8 +19,8 @@ class Config:
     TRAIN_SET_LOC = "../../data/train.csv"
     VAL_SET_LOC = "../../data/val.csv"
     SUMMARY_TRAIN_SET_LOC = "../../extras/train-summarization/train-summarization-2024-09-26_20-06-20.csv"
-    API_MODEL = "gpt-4o-2024-08-06"
-    OUTPUT_DIR = "./gpt-4o"
+    API_MODEL = "llama3-70b-8192"
+    OUTPUT_DIR = "./llama3-70b"
     DISEASE_LIST = ['Adrenocortical carcinoma',
                     'Bladder Urothelial Carcinoma',
                     'Breast invasive carcinoma',
@@ -46,9 +46,8 @@ class Config:
     @staticmethod
     def load_env():
         load_dotenv(Config.ENV_LOC)
-        return os.getenv("OPENAI_API_KEY")
-
-
+        return os.getenv("GROQ_API_KEY")
+    
 def create_fewShot_prompt(disease_name, train_df, max_samples=4):
     a_df = train_df[train_df['type_name'] == disease_name].groupby('survival_over_mean').apply(
         lambda x: x.sample(min(max_samples, len(x)))).reset_index(drop=True)
@@ -85,10 +84,10 @@ def add_survival_info(df, disease_times, disease_list):
         df['DSS.time'] > df['Survival_times']).astype(str)
     return df
 
-
 def fetch_answers(client, reports, mean_times, system_prompt):
     answers = []
     for i in tqdm(range(len(reports))):
+        time.sleep(3)
         try:
             user_content = f"Can you determine if the patient will survive after {mean_times[i]} years from the following Pathology Report?\n" + \
                 reports[i] + "\nOptions - \n(A) True \n(B) False \n"
@@ -106,11 +105,10 @@ def fetch_answers(client, reports, mean_times, system_prompt):
             answers.append("NOT COMPLETED")
     return answers
 
-
 def main():
     api_key = Config.load_env()
-    client = OpenAI(api_key=api_key)
-
+    client = Groq(api_key=api_key)
+    
     test_df = load_and_prepare_data(
         Config.TEST_SET_LOC, Config.SUMMARY_TEST_SET_LOC)
     train_df = load_and_prepare_data(

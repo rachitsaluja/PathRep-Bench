@@ -1,0 +1,42 @@
+slno,preds
+0,"Answer - {""Survival"": ""False""}
+
+Reasoning:
+
+1. The patient was diagnosed with intrahepatic cholangiocarcinoma, which is a malignant tumor arising from the bile duct epithelium within the liver.
+2. The tumor is unifocal, measuring 6.2 cm, which is considered large for this type of cancer.
+3. The report indicates vascular invasion into portal vein branches and perineural invasion, which are both poor prognostic factors for survival.
+4. The parenchymal resection margins were positive for carcinoma, indicating that the tumor was not completely removed during surgery. This increases the risk of recurrence and decreases the chances of long-term survival.
+5. Based on the AJCC staging system, the patient's tumor was classified as pT2a pNO, which means that it has invaded the liver parenchyma but has not spread to nearby lymph nodes or distant organs. However, the positive surgical margins and vascular invasion suggest a higher risk of recurrence and metastasis.
+6. Given the large size of the tumor, the presence of vascular and perineural invasion, and the positive surgical margins, it is unlikely that the patient will survive for 2.35 years after diagnosis. Therefore, the answer is ""False""."
+1,"Answer - {""Survival"": ""False""}
+
+Reasoning:
+
+1. The patient was diagnosed with multifocal cholangiocarcinoma, meaning there are multiple tumors in the liver.
+2. The largest tumor measures 5.1 cm, which is considered large for this type of cancer.
+3. The tumor is present at the resection margins, indicating that the surgery may not have completely removed all cancerous tissue.
+4. The presence of multifocal tumors and positive margins increase the risk of recurrence and decrease the chances of survival beyond 2.35 years.
+5. The absence of vascular invasion and negative lymph node involvement are favorable factors, but they are not enough to offset the unfavorable factors mentioned above.
+6. Therefore, based on the available information, it is unlikely that the patient will survive beyond 2.35 years."
+2,"Reasoning:
+
+The patient was diagnosed with multifocal intrahepatic cholangiocarcinoma, which is a type of cancer that originates in the bile ducts within the liver. The largest tumor measures 3.3 cm and is close to the parenchymal margin of resection, which suggests that the tumor may not have been completely removed during surgery. Additionally, the patient has cirrhosis, which is a chronic liver disease characterized by scarring and inflammation of the liver. Cirrhosis can increase the risk of complications and reduce the effectiveness of cancer treatments.
+
+Based on these findings, it is unlikely that the patient will survive for 2.35 years after the diagnosis. The presence of multifocal tumors and the close proximity of the largest tumor to the resection margin suggest that the cancer may have already spread beyond the liver. Furthermore, the presence of cirrhosis may complicate treatment and increase the risk of liver failure or other complications.
+
+Answer: {""Survival"": ""False""}"
+3,"Reasoning:
+
+The patient was diagnosed with multifocal intrahepatic cholangiocarcinoma, which is a type of cancer that originates in the bile ducts within the liver. The largest tumor measures 3.3 cm and is close to the parenchymal margin of resection. Additionally, the patient has cirrhosis, which is a chronic liver disease characterized by scarring and inflammation of the liver.
+
+The prognosis for patients with intrahepatic cholangiocarcinoma is generally poor, with a median survival time of less than 2 years. The presence of multiple tumors and positive margins are also associated with a worse prognosis. Furthermore, cirrhosis can increase the risk of complications and decrease the effectiveness of treatment.
+
+Based on these factors, it is unlikely that the patient will survive for 2.35 years after the diagnosis.
+
+Answer: {""Survival"": ""False""}"
+4,"Reasoning:
+
+The patient was diagnosed with metastatic poorly differentiated adenocarcinoma in Gerota's fascia, which is a sign of advanced disease. Additionally, the primary cholangiocarcinoma in the liver is large (10 cm) and shows vascular and perineural invasion, both of which are associated with a poor prognosis. The close surgical margins also increase the risk of recurrence. Given the advanced stage of the disease and the aggressive features of the tumor, it is unlikely that the patient will survive for 2.35 years.
+
+Answer: {""Survival"": ""False""}"

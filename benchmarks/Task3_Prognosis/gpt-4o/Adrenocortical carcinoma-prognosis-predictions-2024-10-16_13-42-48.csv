@@ -1,0 +1,104 @@
+slno,preds
+0,"To determine the likelihood of survival after 3.98 years for this patient with high-grade adrenocortical carcinoma, we need to consider several factors from the pathology report:
+
+1. **Tumor Size and Weight**: The tumor is large, measuring 14.5 x 11 x 7.9 cm and weighing 560 grams, which indicates an advanced stage of cancer.
+
+2. **Capsular and Vascular Invasion**: The presence of capsular and extensive vascular invasion suggests aggressive tumor behavior and a higher risk of metastasis.
+
+3. **Surgical Margins**: The surgical margins are negative, which is a positive factor as it indicates that the tumor was completely excised.
+
+4. **Necrosis and Mitotic Rate**: The tumor exhibits 20% necrosis and a very high mitotic rate (51/50 high power field), both of which are indicators of a highly aggressive tumor.
+
+5. **Extra-Adrenal Extension**: The tumor has extended beyond the adrenal gland, which is associated with a poorer prognosis.
+
+6. **Lymph Node Status**: The lymph nodes are negative for carcinoma, which is a favorable factor.
+
+7. **Overall Stage**: The tumor is classified as pT4 NX MX, indicating a very advanced local stage with unknown nodal and metastatic status.
+
+Considering these factors, the aggressive nature of the tumor, the presence of extra-adrenal extension, and the high mitotic rate suggest a poor prognosis. Despite the negative surgical margins and negative lymph node status, the overall advanced stage and aggressive characteristics of the tumor make long-term survival unlikely.
+
+Answer - {""Survival"": ""False""}"
+1,"1. **Tumor Size and Classification**: The tumor measures 10 x 6.5 x 6.5 cm, which is relatively large. The cancer is classified as pT3 pN1 pM1, indicating a large tumor (T3), regional lymph node involvement (N1), and distant metastasis (M1). The presence of metastasis (M1) is a significant negative prognostic factor.
+
+2. **Lymph Node Involvement**: All 52 lymph nodes examined are positive for cancer, which suggests extensive lymphatic spread. This is another negative prognostic indicator.
+
+3. **Weiss Score**: The Weiss score is 4. While a score of 4 is not the highest possible, it still indicates a malignant tumor with aggressive features.
+
+4. **Proliferation Index (KI67)**: The KI67 index is between 10-20%, which indicates a moderate to high proliferation rate. A higher proliferation index is associated with a more aggressive tumor and worse prognosis.
+
+5. **Additional Scoring Metrics**: The Hough score is 0.97, and the Van Slooten score is 12.3. These scores provide additional information about the tumor's aggressiveness, with higher scores generally indicating a worse prognosis.
+
+6. **Overall Assessment**: The combination of a large tumor size, extensive lymph node involvement, presence of distant metastasis, moderate to high proliferation index, and the scoring metrics suggest a poor prognosis. The presence of metastasis (pM1) is particularly concerning for long-term survival.
+
+Based on these factors, the likelihood of survival after 3.98 years is low.
+
+Answer - {""Survival"": ""False""}"
+2,"The pathology report provides the following key details:
+
+1. **Diagnosis**: Low-grade adrenocortical carcinoma from a right adrenal gland resection.
+2. **Surgical Margins**: Negative, indicating no residual tumor at the resection edges.
+3. **Necrosis**: Presence of necrosis, which can be a concerning feature in tumors.
+4. **Immunohistochemical Analysis**: 
+   - Focal p53 positivity: This can indicate potential tumor suppressor gene mutation, which is often associated with more aggressive tumors.
+   - Increased Ki-67 labeling index: Suggests a higher proliferation rate, which can indicate a more aggressive tumor behavior.
+5. **Liver Cyst**: Identified as a simple cyst without any lesions, indicating no metastatic disease in the liver.
+
+**Analysis**:
+- The presence of necrosis and increased Ki-67 labeling index suggests a potential for aggressive behavior, despite the initial low-grade classification.
+- Negative surgical margins are a positive prognostic factor, as they indicate complete resection of the tumor.
+- The focal p53 positivity and increased Ki-67 index raise concerns about a possible early high-grade component, but the clinical significance is uncertain.
+- The absence of metastatic disease in the liver is a positive factor.
+
+**Conclusion**:
+Given the mixed indicators, the prognosis is uncertain. However, the negative surgical margins and absence of metastatic disease are favorable factors. The potential early high-grade component and necrosis are concerning, but without clear evidence of metastasis or high-grade transformation, the prognosis leans towards a more favorable outcome.
+
+Answer - {""Survival"": ""True""}"
+3,"1. **Tumor Size and Characteristics**: The tumor measures 14x9x5 cm, which is relatively large. Large tumor size can be associated with a more advanced stage of cancer.
+
+2. **Proliferation Rate**: The KI67 index is 60%, indicating a high proliferation rate. High KI67 is associated with aggressive tumor behavior and poorer prognosis.
+
+3. **Weiss Score**: The Weiss score is 8. A Weiss score of 6 or more is indicative of adrenocortical carcinoma and suggests a high-grade tumor with aggressive features.
+
+4. **Hough Score**: The Hough score is 4.89. Higher Hough scores are associated with more aggressive tumors.
+
+5. **Van Slooten Score**: The Van Slooten score is 22.7. A higher Van Slooten score also indicates aggressive tumor characteristics.
+
+6. **Overall Assessment**: The combination of a large tumor size, high proliferation rate, and high scores on the Weiss, Hough, and Van Slooten scales all suggest that this is an aggressive and high-grade adrenocortical carcinoma. These factors are generally associated with a poorer prognosis and lower survival rates.
+
+Based on these considerations, the likelihood of survival after 3.98 years is low.
+
+Answer - {""Survival"": ""False""}"
+4,"To determine the likelihood of survival after 3.98 years for this patient with adrenal cortical carcinoma, we need to consider several factors from the pathology report:
+
+1. **Tumor Size and Staging**: The tumor measures 5.2 cm and is staged as pT1, which indicates a relatively small tumor confined to the adrenal gland without extra-adrenal invasion. This is generally a favorable prognostic factor.
+
+2. **Lymphovascular Invasion**: The presence of lymphovascular invasion is a negative prognostic factor, as it suggests the potential for the tumor to spread through blood vessels or lymphatics.
+
+3. **Lymph Node Metastasis**: No regional lymph node metastasis was identified, which is a positive prognostic factor, as lymph node involvement often indicates a more advanced disease and worse prognosis.
+
+4. **Tumor Markers**: The tumor shows strong positivity for calretinin, synaptophysin, and Melan A. These markers are commonly associated with adrenal cortical carcinoma and do not directly impact prognosis.
+
+5. **Tumor Necrosis and Degenerative Changes**: The presence of tumor necrosis can be a negative prognostic factor, as it often indicates a more aggressive tumor.
+
+6. **Surgical Margins**: The margins are uninvolved by the tumor, which is a positive factor, indicating that the tumor was completely excised.
+
+Overall, the combination of a small tumor size, absence of lymph node metastasis, and clear surgical margins are positive factors. However, the presence of lymphovascular invasion and tumor necrosis are concerning. Given the balance of these factors, the prognosis is somewhat mixed, but the absence of lymph node involvement and complete excision are significant positives.
+
+Considering these factors, the likelihood of survival after 3.98 years is more favorable than not, despite the presence of some negative indicators.
+
+Answer - {""Survival"": ""True""}"
+5,"To determine the likelihood of survival after 3.98 years based on the provided pathology report, let's analyze the key details:
+
+1. **High-grade adrenal cortical carcinoma**: High-grade tumors generally have a poorer prognosis due to their aggressive nature.
+
+2. **Necrosis and high mitotic rate**: These are indicators of aggressive tumor behavior, which can negatively impact survival.
+
+3. **Tumor confined to the adrenal gland with no extraglandular extension**: This is a positive factor, as it suggests that the cancer has not spread beyond the adrenal gland, which can improve the prognosis.
+
+4. **Benign hepatic parenchyma with steatosis, negative for carcinoma**: The liver biopsy being negative for carcinoma is a positive sign, indicating no metastasis to the liver.
+
+5. **Intact pseudocapsule and free gross margins**: The presence of an intact pseudocapsule and free margins suggests that the tumor was completely excised, which is a favorable prognostic factor.
+
+Considering these factors, while the high-grade nature and aggressive features of the tumor are concerning, the fact that the tumor is confined to the adrenal gland, with no evidence of metastasis and complete excision, suggests a potentially better outcome. Therefore, the likelihood of survival after 3.98 years is more favorable.
+
+Answer - {""Survival"": ""True""}"

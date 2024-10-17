@@ -1,0 +1,72 @@
+slno,preds
+0,"To determine the likelihood of survival after 2.35 years based on the provided pathology report, let's analyze the key findings:
+
+1. **Tumor Characteristics**: The report indicates a unifocal tumor measuring 6.2 cm, which is a significant size for intrahepatic cholangiocarcinoma.
+
+2. **Vascular and Perineural Invasion**: The presence of vascular invasion into portal vein branches and perineural invasion are both poor prognostic factors. These features suggest aggressive tumor behavior and a higher likelihood of recurrence or metastasis.
+
+3. **Resection Margins**: The parenchymal resection margins are positive for carcinoma, indicating that the tumor was not completely removed. Positive margins are associated with a higher risk of local recurrence, which negatively impacts survival.
+
+4. **Lymph Node Status**: The pericystic lymph node is negative for metastatic carcinoma, which is a favorable finding. However, the absence of lymph node involvement does not outweigh the negative impact of positive resection margins and vascular invasion.
+
+5. **AJCC Stage**: The tumor is classified as pT2a pNO. The T2a stage indicates a solitary tumor with vascular invasion, but no lymph node involvement (N0). While the absence of lymph node metastasis is positive, the T2a classification still reflects a significant tumor burden with vascular invasion.
+
+Considering these factors, the presence of vascular and perineural invasion, along with positive resection margins, suggests a poor prognosis. These features are associated with a higher risk of recurrence and reduced survival rates.
+
+Answer - {""Survival"": ""False""}"
+1,"1. **Diagnosis and Tumor Characteristics**: The pathology report indicates a diagnosis of moderately differentiated adenocarcinoma compatible with cholangiocarcinoma. The tumor is multifocal, measuring up to 5.1 cm. 
+
+2. **Vascular Invasion**: There is no vascular invasion identified, which is generally a favorable prognostic factor.
+
+3. **Surgical Margins**: The report mentions that the surgical margins are concerning due to the presence of the tumor at the resection margins. Positive or close margins are typically associated with a higher risk of recurrence and poorer prognosis.
+
+4. **Lymph Node Involvement**: The lymph nodes are negative for tumor involvement, which is a positive prognostic factor.
+
+5. **Overall Assessment**: The presence of tumor at the resection margins is a significant concern, as it suggests that not all of the cancerous tissue may have been removed, increasing the risk of recurrence. While the absence of vascular invasion and negative lymph node involvement are positive factors, the concerning surgical margins weigh heavily against a favorable prognosis.
+
+Based on these considerations, the likelihood of survival after 2.35 years is less favorable due to the concerning surgical margins.
+
+Answer - {""Survival"": ""False""}"
+2,"1. **Diagnosis**: The patient has multifocal intrahepatic cholangiocarcinoma, which indicates multiple tumor sites within the liver. This can complicate treatment and prognosis.
+
+2. **Tumor Size and Margins**: The largest tumor measures 3.3 cm and extends close to the parenchymal margin of resection. Tumors close to resection margins can increase the risk of recurrence, as there may be residual cancer cells left behind.
+
+3. **Cirrhosis**: The presence of cirrhosis is a significant factor. Cirrhosis can complicate liver function and affect the patient's overall health and ability to recover from cancer treatment.
+
+4. **Immunohistochemical Staining**: The malignant cells are positive for bile ductular markers, confirming the diagnosis of cholangiocarcinoma.
+
+5. **Absence of Carcinoma in Biopsy**: No carcinoma was identified in the liver biopsy specimen, which might suggest that the biopsy did not capture the tumor areas, or it could indicate that the carcinoma is not widespread in the sampled area.
+
+6. **Prognosis Considerations**: Multifocal cholangiocarcinoma with cirrhosis and tumors close to resection margins generally indicates a poorer prognosis. The presence of cirrhosis further complicates the situation, as it can limit treatment options and affect liver function.
+
+Based on these factors, the prognosis for survival beyond 2.35 years is likely poor.
+
+Answer - {""Survival"": ""False""}"
+3,"1. **Diagnosis and Tumor Grade**: The patient has Grade 2 intrahepatic cholangiocarcinoma. Grade 2 indicates a moderately differentiated tumor, which is an intermediate level of aggressiveness.
+
+2. **Tumor Size and Location**: The tumor is a multilobulated mass measuring 6.8 x 6.6 x 5.8 cm, located in liver segments V and VI. The size is significant but not extremely large.
+
+3. **Surgical Resection Margin**: The tumor extends to within 0.3 cm of the surgical resection margin. This is a very close margin, which raises concerns about the possibility of residual disease post-surgery. Close margins can be associated with a higher risk of recurrence.
+
+4. **Potential for Residual Disease**: The report explicitly mentions a potential concern for residual disease due to the close margin. This is a critical factor in determining the likelihood of survival, as residual disease can lead to recurrence and impact long-term survival.
+
+5. **Overall Assessment**: While the tumor is moderately differentiated and not extremely large, the close surgical margin is a significant concern. The potential for residual disease suggests a higher risk of recurrence, which negatively impacts the prognosis.
+
+Based on these considerations, the likelihood of survival beyond 2.35 years is uncertain, but the concern for residual disease suggests a less favorable prognosis.
+
+Answer - {""Survival"": ""False""}"
+4,"1. **Diagnosis and Tumor Characteristics**: The patient has a diagnosis of metastatic poorly differentiated adenocarcinoma in Gerota's fascia and a poorly differentiated cholangiocarcinoma in the liver. Poorly differentiated tumors generally have a worse prognosis due to their aggressive nature.
+
+2. **Tumor Size and Invasion**: The cholangiocarcinoma in the liver measures 10 cm, which is quite large. There is also evidence of vascular and perineural invasion, both of which are indicators of aggressive disease and are associated with a poorer prognosis.
+
+3. **Surgical Margins**: The report mentions close surgical margins. Close margins suggest that the tumor was near the edge of the resected tissue, which increases the risk of residual disease and recurrence.
+
+4. **Metastasis**: The presence of metastatic adenocarcinoma in Gerota's fascia indicates that the cancer has spread beyond the primary site, which significantly worsens the prognosis.
+
+5. **Other Findings**: The liver biopsy from Segment 5 shows no malignancy but does reveal increased portal fibrosis and mild cholestasis. These findings are not directly related to survival but indicate liver damage.
+
+6. **Gallbladder Findings**: The gallbladder is negative for malignancy, which is a positive finding, but it does not significantly impact the overall prognosis given the other aggressive features.
+
+Considering the aggressive nature of the poorly differentiated cholangiocarcinoma, the presence of vascular and perineural invasion, close surgical margins, and metastasis to Gerota's fascia, the prognosis is poor. Therefore, the likelihood of survival after 2.35 years is low.
+
+Answer - {""Survival"": ""False""}"
