@@ -12,7 +12,7 @@ from openai import OpenAI
 
 
 class Config:
-    REPETITIONS = 4
+    REPETITIONS = 5
     ENV_LOC = "../../.env"
     TEST_SET_LOC = "../../data/test.csv"
     API_MODEL = "ft:gpt-4o-mini-2024-07-18:personal::AJY5i5Q4"
