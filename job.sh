@@ -2,8 +2,8 @@
 
 source activate HF-runner
 
-cd ./benchmarks/Task1_Disease/
-#cd ./benchmarks/Task2_Stage/
+#cd ./benchmarks/Task1_Disease/
+cd ./benchmarks/Task2_Stage/
 #cd ./extras/
 #cd ./benchmarks/Task3_Prognosis/
 
