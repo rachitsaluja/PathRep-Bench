@@ -6,8 +6,8 @@ module load anaconda3
 
 source activate HF-runner
 
-cd ./benchmarks/Task1_Disease/
-#cd ./benchmarks/Task2_Stage/
+#cd ./benchmarks/Task1_Disease/
+cd ./benchmarks/Task2_Stage/
 #cd ./extras/
 #cd ./benchmarks/Task3_Prognosis/
 
@@ -16,7 +16,7 @@ cd ./benchmarks/Task1_Disease/
 #python preds-mistral-large.py
 #python preds-mistral-medium.py
 
-python preds-gpt-4o-mini-FT.py
+#python preds-gpt-4o-mini-FT.py
 #python preds-gpt-4o-mini.py
 #python preds-gpt-4o.py
 #python preds-llama3-8b.py
