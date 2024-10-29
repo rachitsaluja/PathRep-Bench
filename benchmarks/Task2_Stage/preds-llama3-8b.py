@@ -6,17 +6,17 @@ import pandas as pd
 from tqdm import tqdm
 from glob2 import glob
 from natsort import natsorted
-from dotenv import load_dotenv
 from datetime import datetime
-from groq import Groq
 import time
+from transformers import pipeline
+import torch
 
 class Config:
     REPETITIONS = 5
     ENV_LOC = "../../.env"
     TEST_SET_LOC = "../../data/test.csv"
-    API_MODEL = "llama3-8b-8192"
-    OUTPUT_DIR = "./llama3-8b"
+    MODEL_ID = "meta-llama/Meta-Llama-3-8B-Instruct"
+    OUTPUT_DIR = "./llama3.1-8b"
     DISEASE_LIST = ['Adrenocortical carcinoma',
                     'Bladder Urothelial Carcinoma',
                     'Breast invasive carcinoma',
@@ -39,25 +39,24 @@ class Config:
                     'Thyroid carcinoma',
                     'Uveal Melanoma']
 
-    @staticmethod
-    def load_env():
-        load_dotenv(Config.ENV_LOC)
-        return os.getenv("GROQ_API_KEY")
 
-
-def fetch_answers(client, reports, system_prompt):
+def fetch_answers(pipe, reports, system_prompt):
     answers = []
     for rep in tqdm(reports):
-        time.sleep(3)  # To cater to Rate Limits
         try:
             user_content = "Can you identify the AJCC Stage of the Cancer from the following Pathology Report?\n" + rep + "\n\n Options - \n (A) Stage I \n (B) Stage II \n (C) Stage III \n (D) Stage IV \n"
             messages = [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_content}
             ]
-            chat_response = client.chat.completions.create(
-                model=Config.API_MODEL, messages=messages, max_tokens=500, temperature=0.001)
-            answers.append(chat_response.choices[0].message.content)
+            outputs = pipe(
+                    messages,
+                    max_new_tokens=500,
+                    temperature=0.001,
+            )
+            chat_response = outputs[0]["generated_text"][-1]["content"]
+            answers.append(chat_response)
+            
         except KeyboardInterrupt:
             raise
         except Exception as e:
@@ -65,10 +64,14 @@ def fetch_answers(client, reports, system_prompt):
             answers.append("NOT COMPLETED")
     return answers
 
-
 def main():
-    api_key = Config.load_env()
-    client = Groq(api_key=api_key)
+    pipe = pipeline(
+            "text-generation",
+            model=Config.MODEL_ID,
+            model_kwargs={"torch_dtype": torch.bfloat16},
+            device="cuda",
+        )
+    
     test_df = pd.read_csv(Config.TEST_SET_LOC)[
         ['text', 'type_name', 'stage_overall']].dropna()
     disease_list = Config.DISEASE_LIST
@@ -98,7 +101,7 @@ Therefore, the answer is -
 """.strip() 
 
         for i in range(Config.REPETITIONS):
-            answers = fetch_answers(client, all_reports,
+            answers = fetch_answers(pipe, all_reports,
                                     system_prompt=role_content)
             now = datetime.now()
             timestamp = now.strftime("%Y-%m-%d_%H-%M-%S")
@@ -109,4 +112,4 @@ Therefore, the answer is -
             print(f"Completed Run {i+1}")
 
 if __name__ == "__main__":
-    main()
+    main() 

@@ -6,49 +6,51 @@ import pandas as pd
 from tqdm import tqdm
 from glob2 import glob
 from natsort import natsorted
-from dotenv import load_dotenv
 from datetime import datetime
-from groq import Groq
 import time
-
+from transformers import pipeline
+import torch
 
 class Config:
     REPETITIONS = 5
     ENV_LOC = "../../.env"
     TEST_SET_LOC = "../../data/test.csv"
-    API_MODEL = "llama3-70b-8192"
+    MODEL_ID = "meta-llama/Meta-Llama-3-70B-Instruct"
     OUTPUT_DIR = "./llama3-70b"
-
-    @staticmethod
-    def load_env():
-        load_dotenv(Config.ENV_LOC)
-        return os.getenv("GROQ_API_KEY")
-
-
-def fetch_answers(client, reports, system_prompt):
+    
+def fetch_answers(pipe, reports, system_prompt):
     answers = []
     for rep in tqdm(reports):
-        time.sleep(3)  # To cater to Rate Limits
         try:
             user_content = "What is the diagnosis from this text? Please output it as a JSON object, just generate the JSON object without explanations. \n" + rep
             messages = [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_content}
             ]
-            chat_response = client.chat.completions.create(
-                model=Config.API_MODEL, messages=messages, max_tokens=50, temperature=0.001)
-            answers.append(chat_response.choices[0].message.content)
+            
+            outputs = pipe(
+                    messages,
+                    max_new_tokens=50,
+                    temperature=0.001
+            )
+            chat_response = outputs[0]["generated_text"][-1]["content"]
+            answers.append(chat_response)
+            
         except KeyboardInterrupt:
             raise
         except Exception as e:
             print(f"Error processing report: {e}")
             answers.append("NOT COMPLETED")
     return answers
-
-
+    
 def main():
-    api_key = Config.load_env()
-    client = Groq(api_key=api_key)
+    pipe = pipeline(
+            "text-generation",
+            model=Config.MODEL_ID,
+            model_kwargs={"torch_dtype": torch.bfloat16},
+            device_map="auto"
+        )
+
     test_df = pd.read_csv(Config.TEST_SET_LOC)
     all_reports = test_df['text']
 
@@ -58,7 +60,7 @@ def main():
     """.strip()
 
     for i in range(Config.REPETITIONS):
-        answers = fetch_answers(client, all_reports,
+        answers = fetch_answers(pipe, all_reports,
                                 system_prompt=role_content)
         now = datetime.now()
         timestamp = now.strftime("%Y-%m-%d_%H-%M-%S")

@@ -6,10 +6,10 @@ mkdir -p job_out_EXP
 sbatch --requeue \
         -p sablab-gpu \
         -t 168:00:00 \
-        -n 4 \
+        -n 20 \
         -N 1 \
-        --nodelist=ai-gpu09 \
-        --mem=40G \
+        --nodelist=ai-gpu07 \
+        --mem=50G \
         --gres=gpu:a100:1 \
         --mail-type=ALL \
         --mail-user=ras4037@med.cornell.edu \

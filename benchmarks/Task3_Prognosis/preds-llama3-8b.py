@@ -6,20 +6,20 @@ import pandas as pd
 from tqdm import tqdm
 from glob2 import glob
 from natsort import natsorted
-from dotenv import load_dotenv
 from datetime import datetime
-from groq import Groq
 import time
+from transformers import pipeline
+import torch
 
 class Config:
-    REPETITIONS = 1
+    REPETITIONS = 5
     ENV_LOC = "../../.env"
     TEST_SET_LOC = "../../data/test.csv"
     SUMMARY_TEST_SET_LOC = "../../extras/test-summarization/test-summarization-2024-09-26_20-41-24.csv"
     TRAIN_SET_LOC = "../../data/train.csv"
     VAL_SET_LOC = "../../data/val.csv"
     SUMMARY_TRAIN_SET_LOC = "../../extras/train-summarization/train-summarization-2024-09-26_20-06-20.csv"
-    API_MODEL = "llama3-8b-8192"
+    MODEL_ID = "meta-llama/Meta-Llama-3-8B-Instruct"
     OUTPUT_DIR = "./llama3-8b"
     DISEASE_LIST = ['Adrenocortical carcinoma',
                     'Bladder Urothelial Carcinoma',
@@ -42,11 +42,6 @@ class Config:
                     'Testicular Germ Cell Tumors',
                     'Thyroid carcinoma',
                     'Uveal Melanoma']
-
-    @staticmethod
-    def load_env():
-        load_dotenv(Config.ENV_LOC)
-        return os.getenv("GROQ_API_KEY")
     
 def create_fewShot_prompt(disease_name, train_df, max_samples=4):
     a_df = train_df[train_df['type_name'] == disease_name].groupby('survival_over_mean').apply(
@@ -84,10 +79,9 @@ def add_survival_info(df, disease_times, disease_list):
         df['DSS.time'] > df['Survival_times']).astype(str)
     return df
 
-def fetch_answers(client, reports, mean_times, system_prompt):
+def fetch_answers(pipe, reports, mean_times, system_prompt):
     answers = []
     for i in tqdm(range(len(reports))):
-        time.sleep(3)
         try:
             user_content = f"Can you determine if the patient will survive after {mean_times[i]} years from the following Pathology Report?\n" + \
                 reports[i] + "\nOptions - \n(A) True \n(B) False \n"
@@ -95,9 +89,13 @@ def fetch_answers(client, reports, mean_times, system_prompt):
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_content}
             ]
-            chat_response = client.chat.completions.create(
-                model=Config.API_MODEL, messages=messages, max_tokens=500, temperature=0.001)
-            answers.append(chat_response.choices[0].message.content)
+            outputs = pipe(
+                    messages,
+                    max_new_tokens=500,
+                    temperature=0.001,
+            )
+            chat_response = outputs[0]["generated_text"][-1]["content"]
+            answers.append(chat_response)
         except KeyboardInterrupt:
             raise
         except Exception as e:
@@ -106,8 +104,12 @@ def fetch_answers(client, reports, mean_times, system_prompt):
     return answers
 
 def main():
-    api_key = Config.load_env()
-    client = Groq(api_key=api_key)
+    pipe = pipeline(
+            "text-generation",
+            model=Config.MODEL_ID,
+            model_kwargs={"torch_dtype": torch.bfloat16},
+            device="cuda",
+        )
     
     test_df = load_and_prepare_data(
         Config.TEST_SET_LOC, Config.SUMMARY_TEST_SET_LOC)
@@ -144,7 +146,7 @@ When answering user questions follow these examples- \n
 """.strip()
 
         for i in range(Config.REPETITIONS):
-            answers = fetch_answers(client, all_reports, mean_times,
+            answers = fetch_answers(pipe, all_reports, mean_times,
                                     system_prompt=role_content)
             now = datetime.now()
             timestamp = now.strftime("%Y-%m-%d_%H-%M-%S")

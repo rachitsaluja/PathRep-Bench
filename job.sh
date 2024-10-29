@@ -6,12 +6,12 @@ module load anaconda3
 
 source activate HF-runner
 
-cd ./benchmarks/Task1_Disease/
+#cd ./benchmarks/Task1_Disease/
 #cd ./benchmarks/Task2_Stage/
 #cd ./extras/
-#cd ./benchmarks/Task3_Prognosis/
+cd ./benchmarks/Task3_Prognosis/
 
-#python preds-llama3-8b.py
+python preds-llama3-8b.py
 #python preds-llama3-70b.py
 #python preds-mistral-large.py
 #python preds-mistral-medium.py
@@ -34,4 +34,15 @@ cd ./benchmarks/Task1_Disease/
 #python preds-mistral-large.py
 
 #python preds-pathllama3.1-8b.py
-python preds-llama3.1-8b.py
+#python preds-llama3.1-8b.py
+
+
+#cd /midtier/sablab/scratch/ras4037/workspace/LLM_path/PathRep-Bench/benchmarks/Task1_Disease/
+#python preds-llama3-70b.py
+
+#cd /midtier/sablab/scratch/ras4037/workspace/LLM_path/PathRep-Bench/benchmarks/Task2_Stage/
+#python preds-llama3-70b.py
+
+#cd /midtier/sablab/scratch/ras4037/workspace/LLM_path/PathRep-Bench/benchmarks/Task3_Prognosis/
+#python preds-llama3-70b.py
+
