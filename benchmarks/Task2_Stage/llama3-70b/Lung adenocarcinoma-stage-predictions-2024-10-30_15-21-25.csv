@@ -1,0 +1,673 @@
+slno,preds
+0,"## Answer
+
+To determine the AJCC stage of the cancer, we need to analyze the pathology report and identify the key factors that influence staging.
+
+From the report, we can see that the patient has two separate primary tumors: one in the lingula (1 cm) and another in the left lower lobe (3.5 cm). Both tumors are adenocarcinomas with different histological subtypes.
+
+The tumor in the lingula is classified as pT1a (≤ 1 cm), and the tumor in the left lower lobe is classified as pT2a (3.5 cm, but ≤ 5 cm). Since there are two separate primary tumors, we need to consider the m descriptor, which indicates multiple primary tumors.
+
+The report also indicates that there is no regional lymph node metastasis (pN0) and no distant metastases (pM0).
+
+Based on the TNM descriptors, we can determine the overall stage of the cancer. Since both tumors are classified as pT1a and pT2a, respectively, and there is no lymph node involvement or distant metastases, the overall stage is Stage II.
+
+Therefore, the answer is - 
+{""stage"" : Stage II}"
+1,"## Answer
+
+Let's break down the pathology report to determine the AJCC stage of the cancer.
+
+1. The tumor characteristics are:
+	* Histologic type: Adenocarcinoma, moderately differentiated
+	* Tumor location: Subpleural right lower lung lobe
+	* Tumor size: 2.0 x 2.0 x 1.6 cm
+	* Tumor grade: Moderately differentiated
+2. The tumor invasiveness is:
+	* Pleural invasion: Yes (tumor appears to focally involve overlying pleura)
+	* Lymphovascular space invasion: No
+3. The surgical margin status is:
+	* Tumor distance from bronchial margin: 2.8 cm
+	* Tumor distance from stapled margin: Not applicable
+	* Tumor distance from pleural surface: Less than 0.5 cm, focally involving pleura microscopically
+4. The lymph node status is:
+	* All lymph nodes (R, L, Station 11, Station 12, and Station 7) are negative for tumor
+
+Based on the above information, we can determine the T, N, and M stages:
+
+* T stage: T2 (tumor size is 2.0 x 2.0 x 1.6 cm, and there is pleural invasion)
+* N stage: N0 (all lymph nodes are negative for tumor)
+* M stage: M0 (not mentioned in the report, but assumed to be M0 since there is no evidence of distant metastasis)
+
+Therefore, the AJCC stage is T2N0M0, which corresponds to Stage II.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage II""}"
+2,"## Answer
+
+Let's break down the pathology report to determine the AJCC stage of the cancer.
+
+1. Primary tumor (pT): The report states pT1b, which means the tumor is 2.8 cm in greatest dimension, and it has not invaded the visceral pleura or extended beyond the lung.
+
+2. Regional lymph nodes (pN): The report states pN1, which means there is metastasis to one or more ipsilateral peribronchial or hilar lymph nodes, but not to mediastinal or subcarinal lymph nodes. In this case, one of the peribronchial lymph nodes is involved (1/8).
+
+3. Distant metastasis (pM): The report states pMX, which means distant metastasis cannot be assessed.
+
+Based on the pT1b and pN1, the patient has a T1b tumor with N1 nodal involvement. According to the AJCC 8th edition staging system, this corresponds to Stage II.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage II""}"
+3,"## Answer
+
+To determine the AJCC stage of the cancer, we need to evaluate the tumor size, lymph node involvement, and distant metastasis.
+
+From the pathology report, we can see that:
+
+* The maximum tumor size is 2.5 x 2.0 cm, which corresponds to a T1 tumor (pT1).
+* Ten out of twelve lymph nodes are involved by metastatic carcinoma, including the subcarinal lymph node. This indicates N2 disease (pN2).
+* There is no distant metastasis (pMX).
+* The margins are all negative, but the tumor approaches to within less than 1 mm of the inked hilar pleural surface.
+* There is extensive lymphvascular invasion in the lung, including subpleural lymphatics.
+
+Based on these findings, the tumor is classified as T1N2M0, which corresponds to Stage IIIA according to the AJCC 8th edition staging system.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage IIIA""}"
+4,"## Answer
+
+Let's break down the pathology report to determine the AJCC stage of the cancer.
+
+1. Primary tumor (pT): The report states that the tumor measures 2.7 cm in greatest dimension and invades the visceral pleura, which corresponds to a pT2a.
+2. Regional lymph nodes (pN): The report states that two lymph nodes were examined, and none were involved, which corresponds to a pN0.
+3. Distant metastasis (pM): The report does not mention any distant metastasis, so it is assumed to be pM0.
+
+According to the AJCC 7th edition staging system, a pT2a primary tumor, pN0 regional lymph nodes, and pM0 distant metastasis correspond to a Stage II cancer.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage II""}"
+5,"## Answer
+
+Let's break down the pathology report to determine the AJCC stage of the cancer.
+
+1. Primary Tumor (pT): The report states that the tumor is 2.5 cm in greatest dimension, surrounded by lung or visceral pleura, without bronchoscopic evidence of invasion more proximal than the lobar bronchus. This corresponds to pT1b.
+
+2. Regional Lymph Nodes (pN): The report indicates that there is no regional lymph node metastasis, which corresponds to pN0.
+
+3. Distant Metastases (pM): There is no mention of distant metastases, so pM is not applicable.
+
+Based on the pT and pN classifications, the AJCC stage is determined as follows:
+
+* pT1b and pN0 correspond to Stage I.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage I""}"
+6,"## Answer
+
+Let's break down the pathology report step by step to determine the AJCC stage of the cancer.
+
+1. The primary tumor is located in the right lower lobe lung and measures 5 x 4 x 3 cm, which corresponds to a T2 tumor (T1: ≤3 cm, T2: >3 cm but ≤5 cm, T3: >5 cm but ≤7 cm, T4: >7 cm).
+2. The bronchial margin is negative for tumor, indicating that the tumor has not invaded the bronchus.
+3. One of the six intrapulmonary peribronchial lymph nodes is positive for metastatic adenocarcinoma, which corresponds to N1 disease (N0: no regional lymph node metastasis, N1: metastasis to intrapulmonary and/or peribronchial lymph nodes, N2: metastasis to ipsilateral mediastinal and/or subcarinal lymph nodes, N3: metastasis to contralateral mediastinal and/or supraclavicular lymph nodes).
+4. The report does not mention any distant metastases (M1).
+
+Based on the above information, we can determine the AJCC stage as follows:
+
+* T2 (primary tumor size)
+* N1 (intrapulmonary peribronchial lymph node metastasis)
+* M0 (no distant metastases)
+
+According to the AJCC 8th edition staging system, a T2N1M0 tumor corresponds to Stage IIA.
+
+Therefore, the answer is - 
+{""stage"" : Stage IIA}"
+7,"## Answer
+
+Let's break down the pathology report to determine the AJCC stage of the cancer.
+
+1. The tumor size is 2.3 cm in greatest diameter, which corresponds to T1b (tumor size > 2 cm but ≤ 3 cm).
+2. The visceral pleural invasion is present, but the carcinoma does not extend through the visceral pleura.
+3. Lymphovascular space invasion is highly suspicious, but not definitively confirmed.
+4. The surgical margin status shows that the carcinoma extends to within 1 mm of the staple line on the wedge resection.
+5. No metastatic carcinoma is identified in the lymph nodes (0/2 in level 7, 0/3 in right lung lower lobe, 0/1 in level 9, and 0/1 in level 4).
+
+Based on these findings, the pTN stage is pT1b NO, which corresponds to Stage I.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage I""}"
+8,"## Answer
+
+Let's break down the pathology report to determine the AJCC stage of the cancer.
+
+1. The tumor is located in the right upper lobe, and its size is 3.5 x 2.4 x 2.3 cm.
+2. The tumor does not grossly involve the bronchus, but it appears to be growing around the bronchus. The distance to the bronchial margin is 0.3 cm.
+3. There are two small pleural nodules, one 0.4 cm in diameter and 5.2 cm from the main tumor mass, and another 0.4 cm in diameter and 3.1 cm from the main tumor mass.
+4. The tumor is moderately differentiated adenocarcinoma, and the histologic grade is moderately differentiated.
+5. One of the five hilar lymph nodes is positive for metastatic adenocarcinoma.
+6. The surgical margins, including the bronchial resection margin, appear negative for carcinoma.
+7. There is no pleural involvement, and no in situ carcinoma is identified.
+8. Perineural invasion is present, but angiolymphatic invasion is not identified.
+
+Based on the above findings, we can determine the T, N, and M stages as follows:
+
+* T stage: T2a (tumor size is 3.5 cm, and it does not invade the pleura)
+* N stage: N1 (metastatic adenocarcinoma involving 1 of 5 hilar lymph nodes)
+* M stage: M0 (no distant metastases are identified)
+
+According to the AJCC 8th edition staging system, a T2a, N1, M0 corresponds to Stage IIA.
+
+Therefore, the answer is - 
+{""stage"" : Stage IIA}"
+9,"## Answer
+
+Let's break down the pathology report step by step to determine the AJCC stage of the cancer.
+
+1. The report mentions a left lower lobectomy with a tumor measuring 50 x 60 x 45 mm, which involves the posterior lateral basal and anterior basal segments. This suggests a significant tumor size, but we need to consider other factors to determine the stage.
+
+2. The tumor appears to abut the lateral and diaphragmatic pleural surfaces, but the report concludes that there is no definite invasion of the pleura, even with special stains. This is an important factor in determining the T stage.
+
+3. The report mentions that the tumor surrounds a major segmental bronchus and extends close to the bronchial resection margin, but the margin is free of tumor. This suggests that the tumor is locally invasive but has not breached the bronchial resection margin.
+
+4. There is no evidence of vascular or perineural invasion, which is a positive factor in determining the stage.
+
+5. The report mentions small satellite deposits of tumor scattered throughout the adjacent parenchyma, but these are not considered metastases.
+
+6. There is no evidence of metastases to hilar lymph nodes, which is an important factor in determining the N stage.
+
+7. The report does not mention any distant metastases, which would be classified as M1.
+
+Considering the above factors, we can determine the stage as follows:
+
+* T stage: The tumor is larger than 5 cm, but it does not invade the pleura. Therefore, the T stage is T2.
+* N stage: There is no evidence of lymph node metastases, so the N stage is N0.
+* M stage: There is no evidence of distant metastases, so the M stage is M0.
+
+Based on the TNM staging system, a T2N0M0 classification corresponds to Stage II.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage II""}"
+10,"## Answer
+
+Let's break down the pathology report step by step to determine the AJCC stage of the cancer.
+
+1. Tumor size: 3 X 3 X 3 cm, which is T2 (tumor > 2 cm but ≤ 5 cm).
+2. Tumor extent: Visceral pleura, which is PL1 (tumor invades visceral pleura).
+3. Lymph nodes: 1/1 positive for metastasis (Intrathoracical 1/1), which is N2 (metastasis in ipsilateral mediastinal or subcarinal lymph nodes).
+
+Based on the above information, we can determine the T, N, and M stages as follows:
+
+* T stage: T2 (tumor size > 2 cm but ≤ 5 cm)
+* N stage: N2 (metastasis in ipsilateral mediastinal or subcarinal lymph nodes)
+* M stage: M0 (no distant metastasis mentioned in the report)
+
+According to the AJCC 8th edition staging system, a T2N2M0 corresponds to Stage IIIA.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage IIIA""}"
+11,"## Answer
+
+Let's break down the pathology report step by step to determine the AJCC stage of the cancer.
+
+1. The tumor size is 4.0 X 3.5 X 2.0 cm, which corresponds to a T2 classification (pT2) according to the AJCC 8th edition staging manual, as the tumor is larger than 3 cm but not larger than 5 cm.
+
+2. The report mentions ""Infiltration of pleura visceralis"", which indicates that the tumor has invaded the visceral pleura. This does not affect the T classification, as it is already T2.
+
+3. The lymph node status is pNO (0/20), indicating that no lymph nodes are involved. This corresponds to an N0 classification.
+
+4. The report does not mention any distant metastases, and the pMx classification indicates that the presence of distant metastases cannot be assessed. However, in the absence of any evidence of distant metastases, we can assume that the M classification is M0.
+
+5. Combining the T, N, and M classifications, we get a stage of T2N0M0, which corresponds to Stage II according to the AJCC 8th edition staging manual.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage II""}"
+12,"## Answer
+
+To determine the AJCC stage of the cancer, we need to evaluate the tumor size, lymph node involvement, and presence of distant metastases.
+
+From the pathology report, we can gather the following information:
+
+* Tumor size: 2.7 cm in diameter (T1)
+* Lymph node involvement: 1/4 peribronchial lymph nodes are positive for metastatic adenocarcinoma (N1)
+* No distant metastases are mentioned in the report
+* The tumor does not involve the pleura, and the bronchial margin is not involved
+* There is no extracapsular extension of the tumor in the lymph nodes
+
+Based on the TNM staging system, the tumor is classified as T1 (size ≤ 3 cm), N1 (metastasis in ipsilateral peribronchial lymph nodes), and M0 (no distant metastases).
+
+According to the AJCC 8th edition staging system, a T1N1M0 tumor corresponds to Stage IIA.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage II""}"
+13,"## Answer
+
+Let's break down the pathology report to determine the AJCC stage of the cancer.
+
+1. **Primary Tumor (T)**: The tumor size is 1.2 cm, and it focally invades into, but not through, the visceral pleura. According to the AJCC 8th edition staging manual, this corresponds to a T2 tumor.
+2. **Lymph Nodes (N)**: The report states that 7 lymph nodes were examined, and none of them were involved with cancer (0/7). This corresponds to an N0 lymph node status.
+3. **Distant Metastasis (M)**: There is no mention of distant metastases in the report. Therefore, we can assume that the M status is MX, which means that the presence or absence of distant metastases cannot be assessed.
+
+Based on the TNM staging system, we can determine the overall stage of the cancer. With a T2 primary tumor, N0 lymph node status, and MX distant metastasis status, the patient's cancer is classified as **Stage I**.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage I""}"
+14,"## Answer
+
+Let's break down the pathology report step by step to determine the AJCC stage of the cancer.
+
+1. Primary tumor (T): The report mentions a 4 cm adenocarcinoma, acinar type, grade III, invading visceral pleura in the right lower lobe. This corresponds to a pT2 tumor, as it is larger than 3 cm but not more than 5 cm, and invades the visceral pleura.
+
+2. Lymph nodes (N): The report shows metastatic adenocarcinoma in two of four lymph nodes (2/4) in the right lower lobe, and in one of five lymph nodes (1/5) in level 7 lymph node. This indicates that the cancer has spread to the lymph nodes, specifically N2, as there are multiple involved lymph nodes in the same mediastinal or hilar region.
+
+3. Distant metastasis (M): There is no mention of distant metastasis in the report, so it is classified as Mx, meaning the presence or absence of distant metastasis cannot be assessed.
+
+Based on the above analysis, the AJCC stage of the cancer is pT2, N2, Mx, which corresponds to Stage III.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage III""}"
+15,"## Answer
+
+To determine the AJCC stage of the cancer, we need to analyze the pathology report and identify the key factors that influence staging.
+
+1. **Primary Tumor (T)**: The tumor is described as an ""invasive moderately differentiated adenocarcinoma"" with a size of 9.2 cm in greatest dimension, invading into the chest wall (pT3).
+2. **Lymph Node Involvement (N)**: The report states that 19 peribronchial lymph nodes are negative for carcinoma (0/19), and 6 lymph nodes from levels 1-9 are also negative (0/6). This indicates that there is no lymph node involvement (N0).
+3. **Distant Metastasis (M)**: There is no mention of distant metastasis in the report, so we can assume that M0 (no distant metastasis).
+
+Based on these factors, we can determine the AJCC stage as follows:
+
+* T3 (primary tumor size > 5 cm and invading into the chest wall)
+* N0 (no lymph node involvement)
+* M0 (no distant metastasis)
+
+According to the AJCC Cancer Staging Manual, 7th Edition, the stage corresponding to these factors is:
+
+Therefore, the answer is - 
+{""stage"" : Stage III}"
+16,"## Answer
+
+To determine the AJCC stage of the cancer, we need to evaluate the tumor size, lymph node involvement, and distant metastasis.
+
+From the pathology report, we can see that:
+
+* The tumor size is 6.9 x 4.7 x 4.1 cm, which is greater than 5 cm but less than or equal to 7 cm. This corresponds to a T2b primary tumor.
+* The tumor extends to the visceral pleural surface, but there is no evidence of tumor extension to the chest wall or other attached tissues.
+* Lymphangitic invasion is identified, which suggests lymphatic invasion.
+* The bronchial and vascular resection margins are negative for carcinoma.
+* There are multiple lymph nodes involved with metastatic adenocarcinoma, including one lymph node in the left level 9 station, two lymph nodes in the left level 11 station, and four lymph nodes in the left lower lobe. This corresponds to N2 regional lymph node involvement.
+
+There is no evidence of distant metastasis (M0).
+
+Based on the TNM descriptors, the patient has a pT2b primary tumor, pN2 regional lymph node involvement, and no distant metastasis (M0). According to the AJCC 8th edition staging system, this corresponds to Stage IIIA lung cancer.
+
+Therefore, the answer is - 
+{""stage"" : Stage IIIA}"
+17,"## Answer
+
+Let's break down the given pathology report step by step to determine the AJCC Stage of the Cancer.
+
+1. The report appears to be a general pathology report information form, which provides details about the tumor type, specimen, and diagnosis.
+
+2. Upon reviewing the report, I notice that there is no specific information about the tumor size, lymph node involvement, or metastasis, which are essential factors in determining the AJCC Stage of Cancer.
+
+3. The report only provides information about the tumor type, BCR specimen, ICD-0-3 Histology Code, and ICD-0-3 Site Code, but lacks the necessary details to determine the stage of cancer.
+
+4. Without the required information, it is not possible to accurately determine the AJCC Stage of Cancer.
+
+Therefore, the answer is - 
+{""stage"" : ""Cannot be determined from the provided pathology report""}"
+18,"## Answer
+
+Let's break down the pathology report step by step to determine the AJCC Stage of the Cancer:
+
+1. The diagnosis mentions a peripheral, well-differentiated papillary, non-mucigenous adenocarcinoma measuring 50 mm, which indicates the primary tumor size (T).
+2. The report states that the tumor extends as far as the visceral pleura, but it is tumor-free, indicating that the tumor has not invaded the pleura (no pleural invasion).
+3. The tumor classification is provided as pT2, which corresponds to a tumor size > 3 cm but ≤ 5 cm (50 mm is approximately 2 inches, which is within this range).
+4. The report also mentions pN0, indicating that there is no regional lymph node involvement (N).
+5. The pMX notation indicates that distant metastases (M) cannot be assessed.
+6. The report concludes with a stage classification of ""stage I B"", which suggests that the tumor is localized to the primary site with no nodal involvement or distant metastases.
+
+Considering the above information, the correct AJCC Stage of the Cancer is:
+
+Therefore, the answer is - 
+{""stage"" : ""Stage I B""}"
+19,"## Answer
+
+Let's break down the pathology report to determine the AJCC stage of the cancer.
+
+1. The tumor is located in the left upper lobe, and its size is 4.5 cm (T2a).
+2. Visceral pleural invasion is present, which does not affect the T stage.
+3. Lymphovascular space invasion is present, which also does not affect the T stage.
+4. The tumor is confined to the lung, with no extension to other organs.
+5. The surgical margin status shows that the tumor is 4.5 cm away from the bronchial margin, and the pleural surface is involved.
+6. Lymph node status reveals that out of 6 lymph nodes received, 1 lymph node contains metastatic carcinoma, with extracapsular extension and invasion of the adjacent artery wall (N1).
+
+Based on the above information, the pTNM stage is pT2aN1MX.
+
+According to the AJCC 8th edition staging system, a tumor with a T2a primary tumor, N1 lymph node involvement, and no distant metastases (MX) corresponds to Stage IIA.
+
+Therefore, the answer is - 
+{""stage"" : Stage IIA}"
+20,"## Answer
+
+Let's break down the pathology report step by step to determine the AJCC stage of the cancer.
+
+1. The tumor site is the lung, and the histologic type is bronchiolo-alveolar adenocarcinoma, which is a type of non-small cell lung cancer (NSCLC).
+
+2. The tumor size is 2.5 X 1.5 X 3 cm, which is important for determining the T stage (primary tumor size).
+
+3. According to the AJCC 8th edition staging system, a tumor size of 2.5 cm or less is classified as T1a, and a tumor size greater than 2 cm but less than or equal to 3 cm is classified as T1b. Since the tumor size is 2.5 cm, it falls into the T1b category.
+
+4. There is no information about lymph node involvement, lymphatic invasion, venous invasion, or distant metastases in the report. Therefore, we cannot determine the N stage (lymph node involvement) or M stage (distant metastases) from this report.
+
+5. Based on the available information, the tumor is confined to the lung, and there is no evidence of lymph node involvement or distant metastases. This suggests that the stage is likely to be Stage I or Stage II.
+
+6. Since the tumor size is T1b, and there is no evidence of lymph node involvement or distant metastases, the most likely stage is Stage I.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage I""}"
+21,"## Answer
+
+Let's break down the pathology report step by step to determine the AJCC stage of the cancer.
+
+1. Primary tumor (pT): The report states that the primary tumor is pT1b, which means the tumor is 2.5 cm in greatest dimension, but has not invaded the visceral pleura.
+
+2. Regional lymph nodes: The report mentions that five lymph nodes were examined, and all of them were negative for cancer (0/5). Additionally, lymph nodes from levels 5, 11, 8, and 7 were also biopsied, and all were negative for cancer.
+
+3. Distant metastasis: There is no mention of distant metastasis in the report.
+
+Based on the above information, we can conclude that the tumor is localized to the left upper lobe of the lung, with no lymph node involvement and no distant metastasis.
+
+According to the AJCC staging system, a tumor with a primary tumor size of pT1b, no lymph node involvement (N0), and no distant metastasis (M0) corresponds to Stage I.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage I""}"
+22,"## Answer
+
+Let's break down the pathology report step by step to determine the AJCC stage of the cancer.
+
+1. The report mentions a primary lung tumor with a size of 1.7 cm (pT1).
+2. The tumor has lymph node involvement, with metastases identified in multiple lymph nodes (N2).
+3. There is no distant metastasis mentioned in the report (M0).
+4. The report also mentions that the margins are uninvolved (negative), and there is no evidence of pleural invasion or obstructive pneumonitis.
+
+Based on these findings, we can determine the AJCC stage as follows:
+
+* Tumor size (pT1) corresponds to Stage I or II.
+* Lymph node involvement (N2) corresponds to Stage III.
+* No distant metastasis (M0) rules out Stage IV.
+
+Considering the lymph node involvement, the AJCC stage is likely to be Stage III.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage III""}"
+23,"## Answer
+
+Let's break down the pathology report step by step to determine the AJCC stage of the cancer.
+
+1. The primary tumor (pT) is classified as pT1a, which means the tumor is 2 cm or less in greatest dimension, surrounded by lung or visceral pleura, without bronchoscopic evidence of invasion more proximal than the lobar bronchus.
+2. The regional lymph nodes (pN) are classified as pNO, which means there is no regional lymph node metastasis.
+3. The tumor size is 2.0 cm, which is within the pT1a category.
+4. There is no evidence of visceral pleura invasion, tumor extension to the bronchial margin, vascular margin, parenchymal margin, or parietal pleural margin.
+5. Lymphovascular invasion is not identified.
+
+Based on these findings, the patient's cancer is classified as Stage I, as the primary tumor is small (pT1a) and there is no regional lymph node metastasis (pNO).
+
+Therefore, the answer is - 
+{""stage"" : ""Stage I""}"
+24,"## Answer
+
+Let's break down the pathology report to determine the AJCC stage of the cancer.
+
+1. The tumor size is 6.5 x 6.5 x 5.0 cm, which corresponds to a pT2b classification, indicating a tumor larger than 5 cm but not more than 7 cm in greatest dimension.
+
+2. The lymph node status is pN1, which means there are metastases in 1-2 stations on the same side as the primary tumor (6/28 lymph nodes are positive).
+
+3. The metastasis status is pMx, which means distant metastases cannot be assessed.
+
+4. The tumor is classified as G3, which indicates a high-grade tumor.
+
+Based on the TNM classification, the patient has a T2b tumor (larger than 5 cm but not more than 7 cm), N1 lymph node involvement (metastases in 1-2 stations on the same side as the primary tumor), and unknown distant metastases (Mx). According to the AJCC staging system, this corresponds to Stage IIA (T2bN1Mx).
+
+Therefore, the answer is - 
+{""stage"" : Stage IIA}"
+25,"## Answer
+
+The patient's pathology report shows that the tumor has invaded the pleura but not through it, and there is lymphovascular invasion present. The tumor size is 5.0 X 4.1 X 2.4 cm, which corresponds to a T2 tumor. The lymph nodes are positive for metastatic adenocarcinoma, with a total of 15 lymph nodes involved, which corresponds to an N2 nodal status. The metastasis to the lymph nodes is extensive, with multiple lymph nodes involved in different stations. There is no evidence of distant metastasis (M0).
+
+Based on the TNM staging system, a T2 tumor with N2 nodal status and M0 distant metastasis status corresponds to Stage IIIA.
+
+Therefore, the answer is - 
+{""stage"" : Stage IIIA}"
+26,"## Answer
+
+To determine the AJCC stage of the cancer, we need to analyze the pathology report and identify the key factors that influence staging.
+
+1. **Primary Tumor (T)**: The tumor size is 3.5 cm, and it is located in the left upper lobe. There is no visceral pleura invasion, atelectasis, or obstructive pneumonitis. Therefore, the T stage is T2a (tumor 3-4 cm in greatest dimension).
+
+2. **Lymph Nodes (N)**: The report mentions that 2 of 2 peribronchial nodes are positive for metastatic tumor, and 3 out of 12 lymph nodes are involved. This indicates that the cancer has spread to the lymph nodes. The N stage is N1 (metastasis to ipsilateral peribronchial and/or hilar lymph nodes).
+
+3. **Distant Metastasis (M)**: There is no mention of distant metastasis in the report. Therefore, the M stage is MX (distant metastasis cannot be assessed).
+
+Based on the TNM staging system, the patient's cancer stage is Stage II (T2a, N1, MX).
+
+Therefore, the answer is - 
+{""stage"" : Stage II}"
+27,"## Answer
+
+From the pathology report, we can identify the AJCC stage of the cancer by analyzing the tumor characteristics and lymph node involvement.
+
+1. Tumor location: Left upper lobe
+2. Tumor size: 3.5 X 2.8 X 2.5 cm (pT2a)
+3. Vascular invasion: Not identified
+4. Lymphatic invasion: Pending (not relevant for staging)
+5. Bronchial margin: Negative, but tumor cells are present within lymphatic spaces
+6. Vascular margin: Negative
+7. Parenchymal margins: Not applicable
+8. Pleura/soft tissue margin: The tumor invades into the visceral pleura
+9. Lymph node involvement: Metastatic adenocarcinoma in peribronchial lymph nodes (pN2)
+
+Based on the above information, the AJCC stage is pT2a N2 MX, which corresponds to Stage IIIA.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage IIIA""}"
+28,"## Answer
+
+Let's break down the pathology report to determine the AJCC stage of the cancer.
+
+1. The tumor is a poorly differentiated adenocarcinoma, which is a type of non-small cell lung cancer (NSCLC).
+2. The tumor measures 58 mm in maximum dimension, which corresponds to T2a (tumor > 4 cm but ≤ 5 cm).
+3. The tumor invades the visceral pleura and chest wall fibrous connective tissue, which corresponds to T3 (tumor invades the chest wall).
+4. There is no lymphatic or perineural invasion, but blood vessel invasion is present.
+5. No lymph node metastases are seen in the hilar lymph nodes (1B) or peri-oesophageal lymph node (3).
+6. The tumor is clear of the bronchial resection margin.
+7. The supplementary report shows no residual malignancy within the chest wall tissues, and no involvement of rib bone or soft tissue resection margin.
+
+Based on the above findings, the TNM classification is:
+
+* T3: Tumor invades the chest wall
+* N0: No lymph node metastases
+* M0: No distant metastases (not mentioned in the report, but assumed to be absent)
+
+According to the AJCC 8th edition staging system, a T3N0M0 corresponds to Stage IIIA.
+
+Therefore, the answer is - 
+{""stage"" : Stage IIIA}"
+29,"## Answer
+
+Let's break down the pathology report step by step to determine the AJCC Stage of the cancer.
+
+1. The report provides information about the tumor size (T), lymph node involvement (N), and distant metastasis (M).
+2. The tumor size is described as T2, which means the tumor is larger than 3 cm but not larger than 5 cm.
+3. The lymph node involvement is described as N1, which means there is metastasis to ipsilateral peribronchial and/or ipsilateral hilar lymph nodes.
+4. The distant metastasis is described as M0, which means there is no distant metastasis.
+
+Now, let's refer to the AJCC staging system for lung cancer:
+
+* Stage I: T1-2, N0, M0 (tumor limited to the lung, no lymph node involvement, and no distant metastasis)
+* Stage II: T1-2, N1, M0 (tumor limited to the lung, with ipsilateral peribronchial and/or ipsilateral hilar lymph node involvement, and no distant metastasis)
+* Stage III: T1-3, N2, M0 or T3, N1-2, M0 (tumor with more extensive lymph node involvement or invasion of nearby structures)
+* Stage IV: Any T, Any N, M1 (tumor with distant metastasis)
+
+Based on the pathology report, the patient has a T2 tumor with N1 lymph node involvement and no distant metastasis (M0). This matches the description of Stage II.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage II""}"
+30,"## Answer
+
+Let's break down the pathology report step by step to determine the AJCC stage of the cancer.
+
+1. **Tumor size and extent**: The tumor size is 3.5 cm, which corresponds to T2a according to the AJCC 8th edition staging system (tumors > 2 cm but ≤ 3 cm in size).
+2. **Lymph node involvement**: The report states that 0/7 hilar lymph nodes are positive for metastasis, indicating that there is no lymph node involvement (N0).
+3. **Distant metastasis**: There is no mention of distant metastasis in the report.
+4. **Margins**: The margins are uninvolved, indicating that the tumor has not invaded the surgical margins.
+
+Based on these findings, we can determine the AJCC stage as follows:
+
+* T2a (tumor size 3.5 cm)
+* N0 (no lymph node involvement)
+* M0 (no distant metastasis)
+
+According to the AJCC 8th edition staging system, a T2a, N0, M0 corresponds to **Stage I**.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage I""}"
+31,"## Answer
+
+Let's break down the pathology report to determine the AJCC stage of the cancer.
+
+1. The tumor site is the upper lobe of the right lung, and there are two separate tumor nodules in the same lobe.
+2. The tumor sizes are 3.7 cm, 2.9 x 2.8 cm, and 1.2 cm x 0.8 cm x 0.7 cm.
+3. There is no visceral pleural invasion, and the tumor extension is not identified.
+4. The margins are uninvolved by invasive carcinoma, with a distance of 3.4 cm from the closest margin (parenchymal margin).
+5. Lymphovascular invasion is not identified.
+6. The number of lymph nodes examined is 11, and none of them are involved (pNO).
+7. The pathologic staging is reported as Stage IIB, with a pT3 (tumor size > 3 cm) and pNO (no lymph node involvement).
+
+Based on the above information, the correct answer is:
+
+Therefore, the answer is - {""stage"" : Stage IIB}"
+32,"## Answer
+
+To determine the AJCC stage of the cancer, we need to evaluate the tumor size, lymph node involvement, and distant metastasis.
+
+From the pathology report, we can see that:
+
+* The tumor size is 3.5 cm, which corresponds to T2 (Tumor greater than 3 cm in greatest dimension).
+* The regional lymph nodes are involved, with metastases in ipsilateral peribronchial and ipsilateral hilar lymph nodes (N1).
+* There is no distant metastasis (MX).
+* The margins are uninvolved by invasive carcinoma, and the distance of invasive tumor from the closest margin is 5 mm.
+* There is direct extension of the tumor to the visceral pleura, and venous, arterial, and lymphatic invasion are present.
+
+Based on these findings, the AJCC stage is:
+
+* T2: Tumor greater than 3 cm in greatest dimension
+* N1: Metastases in ipsilateral peribronchial and ipsilateral hilar lymph nodes
+* MX: No distant metastasis
+
+Therefore, the answer is - 
+{""stage"" : Stage III}"
+33,"## Answer
+
+To determine the AJCC stage of the cancer, we need to evaluate the primary tumor (pT), regional lymph nodes (pN), and distant metastasis (pM).
+
+From the pathology report, we know that:
+
+* The primary tumor (pT) measures 2.5 cm in greatest dimension, and there is a suggestion of visceral pleural invasion. This corresponds to a pT2a.
+* The regional lymph nodes (pN) show evidence of metastasis in the level 12 lymph nodes (4/4 nodes). This corresponds to a pN2.
+* There is no evidence of distant metastasis (pM) in this specimen, so it is pMX.
+
+According to the AJCC 8th edition staging system, a pT2a primary tumor with pN2 regional lymph nodes corresponds to Stage IIIA.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage IIIA""}"
+34,"## Answer
+
+Let's break down the pathology report to determine the AJCC stage of the cancer.
+
+1. Primary tumor (pT): The tumor measures 3.5 cm in maximum dimension and invades into the pleura, which corresponds to pT2.
+2. Margins of resection: Negative, which means the tumor does not extend to the resection margins.
+3. Vascular invasion: Present, which is a poor prognostic factor.
+4. Regional lymph nodes (pN): pNX, which means the lymph node status is unknown.
+5. Distant metastasis (pM): pMX, which means the presence or absence of distant metastases is unknown.
+
+Based on the available information, we can determine the T stage as T2 (tumor size > 3 cm and invades the pleura). The N stage is unknown (NX), and the M stage is also unknown (MX).
+
+According to the AJCC staging system, a T2 tumor with unknown N and M stages would correspond to Stage II.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage II""}"
+35,"## Answer
+
+Let's break down the pathology report to determine the AJCC stage of the cancer.
+
+1. The report mentions ""Pathologic stage is T2N0MX"". This indicates that the tumor is classified as T2 (tumor size >2 cm but ≤5 cm), N0 (no regional lymph node metastasis), and MX (distant metastasis cannot be assessed).
+
+2. The report also mentions that ""All sampled lymph nodes are benign"" and ""Surgical resection margins are free of tumor"", which supports the N0 classification.
+
+3. Since the tumor size is 2.8 cm, it falls within the T2 category.
+
+4. There is no evidence of distant metastasis (MX) or lymph node involvement (N0), which rules out Stage IV and Stage III, respectively.
+
+5. The presence of visceral pleural invasion is not a factor in determining the AJCC stage.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage II""}"
+36,"## Answer
+
+Let's break down the pathology report step by step to determine the AJCC stage of the cancer.
+
+1. The tumor site is in the middle lobe of the right lung, and the maximum tumor size is 5.5 x 5.0 cm, which is a significant size.
+2. The histologic type is non-small cell carcinoma, and the grade is G3, poorly differentiated.
+3. There is no visceral pleural invasion, but the tumor extends into the fissure.
+4. The bronchial margin is negative for tumor, and there is no squamous cell carcinoma in situ identified.
+5. The vascular parenchymal parietal pleural margins are all negative for carcinoma.
+6. Lymph vascular invasion is indeterminate but favors present in block 4.
+7. Twelve lymph nodes were examined, including parts A through E, and block F1, which is negative for carcinoma.
+8. The pathologic stage is reported as pT2, which corresponds to a tumor size > 3 cm but ≤ 5 cm.
+9. There is no mention of distant metastases (M0).
+
+Based on the above information, we can determine the AJCC stage as follows:
+
+* Tumor size (pT2) corresponds to a T2 classification.
+* There is no visceral pleural invasion (V0), and the tumor extends into the fissure, which does not affect the T classification.
+* Lymph vascular invasion is indeterminate but favors present, which does not affect the T classification.
+* Twelve lymph nodes were examined, and none showed carcinoma, which corresponds to an N0 classification.
+* There is no mention of distant metastases (M0).
+
+Therefore, the AJCC stage is T2N0M0, which corresponds to Stage II.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage II""}"
+37,"## Answer
+
+Let's break down the pathology report step by step to determine the AJCC stage of the cancer.
+
+1. The primary tumor is located in the right lung, and its size is 7 cm (mentioned in the final diagnosis of the right lung, pneumonectomy).
+2. There is no invasion of the visceral pleura (mentioned in the final diagnosis of the right lung, pneumonectomy).
+3. The bronchial and vascular margins are negative (mentioned in the final diagnosis of the right lung, pneumonectomy).
+4. There is no tumor seen in the lymph nodes of levels 4, 7, and 9 (mentioned in the final diagnosis of the corresponding lymph nodes).
+5. However, the tumor has metastasized to the rib (portion of sixth rib), which is a distant metastasis (mentioned in the clinical history/diagnosis).
+
+Based on the above information, we can determine the T, N, and M stages as follows:
+
+* T stage: T2 (tumor size is 7 cm, and there is no invasion of the visceral pleura)
+* N stage: N0 (no tumor seen in the lymph nodes)
+* M stage: M1 (distant metastasis to the rib)
+
+According to the AJCC staging system, a tumor with a T2 stage, N0 stage, and M1 stage corresponds to Stage IV.
+
+Therefore, the answer is - 
+{""stage"" : ""Stage IV""}"
+38,"## Answer
+
+Let's break down the pathology report step by step to determine the AJCC stage of the cancer.
+
+1. Primary tumor (pT): The report states that the tumor size is 3.5 cm, which corresponds to a pT2a classification (tumor more than 3 cm but 5 cm or less).
+
+2. Regional lymph nodes (pN): The report indicates that there is metastatic carcinoma in 3 of 18 lymph nodes, which corresponds to a pN1 classification (metastasis in ipsilateral peribronchial lymph nodes).
+
+3. Distant metastasis (pM): There is no mention of distant metastasis in the report, so we can assume pM0 (no distant metastasis).
+
+Based on the AJCC staging system, a pT2a primary tumor, pN1 regional lymph nodes, and pM0 distant metastasis correspond to Stage IIA.
+
+However, the report also mentions that the metastatic carcinoma is in ipsilateral peribronchial lymph nodes, which is a characteristic of Stage IIA.
+
+Therefore, the answer is - 
+{""stage"" : Stage IIA}"
