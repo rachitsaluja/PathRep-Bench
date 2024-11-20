@@ -51,13 +51,14 @@ def evaluate_predictions(pred_df, test_set_loc, disease_list):
     ]
 
 
-def main(prediction_dir, test_set_loc):
+def main(prediction_dir, test_set_loc, output_file):
     """
-    Main function to process prediction files and evaluate them.
+    Main function to process prediction files, evaluate them, and save results.
     """
     # Load disease list
     ground_truth_df = pd.read_csv(test_set_loc)
-    disease_list = sorted(ground_truth_df['type_name'].str.lower().unique().tolist())
+    disease_list = sorted(
+        ground_truth_df['type_name'].str.lower().unique().tolist())
 
     # Locate all prediction CSVs in the provided directory
     prediction_files = natsorted(glob(os.path.join(prediction_dir, "*.csv")))
@@ -98,6 +99,12 @@ def main(prediction_dir, test_set_loc):
     # Print results dictionary with proper indentation
     print(json.dumps(results_dict, indent=4))
 
+    # Save results to a JSON file if output_file is specified
+    if output_file:
+        with open(output_file, "w") as json_file:
+            json.dump(results_dict, json_file, indent=4)
+        print(f"\nResults saved to {output_file}")
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
@@ -114,6 +121,13 @@ if __name__ == "__main__":
         default="../test.csv",
         help="Path to the ground truth test set CSV file."
     )
+    parser.add_argument(
+        "--output_file",
+        type=str,
+        default=None,
+        help="Path to save the results as a JSON file. If not provided, results are not saved."
+    )
     args = parser.parse_args()
 
-    main(prediction_dir=args.prediction_dir, test_set_loc=args.test_set_loc)
+    main(prediction_dir=args.prediction_dir,
+         test_set_loc=args.test_set_loc, output_file=args.output_file)
