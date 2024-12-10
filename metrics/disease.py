@@ -7,6 +7,7 @@ import pandas as pd
 from glob2 import glob
 from tqdm import tqdm
 from natsort import natsorted
+from sklearn.metrics import precision_recall_fscore_support
 import json
 
 
@@ -28,7 +29,7 @@ def parse_prediction(prediction):
 
 def evaluate_predictions(pred_df, test_set_loc, disease_list):
     """
-    Compares predictions against ground truth and calculates accuracy for each disease type.
+    Compares predictions against ground truth and calculates accuracy, precision, recall, and F1-score for each disease type.
     """
     # Parse predictions
     pred_df['Parsed_preds'] = pred_df['preds'].apply(parse_prediction)
@@ -44,11 +45,24 @@ def evaluate_predictions(pred_df, test_set_loc, disease_list):
     })
     comp_df['ComparisonResult'] = comp_df['True_answers'] == comp_df['Pred_answers']
 
-    # Calculate per-disease accuracy
-    return [
-        comp_df[comp_df['True_answers'] == disease]['ComparisonResult'].mean()
-        for disease in disease_list
-    ]
+    metrics = {}
+    for disease in disease_list:
+        disease_comp_df = comp_df[comp_df['True_answers'] == disease]
+        y_true = (disease_comp_df['True_answers'] == disease).astype(int)
+        y_pred = (disease_comp_df['Pred_answers'] == disease).astype(int)
+
+        precision, recall, f1, _ = precision_recall_fscore_support(
+            y_true, y_pred, average='binary', zero_division=0)
+        accuracy = disease_comp_df['ComparisonResult'].mean()
+
+        metrics[disease] = {
+            "accuracy": accuracy,
+            "precision": precision,
+            "recall": recall,
+            "f1": f1
+        }
+
+    return metrics
 
 
 def main(prediction_dir, test_set_loc, output_file):
@@ -67,42 +81,48 @@ def main(prediction_dir, test_set_loc, output_file):
         return
 
     # Evaluate predictions for each CSV
-    results_list = [
-        evaluate_predictions(
+    all_metrics = []
+    for file in tqdm(prediction_files, desc="Evaluating Predictions"):
+        metrics = evaluate_predictions(
             pred_df=pd.read_csv(file),
             test_set_loc=test_set_loc,
             disease_list=disease_list
         )
-        for file in tqdm(prediction_files, desc="Evaluating Predictions")
-    ]
+        all_metrics.append(metrics)
 
-    # Calculate mean and standard deviation for each disease type
-    full_scores = np.array(results_list).T.tolist()
-    means = [np.mean(scores) for scores in full_scores]
-    std_devs = [np.std(scores) for scores in full_scores]
+    # Aggregate metrics
+    aggregated_metrics = {}
+    for disease in disease_list:
+        accuracy = [metrics[disease]['accuracy'] for metrics in all_metrics]
+        precision = [metrics[disease]['precision'] for metrics in all_metrics]
+        recall = [metrics[disease]['recall'] for metrics in all_metrics]
+        f1 = [metrics[disease]['f1'] for metrics in all_metrics]
 
-    # Build results dictionary
-    results_dict = {
-        disease: {"mean": round(mean, 3), "std": round(std_dev, 3)}
-        for disease, mean, std_dev in zip(disease_list, means, std_devs)
+        aggregated_metrics[disease] = {
+            "accuracy": {"mean": np.mean(accuracy), "std": np.std(accuracy)},
+            "precision": {"mean": np.mean(precision), "std": np.std(precision)},
+            "recall": {"mean": np.mean(recall), "std": np.std(recall)},
+            "f1": {"mean": np.mean(f1), "std": np.std(f1)},
+        }
+
+    # Calculate overall metrics
+    overall_metrics = {
+        metric: {
+            "mean": np.mean([aggregated_metrics[disease][metric]["mean"] for disease in disease_list]),
+            "std": np.mean([aggregated_metrics[disease][metric]["std"] for disease in disease_list]),
+        }
+        for metric in ["accuracy", "precision", "recall", "f1"]
     }
 
-    # Calculate overall mean and standard deviation across all diseases
-    overall_mean_score = np.mean(means)
-    overall_mean_std = np.mean(std_devs)
-
-    results_dict["Overall"] = {
-        "mean": round(overall_mean_score, 3),
-        "std": round(overall_mean_std, 3)
-    }
+    aggregated_metrics["Overall"] = overall_metrics
 
     # Print results dictionary with proper indentation
-    print(json.dumps(results_dict, indent=4))
+    print(json.dumps(aggregated_metrics, indent=4))
 
     # Save results to a JSON file if output_file is specified
     if output_file:
         with open(output_file, "w") as json_file:
-            json.dump(results_dict, json_file, indent=4)
+            json.dump(aggregated_metrics, json_file, indent=4)
         print(f"\nResults saved to {output_file}")
 
 

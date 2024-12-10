@@ -1,134 +1,596 @@
 {
     "adrenocortical carcinoma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "bladder urothelial carcinoma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "brain lower grade glioma": {
-        "mean": 0.98,
-        "std": 0.0
+        "accuracy": {
+            "mean": 0.9795918367346939,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 0.9795918367346939,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 0.9896907216494846,
+            "std": 0.0
+        }
     },
     "breast invasive carcinoma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "cervical squamous cell carcinoma and endocervical adenocarcinoma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "cholangiocarcinoma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "colon adenocarcinoma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "esophageal carcinoma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "glioblastoma multiforme": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "head and neck squamous cell carcinoma": {
-        "mean": 0.792,
-        "std": 0.0
+        "accuracy": {
+            "mean": 0.7924528301886793,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 0.7924528301886793,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 0.8842105263157896,
+            "std": 0.0
+        }
     },
     "kidney chromophobe": {
-        "mean": 0.873,
-        "std": 0.045
+        "accuracy": {
+            "mean": 0.8727272727272727,
+            "std": 0.044536177141512284
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 0.8727272727272727,
+            "std": 0.044536177141512284
+        },
+        "f1": {
+            "mean": 0.9314285714285713,
+            "std": 0.025661321114871353
+        }
     },
     "kidney renal clear cell carcinoma": {
-        "mean": 0.979,
-        "std": 0.0
+        "accuracy": {
+            "mean": 0.9791666666666666,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 0.9791666666666666,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 0.9894736842105264,
+            "std": 0.0
+        }
     },
     "kidney renal papillary cell carcinoma": {
-        "mean": 0.919,
-        "std": 0.0
+        "accuracy": {
+            "mean": 0.918918918918919,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 0.918918918918919,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 0.9577464788732396,
+            "std": 1.1102230246251565e-16
+        }
     },
     "liver hepatocellular carcinoma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "lung adenocarcinoma": {
-        "mean": 0.976,
-        "std": 0.0
+        "accuracy": {
+            "mean": 0.975609756097561,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 0.975609756097561,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 0.9876543209876543,
+            "std": 0.0
+        }
     },
     "lung squamous cell carcinoma": {
-        "mean": 0.965,
-        "std": 0.0
+        "accuracy": {
+            "mean": 0.9649122807017545,
+            "std": 1.1102230246251565e-16
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 0.9649122807017545,
+            "std": 1.1102230246251565e-16
+        },
+        "f1": {
+            "mean": 0.9821428571428573,
+            "std": 1.1102230246251565e-16
+        }
     },
     "lymphoid neoplasm diffuse large b-cell lymphoma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "mesothelioma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "ovarian serous cystadenocarcinoma": {
-        "mean": 0.853,
-        "std": 0.0
+        "accuracy": {
+            "mean": 0.8529411764705882,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 0.8529411764705882,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 0.9206349206349206,
+            "std": 0.0
+        }
     },
     "pancreatic adenocarcinoma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "pheochromocytoma and paraganglioma": {
-        "mean": 0.967,
-        "std": 0.017
+        "accuracy": {
+            "mean": 0.9666666666666666,
+            "std": 0.016666666666666653
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 0.9666666666666666,
+            "std": 0.016666666666666653
+        },
+        "f1": {
+            "mean": 0.9829787234042554,
+            "std": 0.008510638297872353
+        }
     },
     "prostate adenocarcinoma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "rectum adenocarcinoma": {
-        "mean": 0.667,
-        "std": 0.0
+        "accuracy": {
+            "mean": 0.6666666666666666,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 0.6666666666666666,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 0.8,
+            "std": 0.0
+        }
     },
     "sarcoma": {
-        "mean": 0.968,
-        "std": 0.0
+        "accuracy": {
+            "mean": 0.967741935483871,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 0.967741935483871,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 0.9836065573770492,
+            "std": 0.0
+        }
     },
     "skin cutaneous melanoma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "stomach adenocarcinoma": {
-        "mean": 0.943,
-        "std": 0.0
+        "accuracy": {
+            "mean": 0.9428571428571428,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 0.9428571428571428,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 0.9705882352941175,
+            "std": 1.1102230246251565e-16
+        }
     },
     "testicular germ cell tumors": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "thymoma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "thyroid carcinoma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "uterine carcinosarcoma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "uterine corpus endometrial carcinoma": {
-        "mean": 0.952,
-        "std": 0.0
+        "accuracy": {
+            "mean": 0.9516129032258064,
+            "std": 1.1102230246251565e-16
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 0.9516129032258064,
+            "std": 1.1102230246251565e-16
+        },
+        "f1": {
+            "mean": 0.975206611570248,
+            "std": 1.1102230246251565e-16
+        }
     },
     "uveal melanoma": {
-        "mean": 1.0,
-        "std": 0.0
+        "accuracy": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "f1": {
+            "mean": 1.0,
+            "std": 0.0
+        }
     },
     "Overall": {
-        "mean": 0.963,
-        "std": 0.002
+        "accuracy": {
+            "mean": 0.9634958141689465,
+            "std": 0.0019125888690055986
+        },
+        "precision": {
+            "mean": 1.0,
+            "std": 0.0
+        },
+        "recall": {
+            "mean": 0.9634958141689465,
+            "std": 0.0019125888690055986
+        },
+        "f1": {
+            "mean": 0.9798550690277723,
+            "std": 0.0010678737316482546
+        }
     }
 }

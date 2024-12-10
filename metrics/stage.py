@@ -7,6 +7,7 @@ import pandas as pd
 from glob2 import glob
 from tqdm import tqdm
 from natsort import natsorted
+from sklearn.metrics import precision_recall_fscore_support
 import json
 
 
@@ -31,7 +32,7 @@ def parse_prediction(stage_pred):
 
 def evaluate_stage_predictions(pred_df, disease_name, test_set_loc):
     """
-    Evaluates predictions for a specific disease type and returns accuracy and comparison DataFrame.
+    Evaluates predictions for a specific disease type and returns metrics and comparison DataFrame.
     """
     test_df = pd.read_csv(test_set_loc)
     test_df = test_df[test_df['type_name'] ==
@@ -51,8 +52,15 @@ def evaluate_stage_predictions(pred_df, disease_name, test_set_loc):
     })
     comp_df['ComparisonResult'] = comp_df['True_answers'] == comp_df['Pred_answers']
 
+    # Calculate metrics
+    y_true = pd.Series(comp_df['True_answers']).fillna("no answer")
+    y_pred = pd.Series(comp_df['Pred_answers']).fillna("no answer")
+
+    precision, recall, f1, _ = precision_recall_fscore_support(
+        y_true, y_pred, average='weighted', zero_division=0)
     accuracy = comp_df['ComparisonResult'].mean()
-    return accuracy, comp_df
+
+    return {"accuracy": accuracy, "precision": precision, "recall": recall, "f1": f1}, comp_df
 
 
 def main(prediction_dir, test_set_loc, output_file):
@@ -73,7 +81,18 @@ def main(prediction_dir, test_set_loc, output_file):
 
     # Evaluate predictions for each disease
     results_dict = {}
-    full_scores = []
+    disease_means = {
+        "accuracy": [],
+        "precision": [],
+        "recall": [],
+        "f1": []
+    }
+    disease_stds = {
+        "accuracy": [],
+        "precision": [],
+        "recall": [],
+        "f1": []
+    }
 
     for disease in tqdm(disease_list, desc="Evaluating Diseases"):
         disease_csvs = natsorted(
@@ -82,23 +101,42 @@ def main(prediction_dir, test_set_loc, output_file):
             print(f"No prediction files found for disease: {disease}")
             continue
 
-        scores = [evaluate_stage_predictions(pd.read_csv(csv), disease, test_set_loc)[
-            0] for csv in disease_csvs]
-        full_scores.append(scores)
+        metrics_list = []
+        for csv in disease_csvs:
+            metrics, _ = evaluate_stage_predictions(
+                pd.read_csv(csv), disease, test_set_loc)
+            metrics_list.append(metrics)
 
         # Calculate mean and std for the disease
-        disease_mean = np.mean(scores) if scores else 0
-        disease_std = np.std(scores) if scores else 0
-        results_dict[disease] = {"mean": round(
-            disease_mean, 3), "std": round(disease_std, 3)}
+        metrics_array = pd.DataFrame(metrics_list).to_numpy()
+        disease_metrics = {
+            "accuracy": {"mean": np.mean(metrics_array[:, 0]), "std": np.std(metrics_array[:, 0])},
+            "precision": {"mean": np.mean(metrics_array[:, 1]), "std": np.std(metrics_array[:, 1])},
+            "recall": {"mean": np.mean(metrics_array[:, 2]), "std": np.std(metrics_array[:, 2])},
+            "f1": {"mean": np.mean(metrics_array[:, 3]), "std": np.std(metrics_array[:, 3])},
+        }
 
-    # Calculate overall statistics
-    overall_means = [np.mean(scores) for scores in full_scores if scores]
-    overall_stds = [np.std(scores) for scores in full_scores if scores]
-    results_dict["Overall"] = {
-        "mean": round(np.mean(overall_means), 3) if overall_means else 0,
-        "std": round(np.mean(overall_stds), 3) if overall_stds else 0
+        results_dict[disease] = disease_metrics
+
+        # Collect mean and std for each metric
+        disease_means["accuracy"].append(disease_metrics["accuracy"]["mean"])
+        disease_means["precision"].append(disease_metrics["precision"]["mean"])
+        disease_means["recall"].append(disease_metrics["recall"]["mean"])
+        disease_means["f1"].append(disease_metrics["f1"]["mean"])
+
+        disease_stds["accuracy"].append(disease_metrics["accuracy"]["std"])
+        disease_stds["precision"].append(disease_metrics["precision"]["std"])
+        disease_stds["recall"].append(disease_metrics["recall"]["std"])
+        disease_stds["f1"].append(disease_metrics["f1"]["std"])
+
+    # Calculate overall metrics
+    overall_metrics = {
+        "accuracy": {"mean": np.mean(disease_means["accuracy"]), "mean_std": np.mean(disease_stds["accuracy"])},
+        "precision": {"mean": np.mean(disease_means["precision"]), "mean_std": np.mean(disease_stds["precision"])},
+        "recall": {"mean": np.mean(disease_means["recall"]), "mean_std": np.mean(disease_stds["recall"])},
+        "f1": {"mean": np.mean(disease_means["f1"]), "mean_std": np.mean(disease_stds["f1"])},
     }
+    results_dict["Overall"] = overall_metrics
 
     # Print results
     print(json.dumps(results_dict, indent=4))
