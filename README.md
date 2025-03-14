@@ -1,5 +1,7 @@
 # PathRep-Bench
 
+Building the README and the final repository..... Stay tuned.
+
 Official implementation of [Cancer Type, Stage and Prognosis Assessment from Pathology Reports using LLMs](https://arxiv.org/abs/2503.01194)
 
 This repository provides a benchmarking framework for evaluating large language models (LLMs) on pathology report analysis, specifically for:
@@ -12,7 +14,7 @@ We also provide -
 - Full Dataset: The dataset used in our study is publicly available [here](https://huggingface.co/datasets/rosenthal/tcga-path-notes) 🤗.
 - Pretrained Model for Inference: We provide an instruction-tuned model that can be used for inference on custom pathology reports via a simple Python API.
 - Fine-Tuning Code: Scripts for generating instruction-tuning data and training your own fine-tuned model.
-- Google Colab Implementation: A ready-to-use Google Colab notebook for easy experimentation | [![Explore UniverSeg in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/NEEDTODO)<br>. 
+- Google Colab Implementation: A ready-to-use Google Colab notebook for easy experimentation | [![Explore UniverSeg in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/NEEDTODO)<br>
 
 > ⚠️ Note: Our model and evaluations are based on a specific set of cancer types. Please keep this in mind when using the model, as your pathology reports may contain cancer types that were not included in our analysis.
 
